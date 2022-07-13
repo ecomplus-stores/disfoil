@@ -10,39 +10,91 @@
         {
           "img": "/img/uploads/eee1.jpeg",
           "link": "",
-          "alt": "Pagamento via PIX"
+          "alt": "Pagamento via PIX",
+          "start": "2022-07-13T20:53:35.696Z",
+          "end": "2022-07-13T20:53:35.760Z"
         },
         {
           "img": "/img/uploads/full-banner-2.png",
           "alt": "Manta Térmica",
-          "link": "/mantas-e-impermeabilizantes/"
+          "link": "/mantas-e-impermeabilizantes/",
+          "start": "2022-07-13T20:53:35.810Z",
+          "end": "2022-07-13T20:53:35.850Z"
         },
         {
           "img": "/img/uploads/full-banner-3.png",
           "alt": "Manta Asfáltica",
-          "link": "/manta-asfaltica-adesiva/"
+          "link": "/manta-asfaltica-adesiva/",
+          "start": "2022-07-13T20:53:35.888Z",
+          "end": "2022-07-13T20:53:35.926Z"
         },
         {
           "img": "/img/uploads/full-banner-1.png",
           "alt": "Telas Mosqueteiras",
-          "link": "/telas-mosquiteiras/"
+          "link": "/telas-mosquiteiras/",
+          "start": "2022-07-13T20:53:35.960Z",
+          "end": "2022-07-13T20:53:36.002Z"
         },
         {
           "img": "/img/uploads/full-banner-4.png",
           "alt": "Telas Mosqueteiras",
-          "link": "/pagina/atacado-empresas"
+          "link": "/pagina/atacado-empresas",
+          "start": "2022-07-13T20:53:36.040Z",
+          "end": "2022-07-13T20:53:36.073Z"
         }
       ]
+    },
+    {
+      "type": "custom-html",
+      "html": "<div class=\"descontos-home\">\n <!--\n  <img src=\"//cdn.ecvol.com/s/www.disfoil.com.br/uploads/frete-expresso.png\">\n  <img src=\"//cdn.ecvol.com/s/www.disfoil.com.br/uploads/sem-juros.png\">\n  <img src=\"//cdn.ecvol.com/s/www.disfoil.com.br/uploads/desc.png\">\n  <img src=\"//cdn.ecvol.com/s/www.disfoil.com.br/uploads/segura.png\">\n-->\n</div>"
+    },
+    {
+      "type": "custom-html",
+      "html": "<div id=\"busca-car\">\n  <div class=\"conteiner\">\n    <form name=\"form1\">\n    <div class=\"box-busca-car\">\n          <div class=\"busca-title\">Como escolher o Impermeabilizante <br> correto para minha obra?</div>\n        </div>\n        \n        <div class=\"box-busca-car\">\n    <select name=\"marca\" class=\"box-input\" onchange=\"aparece();aparece1();aparece2();\">\n      <option> Qual o seu problema? </option>\n      <option> Goteiras e Infiltrações</option>\n      <option> Calor </option>\n      <option> Calor e poucas goteiras </option>\n    </select>\n    </div>\n        \n        <div class=\"box-busca-car\">\n    <select name=\"hyundai\" class=\"box-input box2\" onChange=\"chamaURL(this)\">\n      <option> Onde deseja instalar? </option> \n      <option value=\"/acima-das-telhas/\">Acima das telhas</option> \n      <option value=\"/abaixo-das-telhas/\">Abaixo das telhas</option> \n      <option value=\"/manta-asfaltica-aplicacao-macarico/\">Em cima da laje</option> \n    </select>\n        </div>\n\n    <div class=\"box-busca-car\">\n    <select name=\"hyundaiano\" class=\"box-input\" style=\"visibility:hidden;\"> \n      <option value=\"/teste/pagina1.html\">Pagina 99</option> \n      <option value=\"/teste/pagina2.html\">Pagina 99</option> \n      <option value=\"/teste/pagina3.html\">Pagina 99</option> \n      <option value=\"/teste/pagina4.html\">Pagina 99</option> \n    </select> \n    </div>\n\n    <div class=\"box-busca-car\">\n    <select name=\"chev\" class=\"box-input box2\" style=\"visibility:hidden;\" onChange=\"chamaURL(this)\"> \n      <option> Onde deseja instalar? </option> \n      <option value=\"/acima-das-telhas/\">Em cima do Telhado</option> \n      <option value=\"/abaixo-das-telhas/\">Em baixo do Telhado</option> \n      <option value=\"/manta-asfaltica-aplicacao-macarico//\">Na laje</option> \n    </select>\n    </div>\n\n    <div class=\"box-busca-car\">\n    <select name=\"chevano\" class=\"box-input\" style=\"visibility:hidden;\" onChange=\"chamaURL(this)\"> \n      <option> Ano do Carro</option>\n      <option> CHEV 1994 </option>\n      <option> 1995 </option>\n      <option> 1996 </option>\n      <option> 1997 </option>\n      <option> 1998 </option>\n    </select>\n    </div>\n        \n       \n  </form>\n  </div>\n</div>\n\n<script>\nfunction aparece(){\nif(document.form1.marca.selectedIndex==\"1\"){\ndocument.form1.hyundai.style.visibility=\"visible\";\ndocument.form1.hyundaiano.style.visibility=\"hidden\";\n}\nelse {\ndocument.form1.hyundaiano.style.visibility=\"hidden\";\ndocument.form1.hyundai.style.visibility=\"visible\";\n}\n}\nfunction aparece1(){\nif(document.form1.marca.selectedIndex==\"2\"){\ndocument.form1.chev.style.visibility=\"visible\";\ndocument.form1.chevano.style.visibility=\"hidden\";\n}\nelse {\ndocument.form1.chevano.style.visibility=\"hidden\";\ndocument.form1.chev.style.visibility=\"hidden\";\n}\n}\nfunction aparece2(){\nif(document.form1.marca.selectedIndex==\"3\"){\ndocument.form1.chev.style.visibility=\"visible\";\ndocument.form1.chevano.style.visibility=\"hidden\";\n}\nelse {\ndocument.form1.chevano.style.visibility=\"hidden\";\ndocument.form1.chev.style.visibility=\"hidden\";\n}\n}\n</script>\n\n<script type=\"text/javascript\">\nfunction chamaURL(campo) { \ndocument.location.href = \"https://www.disfoil.com.br\"+campo.options[campo.selectedIndex].value;  \n} \n</script>"
+    },
+    {
+      "type": "custom-html",
+      "html": "<div class=\"banner-centro\">\n       <div class=\"banner-mini\">\n               <a href=\"https://www.disfoil.com.br/busca?b=pet+screen\">\n               <img src=\"//cdn.ecvol.com/s/www.disfoil.com.br/uploads/minibanner011.png\">\n               </a>\n        </div>\n       <div class=\"banner-mini\">\n               <a href=\"https://www.disfoil.com.br/perfis-de-aluminio/\">\n               <img src=\"//cdn.ecvol.com/s/www.disfoil.com.br/uploads/minibanner022.png\">\n               </a>\n        </div>\n</div>"
     },
     {
       "type": "collection-shelf",
       "shuffle": true,
       "collection_id": null,
-      "sort": "offers",
-      "title": "",
+      "sort": "news",
+      "title": "Lançamentos",
       "headless": false,
       "limit": 12,
       "page": 1
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 1,
+      "sort": "offers",
+      "title": "Ofertas"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "6286dc41df4d8071c91663ff:categories:Telas Mosquiteiras:/telas-mosquiteiras/"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": null,
+      "sort": "views",
+      "title": "Para Telhado"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banner-3.jpg",
+      "link": "/alcapao/",
+      "alt": "Alçapão"
     }
   ]
 }
