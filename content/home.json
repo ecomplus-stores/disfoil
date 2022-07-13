@@ -8,25 +8,31 @@
       "full_width": false,
       "slides": [
         {
-          "img": "/img/uploads/rect89.webp",
-          "link": "/headset",
-          "alt": "Headset banner",
-          "start": "2020-04-11T05:54:06.750Z",
-          "end": "2020-12-31T03:00:00.000Z",
-          "mobile_img": "/img/uploads/headphone.webp"
+          "img": "/img/uploads/eee1.jpeg",
+          "link": "",
+          "alt": "Pagamento via PIX"
         },
         {
-          "img": "/img/uploads/banner2.webp",
-          "alt": "Banner sample two",
-          "start": "",
-          "end": "",
-          "mobile_img": "/img/uploads/passion.webp"
+          "img": "/img/uploads/full-banner-2.png",
+          "alt": "Manta Térmica",
+          "link": "/mantas-e-impermeabilizantes/"
+        },
+        {
+          "img": "/img/uploads/full-banner-3.png",
+          "alt": "Manta Asfáltica",
+          "link": "/manta-asfaltica-adesiva/"
+        },
+        {
+          "img": "/img/uploads/full-banner-1.png",
+          "alt": "Telas Mosqueteiras",
+          "link": "/telas-mosquiteiras/"
+        },
+        {
+          "img": "/img/uploads/full-banner-4.png",
+          "alt": "Telas Mosqueteiras",
+          "link": "/pagina/atacado-empresas"
         }
       ]
-    },
-    {
-      "type": "info-bar",
-      "enabled": true
     },
     {
       "type": "collection-shelf",
@@ -37,11 +43,6 @@
       "headless": false,
       "limit": 12,
       "page": 1
-    },
-    {
-      "type": "page-title",
-      "title": "Loja demo da E-Com Plus",
-      "description": "Loja de demonstração e testes da plataforma E-Com Plus e Storefront. Todos os produtos, preços e informações são meramente ilustrativos."
     }
   ]
 }
