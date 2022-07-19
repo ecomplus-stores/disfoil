@@ -4,13 +4,19 @@
     "link": "/promotion"
   },
   "contacts_stripe": {
-    "pages": [
-    ],
+    "pages": [],
     "phone_wpp": true,
     "socials": true
   },
   "categories_list": {
-    "featured": [],
+    "featured": [
+      "/telas-mosquiteiras/?Telas Mosquiteiras",
+      "/divisorias-e-forros/?Forros e Divisórias",
+      "/portas/?Portas",
+      "/parafusos-e-buchas/?Parafusos e Buchas",
+      "/silicones-e-selantes/?Silicones e Selantes",
+      "/mantas-e-impermeabilizantes/?Mantas E Impermeabilizantes"
+    ],
     "random": 6,
     "full_width": true
   },
