@@ -1,1 +1,168 @@
 // Add your custom CSS here.
+.menu__item-icon img {
+    object-fit: none;
+    object-position: -2px 0;
+    width: 35px;
+    height: 35px;
+    transition: all 0.5s ease;
+  }
+  .menu__item-icon {
+    height: 35px;
+    width: 35px !important;
+  }
+  .menu__item-icon img {
+    &:hover {
+        object-position: -2px 100%;
+      }
+  }
+  .header__nav div a:hover .menu__item-icon img {
+    object-position: -2px 100%;
+  }
+  
+  .header__nav--full div:not(:first-child) .header__submenu {
+    margin-left: -240px;
+    grid-template-columns: repeat(auto-fit,minmax(20%,1fr));
+  }
+  .header__nav--full div:not(:first-child) .header__submenu::after {
+    left: 240px;
+  }
+  .header__submenu {
+    margin-top: 0rem;
+    background-color: #38e5cf;
+    &::after {
+        background: none;
+    }
+    /* max-width: 100%;
+    width: 80%; */
+    * {
+        color: #003d73;
+        text-decoration: none !important;
+        font-size: var(--font-size-sm) !important
+    }
+    
+  }
+  #s-telas-mosquiteiras_, #s-divisorias-e-forros_ {
+    max-width: 100%;
+    width: 80%;
+    div > a:first-child {
+        width: 100%;
+        h3, h4 {
+            color: #003d73;
+            text-transform: uppercase;
+            background: #e7eef6;
+            padding: 10px 0 6px 11px;
+            border-bottom: 1px solid rgb(0, 61, 115);
+            border-radius: 0;
+            font-weight: bold;
+        }   
+    }
+  }
+  #s-portas_, #s-parafusos-e-buchas_, #s-silicones-e-selantes_, #s-mantas-e-impermeabilizantes_ {
+    grid-template-columns: repeat(auto-fit,minmax(50%,1fr)) !important;
+    div a:hover {
+        background: #003e72;
+        border-radius: 0;
+        padding: 7px 12px;
+        * {
+            color: #fff !important;
+        }
+      }
+  }
+  .header__submenu-subcategory {
+    &:hover {
+        background: #003e72;
+        border-radius: 0;
+        padding: 7px 12px;
+        * {
+            color: #fff !important;
+        }
+      }
+  }
+  #menu-desk {
+    background-image: url('/img/uploads/header-background.png');
+  }
+  #header, .header__container {
+    padding: 0;
+    margin-bottom: 0;
+    border-bottom-color: #38e5cf;
+  }
+  .header__row {
+    padding: var(--spacer-2) var(--spacer-4);
+  }
+  /* #cd-telas-mosquiteiras\/ {
+    background: url(https://ecoms1.com/51266/@v3/1658338760585-telas.png) left top no-repeat;
+  }
+  #cd-divisorias-e-forros\/ {
+    background: url(https://ecoms1.com/51266/@v3/1658338699561-forros.png) left top no-repeat;
+  }
+  #cd-mantas-e-impermeabilizantes\/ {
+    background: url(https://ecoms1.com/51266/@v3/1658339318950-mantas.png) left top no-repeat;
+  }
+  #cd-portas\/ {
+    background: url(https://ecoms1.com/51266/@v3/1658338807035-portas.png) left top no-repeat;
+  }
+  #cd-silicones-e-selantes\/ {
+    background: url(https://ecoms1.com/51266/@v3/1658338854926-silicones.png) left top no-repeat;
+  }
+  #cd-parafusos-e-buchas\/ {
+    background: url(https://ecoms1.com/51266/@v3/1658339158874-parafusos.png) left top no-repeat;
+  } */
+  
+  .header__category {
+    color: #fff;
+    &:hover {
+        background: none;
+        color: #38e5cf;
+    }
+  }
+
+  /* @media (min-width: 992px) {
+    .menu__item-icon {
+        width: auto;
+        height: 40px;
+        margin-right: 0px;
+        text-align: center;
+      }
+  } */
+  #busca-car {
+    width: 100%;
+    position: relative;
+    height: 120px;
+    z-index: 999;
+    background: #f47925;
+    padding-top: 25px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .box-busca-car {
+    padding: 10px;
+    margin-left: 8px;
+    float: left;
+    margin-top: -9px;
+  }
+  .busca-title {
+    line-height: 27px;
+    color: #fff;
+    font-weight: 700;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: -1px;
+    padding-top: 6px;
+  }
+  .box-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    height: 69px;
+    background: url(//cdn.e-com.club/s/www.disfoil.com.br/uploads/input1.png) no-repeat left center;
+    border: none;
+    color: #f47925;
+    position: relative;
+    border-radius: 5px;
+    width: 314px;
+    padding-left: 71px;
+    font-weight: 600;
+    font-size: 14px;
+  }
