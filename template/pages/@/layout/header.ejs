@@ -117,17 +117,6 @@ const hasMegamenu = header.desktop_megamenu
             
           <% } %>
         </div>
-        <% if (header.contacts_stripe.socials) { %>
-          <div class="col-auto">
-            <% networks.forEach(network => { %>
-              <% if (contacts[network]) { %>
-                <a href="<%= contacts[network] %>" target="_blank" rel="noopener">
-                  <i class="i-<%= network %>"></i>
-                </a>
-              <% } %>
-            <% }) %>
-          </div>
-        <% } %>
         <div class="m-left-120">
           <span><strong>COMPRE EM ATACADO C/ VENDEDOR,</strong> QUAL SEU SEGMENTO?</span>
             <a href="/pages/atacado-empresas" title="Empresas"><img src="/img/uploads/empresas1.png"></a>
@@ -165,6 +154,7 @@ const hasMegamenu = header.desktop_megamenu
         </a>
       </div>
 
+
       <div class="order-lg-last col-auto p-0">
         <div
           class="header__buttons"
@@ -194,6 +184,51 @@ const hasMegamenu = header.desktop_megamenu
           >
             <i class="i-user"></i>
           </a>
+
+          <a
+            id="rastrear-pedido"
+            class="btn btn-lg ico"
+            role="button"
+            href="javascript;:"
+            title="Rastrear"
+          >
+            <i class="i-rastrear"></i>
+          </a>
+
+          <a
+            id="fale-conosco"
+            class="btn btn-lg ico"
+            role="button"
+            href="javascript;:"
+            title="Fale Conosco"
+          >
+            <i class="i-fale"></i>
+          </a>
+
+          
+            <form class="form-rastreio"><span>Digite o código de rastreio dos correios para acompanhar seu pedido:</span>
+              <div class="wrap">
+                <input type="text" placeholder="Código">
+                <button class="rastrear"><i class="i-search"></i></button>
+              </div>
+            </form>
+            <form class="wrapper" id="fale">
+              <div class="tooltip">
+                <p class="telefone">Telefone</p>
+                <p class="num">(19) 3585-3516</p>
+                <p class="divider"></p>
+                <p class="telefone">Whatsapp</p>
+                <p class="num">(19) 97422-6101</p>
+                <p class="divider"></p>
+                <p class="emailt">E-mail</p>
+                <p class="emailp">atendimento@disfoil.com.br</p>
+                <p class="divider"></p>              
+                <p class="duvidas">Dúvidas?</p>
+                <p class="faleconoscotop"><a href="/pages/cotacoes">Fale conosco</a></p>
+              </div>
+            </form>
+          
+
           <a
             id="cart-button"
             class="btn btn-lg"
@@ -219,6 +254,19 @@ const hasMegamenu = header.desktop_megamenu
           -->
         </div>
       </div>
+
+      <% if (header.contacts_stripe.socials) { %>
+        <div class="col-auto" id="socials">
+          <% networks.forEach(network => { %>
+            <% if (contacts[network]) { %>
+              <a href="<%= contacts[network] %>" target="_blank" rel="noopener">
+                <i class="i-<%= network %>"></i>
+              </a>
+            <% } %>
+          <% }) %>
+        </div>
+      <% } %>
+
 
       <% if (header.search_input) {
         const searchColSize = !isCategoriesNavFull && categories.length ? '-3' : ''
