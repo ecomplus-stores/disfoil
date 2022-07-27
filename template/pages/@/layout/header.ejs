@@ -94,17 +94,23 @@ const hasMegamenu = header.desktop_megamenu
           </nav>
           <% if (header.contacts_stripe.phone_wpp) { %>
             <div class="top-bar__contacts-container">
-              <% if (contacts.whatsapp) { %>
+              <!-- <% if (contacts.whatsapp) { %>
                 <a href="javascript:;" target="_blank" rel="noopener" class="whatsapp-link"
                   data-tel="<%= contacts.whatsapp.replace(/\D/g, '') %>">
                   <i class="i-whatsapp"></i>
                   <%= contacts.whatsapp %>
                 </a>
+                <% } %> -->
+                <% if (contacts.email) { %>
+                  <a href="mailto:<%= contacts.email %>" target="_blank" rel="noopener">
+                    <i class="i-email"></i>
+                    <span><%= contacts.email %></span>
+                  </a>
                 <% } %>
               <% if (contacts.phone) { %>
                 <a href="tel:+<%= contacts.phone.replace(/\D/g, '') %>" target="_blank" rel="noopener">
                   <i class="i-phone"></i>
-                  <%= contacts.phone %>
+                  <span><%= contacts.phone %></span>
                 </a>
               <% } %>
             </div>
@@ -122,6 +128,13 @@ const hasMegamenu = header.desktop_megamenu
             <% }) %>
           </div>
         <% } %>
+        <div class="m-left-120">
+          <span><strong>COMPRE EM ATACADO C/ VENDEDOR,</strong> QUAL SEU SEGMENTO?</span>
+            <a href="/pages/atacado-empresas" title="Empresas"><img src="/img/uploads/empresas1.png"></a>
+            <a href="/pages/atacado-empresas" title="Condominios"><img src="/img/uploads/condominios1.png"></a>
+            <a href="/pages/atacado-empresas" title="Construtoras"><img src="/img/uploads/construtoras1.png"></a>
+    <!--        <a href="/pagina/atacado-empresas" title="Revendas"><img src="/img/uploads/revendas.png"></a> -->
+        </div>
       </div>
     </div>
   </div>

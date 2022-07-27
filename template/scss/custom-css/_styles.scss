@@ -128,7 +128,6 @@
     width: 100%;
     position: relative;
     height: 120px;
-    z-index: 999;
     background: #f47925;
     padding-top: 25px;
     border-radius: 15px;
@@ -156,7 +155,7 @@
     appearance: none;
     outline: none;
     height: 69px;
-    background: url(//cdn.e-com.club/s/www.disfoil.com.br/uploads/input1.png) no-repeat left center;
+    background: url(/img/uploads/input1.png) no-repeat left center;
     border: none;
     color: #f47925;
     position: relative;
@@ -165,4 +164,59 @@
     padding-left: 71px;
     font-weight: 600;
     font-size: 14px;
+  }
+  .box2 {
+    background: url(/img/uploads/input2.png) no-repeat left center;
+  }
+  .i-phone::before {
+    content: url(/img/uploads/phonee.png);
+    position: absolute;
+    top: 6.5px;
+    left: 43.5%;
+  }
+  .i-email::before {
+    content: url(/img/uploads/mail.png);
+    position: absolute;
+    top: 6.5px;
+    left: 10px;
+  }
+  .m-left-120 {
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    color: #003d73;
+    float: right;
+  }
+  .top-bar__contacts-container a {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: .5px;
+  }
+  #user-button .i-user {
+    color: #1b69a9
+  }
+  #user-button:after {
+    content: "Entrar";
+    font-size: 11px;
+    position: absolute;
+    top: 37px;
+    left: -10px;
+    width: 60px;
+  }
+  #cart-button {
+    border-left: 1px solid #ccc;
+    border-radius: 0;
+    i::before {
+      content: url(/img/uploads/cart-new.png);
+    }
+  }
+  .header__row {
+    background-color: #e6edf5;
+  }
+  .header__container {
+    border-top: 2px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to right, #083C6A , #0F528B, #3F586F);;  
   }
