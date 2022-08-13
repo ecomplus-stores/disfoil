@@ -792,3 +792,29 @@
   .redes-sociais-footer .titulo {
     margin-bottom: 20px;
   }
+  .barra-home {
+    width: 100%;
+    //margin-top: -617px;
+    z-index: 99;
+    position: relative;
+  }
+  .mobilee {
+    display: none;
+  }
+  .mais-videos {
+    width: 160px;
+    background: #003d73;
+    border-radius: 6px;
+    text-align: center;
+    padding: 11px;
+    color: #fff;
+  }
+  .products-carousel[data-title="Destaques"] .glide__track {
+    justify-content: flex-end;
+    .glide__arrow {
+      display: none;
+    }
+  }
+  .barra-video + iframe {
+    width: 40%;
+  }
