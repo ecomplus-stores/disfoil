@@ -664,3 +664,131 @@
       background: none !important;
     }
   }
+  .products-carousel__item:hover {
+    border: solid 2px #003d73;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 0;
+    .product-card__buy.fade {
+      opacity: 1 !important;
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 16.5px;
+      font-weight: 500;
+      text-align: center;
+      padding: 20px 0px;
+      width: 80%;
+      background-color: #079C00 !important;
+      button {
+        background-color: #079C00 !important;
+        border-color: #079C00 !important;
+      }
+    }
+  }
+  .product-card__buy button {
+    background-color: #079C00 !important;
+    border-color: #079C00 !important;
+  }
+  .product-item {
+    text-align: center;
+  }
+  #ws_icon_chat {
+    position: fixed;
+    bottom: 120px;
+    right: 5px;
+    width: 76px;
+    z-index: 2000;
+    cursor: pointer;
+    outline: none !important;
+    img {
+      max-width: 100%;
+    }
+  }
+  .prices.product-card__prices {
+    .prices__value {
+      display: none;
+    }
+    .prices__value + span {
+      display: flex;
+      flex-direction: column;
+      .prices__discount {
+        order: -1;
+        display: flex;
+        flex-direction: column;
+        color: #1b69a9;
+        span {
+          font-size: 28px;
+          font-weight: 700;
+        }
+      }
+    }
+    .prices__installments {
+      background: url(https://cdn.ecvol.com/s/disfoil.e-com.club/uploads/parcelamento-01.jpg) no-repeat left top !Important;
+      padding: 11px 0 9px 38px !important;
+      color: #fff;
+      span {
+        &::after {
+          content: " sem juros";
+        }
+        &::before {
+          content: " de ";
+        }
+      }
+    }
+  }
+  #new-box {
+    background: url(//cdn.e-com.club/s/www.disfoil.com.br/uploads/sobre-nos.jpg) no-repeat center top;
+    display: table;
+    position: relative;
+    width: 100%;
+    padding-bottom: 60px;
+    margin-bottom: 50px;
+  }
+  #new-cinza {
+    width: 100%;
+    height: 650px;
+    background: #eaeaea;
+    margin-top: -663px;
+    position: absolute;
+    display: none;
+  }
+  .sobre-title {
+    text-align: center;
+    padding-bottom: 50px;
+    img {
+      max-width: 100%;
+    }
+  }
+  .sobre-text {
+    width: 47%;
+    float: left;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 33px;
+    padding-top: 38px;
+  }
+  .video-home {
+    width: 47%;
+    float: right;
+    img {
+      max-width: 100%;
+    }
+  }
+  .redes-sociais-footer {
+    background: url(//cdn.e-com.club/s/www.disfoil.com.br/uploads/bg-redes.jpg) no-repeat center bottom;
+    display: table;
+    width: 100%;
+    padding-bottom: 70px;
+    text-align: center;
+  }
+  .redes-sociais-footer .col-sm-6 {
+    width: 40%;
+  }
+  .redes-sociais-footer .b-r {
+    float: right;
+  }
+  .redes-sociais-footer .titulo {
+    margin-bottom: 20px;
+  }
