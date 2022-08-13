@@ -11,31 +11,36 @@
           "img": "/img/uploads/eee1.jpeg",
           "link": "",
           "alt": "Pagamento via PIX",
-          "start": "2022-07-13T20:53:35.696Z"
+          "start": "2022-07-13T20:53:35.696Z",
+          "end": "2022-08-13T07:10:44.645Z"
         },
         {
           "img": "/img/uploads/full-banner-2.png",
           "alt": "Manta Térmica",
           "link": "/mantas-e-impermeabilizantes/",
-          "start": "2022-07-13T20:53:35.810Z"
+          "start": "2022-07-13T20:53:35.810Z",
+          "end": "2022-08-13T07:10:44.721Z"
         },
         {
           "img": "/img/uploads/full-banner-3.png",
           "alt": "Manta Asfáltica",
           "link": "/manta-asfaltica-adesiva/",
-          "start": "2022-07-13T20:53:35.888Z"
+          "start": "2022-07-13T20:53:35.888Z",
+          "end": "2022-08-13T07:10:44.765Z"
         },
         {
           "img": "/img/uploads/full-banner-1.png",
           "alt": "Telas Mosqueteiras",
           "link": "/telas-mosquiteiras/",
-          "start": "2022-07-13T20:53:35.960Z"
+          "start": "2022-07-13T20:53:35.960Z",
+          "end": "2022-08-13T07:10:44.809Z"
         },
         {
           "img": "/img/uploads/full-banner-4.png",
           "alt": "Telas Mosqueteiras",
           "link": "/pagina/atacado-empresas",
-          "start": "2022-07-13T20:53:36.040Z"
+          "start": "2022-07-13T20:53:36.040Z",
+          "end": "2022-08-13T07:10:44.857Z"
         }
       ]
     },
@@ -99,6 +104,18 @@
       "img": "/img/uploads/banner-3.jpg",
       "link": "/alcapao/",
       "alt": "Alçapão"
+    },
+    {
+      "type": "custom-html",
+      "html": "<div class=\"row\">\n        <div class=\"col-md-12\">\n<div class=\"barra-home\">\n\n    <div class=\"barra-video\">\n        <p class=\"barra-title\">Nós Indicamos</p>\n        <p>Confira o vídeo e descubra o produto ideal para o seu dia a dia. Contamos com uma grande variedade de produtos.</p>\n    </div>\n\n   <iframe src=\"https://www.youtube.com/embed/1CbNKgIZbVY\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\" width=\"752\" height=\"423\" frameborder=\"0\"></iframe> \n\n <iframe class=\"mobilee\" src=\"https://www.youtube.com/embed/1CbNKgIZbVY\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\" width=\"350\" height=\"197\" frameborder=\"0\"></iframe> \n\n\n<br><br>\n\n<a href=\"https://www.youtube.com/channel/UCd5K0zkEmt-NAqyq9QXzzVg/videos\"><div class=\"mais-videos\">Veja Mais Vídeos</div></a>\n    \n</div>\n<!-- Trustvox -->\n<script type=\"text/javascript\" src=\"//colt.trustvox.com.br/colt.min.js\"></script> \n<script>\n  var _trustvox_colt = _trustvox_colt || [];\n  _trustvox_colt.push(['_storeId', '81029'], ['_limit', '7']);\n</script>\n<!-- /Trustvox -->\n\n\n          </div>\n      </div>"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 2,
+      "page": 1,
+      "headless": true,
+      "collection_id": "62f72514eb85911216b29182:collections:Destaques:/grid/destaques"
     }
   ]
 }
