@@ -1,6 +1,106 @@
 {
   "hosting": {
     "redirects": [
+      {
+        "source": "/sitemap",
+        "destination": "/sitemap.xml",
+        "type": 301
+      },
+      {
+        "source": "/pagina/cotacoes",
+        "destination": "/pages/cotacoes-para-empresas",
+        "type": 301
+      },
+      {
+        "source": "/sitemaps/pages",
+        "destination": "/sitemap.xml",
+        "type": 301
+      },
+      {
+        "source": "/sitemaps/searches",
+        "destination": "/sitemap.xml",
+        "type": 301
+      },
+      {
+        "source": "/sitemaps/grids",
+        "destination": "/sitemap.xml",
+        "type": 301
+      },
+            {
+        "source": "/sitemaps/categories",
+        "destination": "/sitemap.xml",
+        "type": 301
+      },
+      {
+        "source": "/sitemaps/brands",
+        "destination": "/sitemap.xml",
+        "type": 301
+      },
+      {
+        "source": "/sitemaps/products",
+        "destination": "/sitemap.xml",
+        "type": 301
+      },
+      {
+        "source": "/entrar",
+        "destination": "/app/#/account/",
+        "type": 301
+      },
+      {
+        "source": "/contato",
+        "destination": "/pages/contato",
+        "type": 301
+      },
+      {
+        "source": "/conta",
+        "destination": "/app/#/account/",
+        "type": 301
+      },
+      {
+        "source": "/cadastrar",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/carrinho",
+        "destination": "/app/#/cart",
+        "type": 301
+      },
+      {
+        "source": "/pagina/sobre",
+        "destination": "/pages/sobre-nos",
+        "type": 301
+      },
+      {
+        "source": "/pagina/videos",
+        "destination": "/pages/videos",
+        "type": 301
+      },
+      {
+        "source": "/pagina/entrega",
+        "destination": "/pages/entrega",
+        "type": 301
+      },
+      {
+        "source": "/pagina/privacidade",
+        "destination": "/pages/privacidade",
+        "type": 301
+      },
+      {
+        "source": "/pagina/trocas",
+        "destination": "/pages/trocas",
+        "type": 301
+      },
+      {
+        "source": "/pagina/atacado-empresas",
+        "destination": "/pages/atacado-empresas",
+        "type": 301
+      },
+      {
+        "source": "/grid*",
+        "destination": "/search",
+        "type": 301
+      }
     ],
     "public": "dist",
     "ignore": [
