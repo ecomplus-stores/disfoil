@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.5ad38499f12072376f9a606d3e5912ac.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.c77d7e92b2dcd4490da84e7d44c83cba.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.0d71f7d3aee8cb526e3f6abb6fbb5633.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.e61b604fbd9cba2a8b456834916255fe.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.ed7017b5812c95c8e5d11e54eca2bbdf.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Disfoil® - Construção e Reforma",
+  "short_name": "disfoil",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Economize comprando direto do Importador: Telas Mosquiteiros em Fibra de Vidro, Aço Inox, Alumínio, Pet Screen e Anti-poeira. Manta Térmica Subcobertura, Asfáltica e Impermeabilizante. Passarinheiras, Portas Sanfonadas, Parafusos, Linha Drywall, PVC e mais. Faturamos para Empresas. + de 900 mil Clientes. Em até 10x sem Juros.",
+  "background_color": "#ffffff",
+  "theme_color": "#222831"
+}
