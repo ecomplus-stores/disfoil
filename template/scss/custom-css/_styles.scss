@@ -513,8 +513,11 @@
    }
    .atacado-center {
     background:url(/img/uploads/atacado-bg.jpg) no-repeat center top;
-    margin-top:150px;
+    margin-top:350px;
     padding-top:189px
+   }
+   .atacado-box p {
+    font-size: 13px;
    }
    .atacado-center .container {
     background:rgba(255,255,255,.8)
@@ -821,4 +824,13 @@
   .barra-video a {
     display: flex;
     justify-content: center;
+  }
+  .page--pages\/atacados-disfoil .custom-html .container {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .atacado-page .container {
+    padding-left: 15px;
+    padding-right: 15px;
   }
