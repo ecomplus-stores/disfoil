@@ -457,7 +457,7 @@
   }
   //atacado
   .atacado-top {
-    background:url(//cdn.ecvol.com/s/www.disfoil.com.br/uploads/atacado-bg-top.jpg) no-repeat center top;
+    background:url(/img/uploads/atacado-bg-top.jpg) no-repeat center top;
     padding-top:115px
    }
    .atacado-top h3 {
@@ -512,7 +512,7 @@
     margin:0% 11% 0% 11%
    }
    .atacado-center {
-    background:url(//cdn.ecvol.com/s/www.disfoil.com.br/uploads/atacado-bg.jpg) no-repeat center top;
+    background:url(/img/uploads/atacado-bg.jpg) no-repeat center top;
     margin-top:150px;
     padding-top:189px
    }
@@ -552,7 +552,7 @@
    }
    .atacado-produtos {
     height:610px;
-    background:url(https://cdn.ecvol.com/s/www.disfoil.com.br/uploads/atacado-blue.png) no-repeat center right;
+    background:url(/img/uploads/atacado-blue.png) no-repeat center right;
     margin-bottom:-40px
    }
    .atacado-tex h5 {
@@ -568,7 +568,7 @@
     min-height:200px
    }
    .atacado-left {
-    background:url(https://cdn.ecvol.com/s/www.disfoil.com.br/uploads/atacado-blue.png) no-repeat center left
+    background:url(/img/uploads/atacado-blue.png) no-repeat center left
    }
    .atacado-left .atacado-img {
     width:36%
@@ -816,5 +816,9 @@
     }
   }
   .barra-video + iframe {
-    width: 40%;
+    width: 100%;
+  }
+  .barra-video a {
+    display: flex;
+    justify-content: center;
   }

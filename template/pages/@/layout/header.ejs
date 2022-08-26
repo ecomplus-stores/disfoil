@@ -189,7 +189,7 @@ const hasMegamenu = header.desktop_megamenu
             id="rastrear-pedido"
             class="btn btn-lg ico"
             role="button"
-            href="javascript;:"
+            href="/pages/rastrear"
             title="Rastrear"
           >
             <i class="i-rastrear"></i>
@@ -199,36 +199,11 @@ const hasMegamenu = header.desktop_megamenu
             id="fale-conosco"
             class="btn btn-lg ico"
             role="button"
-            href="javascript;:"
+            href="/pages/contato"
             title="Fale Conosco"
           >
             <i class="i-fale"></i>
           </a>
-
-          
-            <form class="form-rastreio"><span>Digite o código de rastreio dos correios para acompanhar seu pedido:</span>
-              <div class="wrap">
-                <input type="text" placeholder="Código">
-                <button class="rastrear"><i class="i-search"></i></button>
-              </div>
-            </form>
-            <form class="wrapper" id="fale">
-              <div class="tooltip">
-                <p class="telefone">Telefone</p>
-                <p class="num">(19) 3585-3516</p>
-                <p class="divider"></p>
-                <p class="telefone">Whatsapp</p>
-                <p class="num">(19) 97422-6101</p>
-                <p class="divider"></p>
-                <p class="emailt">E-mail</p>
-                <p class="emailp">atendimento@disfoil.com.br</p>
-                <p class="divider"></p>              
-                <p class="duvidas">Dúvidas?</p>
-                <p class="faleconoscotop"><a href="/pages/cotacoes">Fale conosco</a></p>
-              </div>
-            </form>
-          
-
           <a
             id="cart-button"
             class="btn btn-lg"
@@ -335,7 +310,7 @@ const hasMegamenu = header.desktop_megamenu
 
       
     </div>
-    <% if (categories && categories.length) { console.log(categories) %>
+    <% if (categories && categories.length) { %>
       <div id="menu-desk" class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %>">
         <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
           <% categories.forEach(({ slug, name, _id, icon}) => { %>
