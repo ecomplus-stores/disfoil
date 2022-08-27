@@ -107,7 +107,7 @@
         "type": 301
       },
       {
-        "source": "/busca*",
+        "regex": "/busca*",
         "destination": "/search",
         "type": 301
       }
