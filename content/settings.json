@@ -1,7 +1,7 @@
 {
   "domain": "www.disfoil.com.br",
   "currency_symbol": "R$",
-  "primary_color": "#2dc841",
+  "primary_color": "#363e37",
   "theme": {
     "bootswatch": "_",
     "custom": "_"
