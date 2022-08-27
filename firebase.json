@@ -77,6 +77,11 @@
         "type": 301
       },
       {
+        "source": "/pagina/video",
+        "destination": "/pages/video",
+        "type": 301
+      },
+      {
         "source": "/pagina/entrega",
         "destination": "/pages/entrega",
         "type": 301
