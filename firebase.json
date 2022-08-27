@@ -105,6 +105,11 @@
         "source": "/grid*",
         "destination": "/search",
         "type": 301
+      },
+      {
+        "source": "/busca*",
+        "destination": "/search",
+        "type": 301
       }
     ],
     "public": "dist",
