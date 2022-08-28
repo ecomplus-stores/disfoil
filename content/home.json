@@ -110,10 +110,11 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 2,
+      "limit": 12,
       "page": 1,
       "headless": true,
-      "collection_id": "62f72514eb85911216b29182:collections:Destaques:/grid/destaques"
+      "collection_id": "62f72514eb85911216b29182:collections:Destaques:/grid/destaques",
+      "title": "Destaques"
     },
     {
       "type": "custom-html",
