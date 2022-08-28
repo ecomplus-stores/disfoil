@@ -89,7 +89,8 @@
       "limit": 12,
       "page": 1,
       "collection_id": "6286dc41df4d8071c91663ff:categories:Telas Mosquiteiras:/telas-mosquiteiras/",
-      "title": "Telas Mosquiteiras"
+      "title": "Telas Mosquiteiras",
+      "sort": "sales"
     },
     {
       "type": "collection-shelf",
