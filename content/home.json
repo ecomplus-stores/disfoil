@@ -114,7 +114,8 @@
       "page": 1,
       "headless": true,
       "collection_id": "62f72514eb85911216b29182:collections:Destaques:/grid/destaques",
-      "title": "Destaques"
+      "title": "Destaques",
+      "sort": "views"
     },
     {
       "type": "custom-html",
