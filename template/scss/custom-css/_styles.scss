@@ -26,6 +26,9 @@
   .header__nav--full div:not(:first-child) .header__submenu::after {
     left: 240px;
   }
+  .header__nav {
+    font-size: 0.75rem;
+  }
   .header__submenu {
     margin-top: 0rem;
     background-color: #38e5cf;
@@ -170,15 +173,24 @@
   }
   .i-phone::before {
     content: url(/img/uploads/phonee.png);
-    position: absolute;
+    /* position: absolute;
     top: 6.5px;
-    left: 43.5%;
+    left: 43.5%; */
+    padding-right: 5px;
+  }
+  .top-bar__contacts-container {
+    display: flex;
+    align-items: center;
+    a {
+      display: inline-flex;
+    }
   }
   .i-email::before {
     content: url(/img/uploads/mail.png);
-    position: absolute;
+    padding-right: 5px;
+    /* position: absolute;
     top: 6.5px;
-    left: 10px;
+    left: 10px; */
   }
   .m-left-120 {
     text-transform: uppercase;
@@ -689,7 +701,7 @@
       }
     }
   }
-  .product-card__buy button {
+  .product-card__buy button, .minicart__btn-checkout, .product__buy button {
     background-color: #079C00 !important;
     border-color: #079C00 !important;
   }
@@ -818,12 +830,13 @@
       display: none;
     }
   }
-  .barra-video + iframe {
-    width: 100%;
-  }
-  .barra-video a {
-    display: flex;
-    justify-content: center;
+  .barra-home {
+    text-align: center;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
   .page--pages\/atacados-disfoil .custom-html .container {
     max-width: 100%;
