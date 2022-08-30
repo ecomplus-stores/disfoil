@@ -1,5 +1,12 @@
 {
-  "sort_categories": [],
+  "sort_categories": [
+    "telas-mosquiteiras/",
+    "divisorias-e-forros/",
+    "portas/",
+    "parafusos-e-buchas/",
+    "selantes-e-silicones/",
+    "mantas-e-impermeabilizantes/"
+  ],
   "alphabetical_order": false,
   "phone_wpp": true,
   "socials": true
