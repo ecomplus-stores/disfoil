@@ -13,6 +13,10 @@
       }
     },
     {
+      "type": "dynamic-showcase",
+      "load_more": true
+    },
+    {
       "type": "related-products",
       "title": "Produtos relacionados"
     },
