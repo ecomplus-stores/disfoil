@@ -31,7 +31,7 @@
   }
   .header__submenu {
     margin-top: 0rem;
-    background-color: #38e5cf;
+    background-color: #fff;
     &::after {
         background: none;
     }
@@ -49,14 +49,17 @@
     width: 80%;
     div > a:first-child {
         width: 100%;
-        h3, h4 {
-            color: #003d73;
-            text-transform: uppercase;
-            background: #e7eef6;
+        h3 {
+            color: #00315c;
+            //text-transform: uppercase;
+            background: #eee;
             padding: 10px 0 6px 11px;
-            border-bottom: 1px solid rgb(0, 61, 115);
             border-radius: 0;
             font-weight: bold;
+        }
+        h4 {
+          color: #00589b;
+          //text-transform: uppercase;
         }   
     }
   }
