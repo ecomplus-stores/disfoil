@@ -81,6 +81,10 @@
       ]
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banner-beneficios.jpg"
+    },
+    {
       "type": "custom-html",
       "html": "<div class=\"descontos-home\">\n <!--\n  <img src=\"//cdn.ecvol.com/s/www.disfoil.com.br/uploads/frete-expresso.png\">\n  <img src=\"//cdn.ecvol.com/s/www.disfoil.com.br/uploads/sem-juros.png\">\n  <img src=\"//cdn.ecvol.com/s/www.disfoil.com.br/uploads/desc.png\">\n  <img src=\"//cdn.ecvol.com/s/www.disfoil.com.br/uploads/segura.png\">\n-->\n</div>"
     },
@@ -90,7 +94,7 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/banner-beneficios.jpg"
+      "img": "/img/uploads/banner-importacao-disfoil.jpg"
     },
     {
       "type": "banners-grid",
@@ -114,10 +118,6 @@
       "headless": false,
       "limit": 12,
       "page": 1
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/banner-importacao-disfoil.jpg"
     },
     {
       "type": "collection-shelf",
