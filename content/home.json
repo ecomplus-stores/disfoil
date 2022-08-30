@@ -8,6 +8,40 @@
       "full_width": false,
       "slides": [
         {
+          "start": "2022-08-30T18:14:24.612Z",
+          "end": "2022-08-30T18:14:24.653Z",
+          "img": "/img/uploads/escova.webp",
+          "mobile_img": "/img/uploads/escova-mobile.webp",
+          "link": "https://www.disfoil.com.br/escovas-de-vedacao/"
+        },
+        {
+          "start": "2022-08-30T18:06:04.708Z",
+          "end": "2022-08-30T18:06:04.759Z",
+          "img": "/img/uploads/manta-asfaltica.webp",
+          "mobile_img": "/img/uploads/manta-asfaltica-mobile.webp",
+          "link": "https://www.disfoil.com.br/acima-das-telhas/"
+        },
+        {
+          "start": "2022-08-30T18:05:22.801Z",
+          "end": "2022-08-30T18:05:22.846Z",
+          "img": "/img/uploads/pet.webp",
+          "mobile_img": "/img/uploads/pet-mobile.webp",
+          "link": "https://www.disfoil.com.br/tela-pet-screen/"
+        },
+        {
+          "start": "2022-08-30T18:03:35.970Z",
+          "end": "2022-08-30T18:03:36.010Z",
+          "img": "/img/uploads/manta-termica.webp",
+          "mobile_img": "/img/uploads/manta-termica-mobile.webp",
+          "link": "https://www.disfoil.com.br/abaixo-das-telhas/"
+        },
+        {
+          "start": "2022-08-30T17:54:07.133Z",
+          "end": "2022-08-30T17:54:07.176Z",
+          "img": "/img/uploads/alcapao.webp",
+          "link": "https://www.disfoil.com.br/alcapao-para-drywall/"
+        },
+        {
           "img": "/img/uploads/eee1.jpeg",
           "link": "",
           "alt": "Pagamento via PIX",
@@ -43,40 +77,6 @@
           "link": "/pagina/atacado-empresas",
           "start": "2022-07-13T20:53:36.040Z",
           "end": ""
-        },
-        {
-          "start": "2022-08-30T17:54:07.133Z",
-          "end": "2022-08-30T17:54:07.176Z",
-          "img": "/img/uploads/alcapao.webp",
-          "link": "https://www.disfoil.com.br/alcapao-para-drywall/"
-        },
-        {
-          "start": "2022-08-30T18:03:35.970Z",
-          "end": "2022-08-30T18:03:36.010Z",
-          "img": "/img/uploads/manta-termica.webp",
-          "mobile_img": "/img/uploads/manta-termica-mobile.webp",
-          "link": "https://www.disfoil.com.br/abaixo-das-telhas/"
-        },
-        {
-          "start": "2022-08-30T18:05:22.801Z",
-          "end": "2022-08-30T18:05:22.846Z",
-          "img": "/img/uploads/pet.webp",
-          "mobile_img": "/img/uploads/pet-mobile.webp",
-          "link": "https://www.disfoil.com.br/tela-pet-screen/"
-        },
-        {
-          "start": "2022-08-30T18:06:04.708Z",
-          "end": "2022-08-30T18:06:04.759Z",
-          "img": "/img/uploads/manta-asfaltica.webp",
-          "mobile_img": "/img/uploads/manta-asfaltica-mobile.webp",
-          "link": "https://www.disfoil.com.br/acima-das-telhas/"
-        },
-        {
-          "start": "2022-08-30T18:14:24.612Z",
-          "end": "2022-08-30T18:14:24.653Z",
-          "img": "/img/uploads/escova.webp",
-          "mobile_img": "/img/uploads/escova-mobile.webp",
-          "link": "https://www.disfoil.com.br/escovas-de-vedacao/"
         }
       ]
     },
