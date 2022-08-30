@@ -44,7 +44,7 @@
     }
     
   }
-  #s-telas-mosquiteiras_, #s-divisorias-e-forros_ {
+  .header__submenu {
     max-width: 100%;
     width: 80%;
     div > a:first-child {
@@ -62,6 +62,9 @@
           //text-transform: uppercase;
         }   
     }
+  }
+  .subcategory {
+    
   }
   #s-portas_, #s-parafusos-e-buchas_, #s-silicones-e-selantes_, #s-mantas-e-impermeabilizantes_ {
     grid-template-columns: repeat(auto-fit,minmax(50%,1fr)) !important;
