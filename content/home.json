@@ -54,6 +54,12 @@
           "end": "2022-08-30T18:03:36.010Z",
           "img": "/img/uploads/manta-termica.webp",
           "mobile_img": "/img/uploads/manta-termica-mobile.webp"
+        },
+        {
+          "start": "2022-08-30T18:05:22.801Z",
+          "end": "2022-08-30T18:05:22.846Z",
+          "img": "/img/uploads/pet.webp",
+          "mobile_img": "/img/uploads/pet-mobile.webp"
         }
       ]
     },
