@@ -19,6 +19,10 @@
     {
       "type": "document-description",
       "enabled": true
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banner-importacao-disfoil.jpg"
     }
   ]
 }
