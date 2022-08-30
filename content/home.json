@@ -1,6 +1,6 @@
 {
-  "meta_title": "Tela Mosquiteira Pet",
-  "meta_description": "Tela Mosquiteira Pet",
+  "meta_title": "Manta Térmica Subcobertura",
+  "meta_description": "Manta Térmica Subcobertura",
   "sections": [
     {
       "type": "banner-slider",
@@ -53,7 +53,8 @@
           "start": "2022-08-30T18:03:35.970Z",
           "end": "2022-08-30T18:03:36.010Z",
           "img": "/img/uploads/manta-termica.webp",
-          "mobile_img": "/img/uploads/manta-termica-mobile.webp"
+          "mobile_img": "/img/uploads/manta-termica-mobile.webp",
+          "link": "https://www.disfoil.com.br/abaixo-das-telhas/"
         },
         {
           "start": "2022-08-30T18:05:22.801Z",
