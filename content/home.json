@@ -1,6 +1,6 @@
 {
-  "meta_title": "Manta Térmica Subcobertura",
-  "meta_description": "Manta Térmica Subcobertura",
+  "meta_title": "Disfoil",
+  "meta_description": "Disfoil",
   "sections": [
     {
       "type": "banner-slider",
@@ -47,7 +47,8 @@
         {
           "start": "2022-08-30T17:54:07.133Z",
           "end": "2022-08-30T17:54:07.176Z",
-          "img": "/img/uploads/alcapao.webp"
+          "img": "/img/uploads/alcapao.webp",
+          "link": "https://www.disfoil.com.br/alcapao-para-drywall/"
         },
         {
           "start": "2022-08-30T18:03:35.970Z",
