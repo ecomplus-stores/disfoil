@@ -13,11 +13,6 @@
       }
     },
     {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "views"
-    },
-    {
       "type": "related-products",
       "title": "Produtos relacionados"
     },
@@ -32,6 +27,11 @@
     {
       "type": "product-specifications",
       "enabled": true
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "views"
     }
   ]
 }
