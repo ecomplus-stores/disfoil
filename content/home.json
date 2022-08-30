@@ -148,7 +148,8 @@
       "type": "responsive-banner",
       "img": "/img/uploads/banner-3.jpg",
       "link": "/alcapao/",
-      "alt": "Alçapão"
+      "alt": "Alçapão",
+      "mobile_img": "/img/uploads/alcapao-de-metal.jpg"
     },
     {
       "type": "collection-shelf",
