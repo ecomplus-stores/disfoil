@@ -98,7 +98,6 @@
       "limit": 12,
       "page": 1,
       "collection_id": "62f72da2eb85911216b299f0:collections:Para telhados:/grid/para-telhados",
-      "sort": "sales",
       "title": "Para Telhados"
     },
     {
@@ -112,7 +111,7 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "headless": true,
+      "headless": false,
       "collection_id": "62f72514eb85911216b29182:collections:Destaques:/grid/destaques",
       "title": "Destaques",
       "sort": "sales"
