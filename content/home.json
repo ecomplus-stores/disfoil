@@ -12,7 +12,7 @@
           "link": "",
           "alt": "Pagamento via PIX",
           "start": "2022-07-13T20:53:35.696Z",
-"end": ""
+          "end": ""
         },
         {
           "img": "/img/uploads/full-banner-2.png",
@@ -115,7 +115,7 @@
       "headless": true,
       "collection_id": "62f72514eb85911216b29182:collections:Destaques:/grid/destaques",
       "title": "Destaques",
-      "sort": "views"
+      "sort": "sales"
     },
     {
       "type": "custom-html",
