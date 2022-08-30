@@ -9,6 +9,10 @@
       "img": "/img/uploads/banner-importacao-disfoil.jpg"
     },
     {
+      "type": "document-description",
+      "enabled": true
+    },
+    {
       "type": "page-title"
     },
     {
@@ -19,10 +23,6 @@
       "type": "category-retail",
       "enabled": true,
       "sort": "sales"
-    },
-    {
-      "type": "document-description",
-      "enabled": true
     }
   ]
 }
