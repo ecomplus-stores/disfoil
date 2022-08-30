@@ -116,6 +116,10 @@
       "page": 1
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banner-importacao-disfoil.jpg"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 12,
