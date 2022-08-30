@@ -60,6 +60,12 @@
           "end": "2022-08-30T18:05:22.846Z",
           "img": "/img/uploads/pet.webp",
           "mobile_img": "/img/uploads/pet-mobile.webp"
+        },
+        {
+          "start": "2022-08-30T18:06:04.708Z",
+          "end": "2022-08-30T18:06:04.759Z",
+          "img": "/img/uploads/manta-asfaltica.webp",
+          "mobile_img": "/img/uploads/manta-asfaltica-mobile.webp"
         }
       ]
     },
