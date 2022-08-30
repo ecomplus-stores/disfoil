@@ -27,11 +27,6 @@
     {
       "type": "product-specifications",
       "enabled": true
-    },
-    {
-      "type": "dynamic-showcase",
-      "load_more": false,
-      "sort": "views"
     }
   ]
 }
