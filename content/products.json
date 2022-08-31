@@ -13,15 +13,6 @@
       }
     },
     {
-      "type": "offers-timer",
-      "max_hours": 24,
-      "start": "2022-08-31T00:12:26.775Z",
-      "end": "2022-09-01T00:12:26.787Z",
-      "offers": [
-        "63046302225fcd0d801c09fc"
-      ]
-    },
-    {
       "type": "related-products",
       "title": "Produtos relacionados"
     },
