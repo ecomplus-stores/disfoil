@@ -2,7 +2,9 @@
 .product__name {
     font-size: 24px !important;
     -webkit-line-clamp: 4 !important;
+    --max-lines: 4 !important;
 }
+
 .menu__item-icon img {
     object-fit: none;
     object-position: -2px 0;
