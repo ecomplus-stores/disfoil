@@ -1,10 +1,15 @@
 // Add your custom CSS here.
 .product__name {
     font-size: 24px !important;
-    -webkit-line-clamp: 4 !important;
+}
+.product-card__name {
+  -webkit-line-clamp: 4 !important;
     --max-lines: 4 !important;
 }
-
+.cart-item__name a {
+  -webkit-line-clamp: 1 !important;
+    --max-lines: 1 !important;
+}
 .menu__item-icon img {
     object-fit: none;
     object-position: -2px 0;
@@ -74,14 +79,6 @@
   }
   #s-portas_, #s-parafusos-e-buchas_, #s-silicones-e-selantes_, #s-mantas-e-impermeabilizantes_ {
     grid-template-columns: repeat(auto-fit,minmax(50%,1fr)) !important;
-    div a:hover {
-        background: #003e72;
-        border-radius: 0;
-        padding: 7px 12px;
-        * {
-            color: #fff !important;
-        }
-      }
   }
   .header__submenu-subcategory {
     &:hover {
@@ -221,12 +218,15 @@
     color: #1b69a9
   }
   #user-button:after {
-    content: "Entrar";
+    content: "Minha Conta";
+    @media(max-width: 767px) {
+      left: -30px;
+    }
+    left: 0;
     font-size: 11px;
     position: absolute;
     top: 37px;
-    left: -10px;
-    width: 60px;
+    width: 90px;
   }
   #rastrear-pedido:after {
     content: "Rastrear Pedido";
@@ -242,7 +242,6 @@
     position: absolute;
     top: 37px;
     left: 0px;
-    width: 72px;
   }
   #cart-button {
     @media(min-width: 992px) {
@@ -468,14 +467,14 @@
   }
   @media(min-width: 992px) {
     #user-button {
-      width: 37px;
+      width: 90px;
     }
     #rastrear-pedido {
       width: 120px;
       cursor: pointer;
     }
     #fale-conosco {
-      width: 72px;
+      width: 90px;
       cursor: help;
     }
   }
@@ -713,7 +712,7 @@
       }
     }
   }
-  .product-card__buy button, .minicart__btn-checkout, .product__buy button {
+  .product-card__buy button, .minicart__btn-checkout, .product__buy button.btn.btn-lg.btn-primary {
     background-color: #079C00 !important;
     border-color: #079C00 !important;
   }
@@ -904,3 +903,18 @@
       max-width: 50% !important;
     }
   }
+  .product-card.search-engine__item .prices.product-card__prices .prices__installments {
+    //font-size: 1.2rem;
+    text-align: right;
+  }
+  .search-engine__item.product-card--small .prices.product-card__prices .prices__installments {
+    font-size: .75rem;
+  }
+#page-categories:not(.__mantas-e-impermeabilizantes_,.__mantas,.__manta-termica-1-face_,.__passarinheira-para-telhado_,.__manta-asfaltica-adesiva_,.__fixador-primer-fita-para-telhado_,.__manta-termica-2-faces_,.__manta-asfaltica-aplicacao-macarico_) #busca-car {
+  display: none;
+}
+@media(max-width: 767px) {
+  #page-categories .responsive-baner {
+    display: none;
+  }
+}
