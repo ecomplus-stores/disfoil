@@ -110,6 +110,11 @@
         "regex": "/busca*",
         "destination": "/search",
         "type": 301
+      },
+      {
+        "source": "/utilidades",
+        "destination": "/search",
+        "type": 301
       }
     ],
     "public": "dist",
