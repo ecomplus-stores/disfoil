@@ -12,6 +12,11 @@
         "type": 301
       },
       {
+        "source": "/pages/atacado-disfoil",
+        "destination": "/pages/atacado-empresas",
+        "type": 301
+      },
+      {
         "source": "/sitemaps/pages",
         "destination": "/sitemap.xml",
         "type": 301

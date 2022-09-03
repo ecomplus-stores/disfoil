@@ -287,11 +287,6 @@
   .i-instagram::before {
     content: url(/img/uploads/insta-top.png);
   }
-  @media(max-width: 767px) {
-    .ico {
-      display: none;
-    }
-  }
   .i-rastrear::before {
     content: url(/img/uploads/rastrear.png);
   }
@@ -300,170 +295,6 @@
   }
   .i-fale::before {
     content: url(/img/uploads/fale-conosco.png);
-  }
-  .form-rastreio {
-    background: #fff;
-    border: solid 1px #d4d5d6;
-    position: absolute;
-    top: 87%;
-    z-index: 999;
-    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
-    min-width: 308px;
-    min-height: 135px;
-    box-sizing: border-box;
-    padding: 10px;
-    opacity: 0;
-    display: none;
-  }
-  .form-rastreio span {
-    color: #003d73;
-    font-size: 13px;
-    font-weight: 500;
-    display: block;
-    margin: 10px 0;
-  }
-  .form-rastreio .wrap {
-    position: relative;
-    margin: 10px 0;
-  }
-  #fale.wrapper {
-    z-index: 999;
-    color: #312655;
-    cursor: help;
-    position: absolute;
-    text-align: center;
-    -webkit-transform: translateZ(0);
-    -webkit-font-smoothing: antialiased;
-    top: 87%;
-    padding-top: 26px;
-    display: none;
-  }
-  
-  #fale .tooltip {
-    background: #ededed;
-    text-align: center;
-    top: 110%;
-    left: -123px;
-    font-size: 14px;
-    color: #d7b29c;
-    font-weight: 700;
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    opacity: 0;
-    padding: 20px;
-    pointer-events: none;
-    position: absolute;
-    -webkit-transform: translateY(10px);
-    -moz-transform: translateY(10px);
-    -ms-transform: translateY(10px);
-    -o-transform: translateY(10px);
-    transform: translateY(10px);
-    -webkit-transition: all 0.25s ease-out;
-    -moz-transition: all 0.25s ease-out;
-    -ms-transition: all 0.25s ease-out;
-    -o-transition: all 0.25s ease-out;
-    transition: all 0.25s ease-out;
-    -webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
-    -moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
-    -ms-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
-    -o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
-  }
-  #fale .tooltip::before {
-    bottom: -20px;
-    content: " ";
-    display: block;
-    height: 20px;
-    left: 0;
-    position: absolute;
-    width: 100%;
-  }
-  
-.telefone {
-
-    font-size: 14px;
-    font-weight: 700;
-    padding-top: 0;
-    padding-bottom: 0;
-    color: #0a457f;
-}
-.num {
-  display: block;
-  margin-top: -12px;
-  font-size: 16px;
-  color: #2694ee;
-  font-weight: 700;
-}
-.divider {
-  height: 0;
-  margin: 9px 1px;
-  overflow: hidden;
-  border-bottom: 1px solid #5a5a5a;
-}
-.emailt {
-  margin-top: 0;
-  font-size: 15px;
-  color: #0a457f;
-  font-weight: 700;
-}
-.emailp {
-  font-size: 12px;
-  font-weight: 400;
-  color: #1b69a9;
-  padding: 0;
-  margin-top: -6px;
-}
-.duvidas {
-  margin-top: 0;
-  font-size: 15px;
-  color: #0a457f;
-  font-weight: 700;
-}
-.faleconoscotop a {
-  font-size: 17px;
-  font-weight: 700;
-  color: #2694ee;
-  padding: 0;
-  margin-top: -11px;
-}
-
-#fale .tooltip::after {
-
-  border-left: solid transparent 10px;
-  border-right: solid transparent 10px;
-  border-bottom: solid #ededed 10px;
-  top: -10px;
-  content: " ";
-  height: 0;
-  left: 66%;
-  margin-left: 14px;
-  position: absolute;
-  width: 0;
-
-}
-  #rastrear-pedido:hover + a + .form-rastreio, #fale-conosco:hover + .form-rastreio + #fale {
-    display: block;
-    opacity: 1;
-  }
-  .form-rastreio:hover, #fale:hover {
-    display: block;
-  }
-  /* #rastrear-pedido:not(:hover) + a + .form-rastreio {
-    visibility: hidden;
-    opacity: 1;
-    transition: visibility 2s;
-  } */
-  .form-rastreio button {
-    position: absolute;
-    right: 10px;
-    height: 48px;
-    font-size: 18px;
-    line-height: 48px;
-    padding: 0;
-    background: 0 0;
-    color: #2796f2;
-    border: none;
   }
   @media(min-width: 992px) {
     #user-button {
@@ -478,193 +309,7 @@
       cursor: help;
     }
   }
-  //atacado
-  .atacado-top {
-    background:url(/img/uploads/atacado-bg-top.jpg) no-repeat center top;
-    padding-top:115px
-   }
-   .atacado-top h3 {
-    font-size:41px;
-    font-weight:700;
-    color:#6bdfcb;
-    line-height:19px;
-    font-family:montserrat
-   }
-   .atacado-top span {
-    font-size:16px;
-    color:#fff;
-    font-weight:400
-   }
-   .atacado-top h5 {
-    font-size:16px;
-    color:#fff;
-    font-weight:400;
-    line-height:55px
-   }
-   .atacado-beneficios {
-    position:relative;
-    margin-top:240px;
-    display:block
-   }
-   .atacado-beneficios h3 {
-    font-size:42px;
-    font-weight:700;
-    color:#003e72;
-    line-height:19px;
-    margin-bottom:57px
-   }
-   .atacado-box {
-    width:26%;
-    float:left;
-    background:#e7e7e7;
-    border:solid 1px #d8d8d8;
-    height:250px;
-    text-align:center;
-    padding:33px;
-    margin:0
-   }
-   .atacado-box strong {
-    font-size:15px;
-    text-transform:uppercase;
-    color:#003e72
-   }
-   .atacado-box p {
-    margin-top:10px
-   }
-   .atacado-box:nth-child(3) {
-    margin:0% 11% 0% 11%
-   }
-   .atacado-center {
-    background:url(/img/uploads/atacado-bg.jpg) no-repeat center top;
-    margin-top:350px;
-    padding-top:189px
-   }
-   .atacado-box p {
-    font-size: 13px;
-   }
-   .atacado-center .container {
-    background:rgba(255,255,255,.8)
-   }
-   .atacado-center h2 {
-    font-size:41px;
-    font-weight:700;
-    color:#6bdfcb;
-    line-height:19px;
-    font-family:montserrat;
-    text-transform:uppercase;
-    text-shadow:1px 1px 3px #000;
-    margin-top:-100px
-   }
-   .atacado-img {
-    float:left
-   }
-   .atacado-tex {
-    float:left;
-    width:63%;
-    text-align:justify;
-    line-height:15px;
-    padding:18px;
-    margin-top:151px
-   }
-   .atacado-redes {
-    float:right;
-    font-size:14px;
-    color:#6bdfcb;
-    font-weight:700;
-    margin-top:-3px
-   }
-   .atacado-left-img {
-    display:none
-   }
-   .atacado-produtos {
-    height:610px;
-    background:url(/img/uploads/atacado-blue.png) no-repeat center right;
-    margin-bottom:-40px
-   }
-   .atacado-tex h5 {
-    color:#fff
-   }
-   .atacado-tex strong {
-    color:#6bdfcb;
-    font-size:22px
-   }
-   .atacado-tex p {
-    color:#fff;
-    font-size:13px;
-    min-height:200px
-   }
-   .atacado-left {
-    background:url(/img/uploads/atacado-blue.png) no-repeat center left
-   }
-   .atacado-left .atacado-img {
-    width:36%
-   }
-   @media (max-width:1199px) and (min-width:993px) {
-    .atacado-tex {
-     width:62%!important;
-     padding:17px!important
-    }
-    .atacado-img {
-     width:38%;
-     margin-top:68px
-    }
-    .atacado-tex p {
-     font-size:11.5px!important
-    }
-    .atacado-produtos {
-     margin-bottom:-90px!important
-    }
-   }
-   @media only screen and (max-width:767px) {
-    .atacado-top {
-     text-align:center
-    }
-    .atacado-top h3 {
-     line-height:36px
-    }
-    .atacado-top span {
-     line-height:0
-    }
-    .atacado-top h5 {
-     line-height:35px
-    }
-    .atacado-beneficios {
-     margin-top:130px
-    }
-    .atacado-box {
-     width:100%;
-     margin:0 0 30px 0 !Important
-    }
-    .atacado-center {
-     text-align:center
-    }
-    .atacado-img {
-     width:100%
-    }
-    .atacado-left .atacado-img {
-     display:none
-    }
-    .atacado-left-img {
-     display:block!important;
-     width:100%!important
-    }
-    .atacado-produtos,
-    .atacado-left {
-     background:none
-    }
-    .atacado-page {
-     margin-top:-10px
-    }
-    .atacado-tex {
-     width:100%;
-     background:#0c4779;
-     margin-top:11px;
-     margin-bottom:30px
-    }
-    .atacado-center h2 {
-     line-height:38px
-    }
-   }
+  
    /* .descontos-home {
     background: url(//cdn.ecvol.com/s/disfoil.e-com.club/uploads/descontos1.png) no-repeat center top !important;
     height: 124px;
@@ -849,15 +494,7 @@
       justify-content: center;
     }
   }
-  .page--pages\/atacados-disfoil .custom-html .container {
-    max-width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .atacado-page .container {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+  
   @media(max-width: 767px) {
     .new-box .new-cinza + .container {
       display: flex;
@@ -930,4 +567,11 @@
 }
 .login-modal__body::before {
   content: 'Para se CADASTRAR, coloque os itens que deseja comprar no CARRINHO e clique em FINALIZAR COMPRA';
+}
+.shipping-line > small {
+  -webkit-line-clamp: 4
+}
+.product__sticky-buy a {
+  background-color: #079c00 !important;
+  border-color: #079c00 !important;
 }
