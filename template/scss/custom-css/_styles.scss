@@ -918,3 +918,9 @@
     display: none;
   }
 }
+.redes-sociais-footer .container {
+  display: flex;
+  @media(max-width: 767px) {
+    flex-wrap: wrap;
+  }
+}
