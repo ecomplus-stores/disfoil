@@ -127,6 +127,14 @@
     {
       "type": "custom-html",
       "html": "<div class=\"descontos-home\">\n <!--\n  <img src=\"//cdn.ecvol.com/s/www.disfoil.com.br/uploads/frete-expresso.png\">\n  <img src=\"//cdn.ecvol.com/s/www.disfoil.com.br/uploads/sem-juros.png\">\n  <img src=\"//cdn.ecvol.com/s/www.disfoil.com.br/uploads/desc.png\">\n  <img src=\"//cdn.ecvol.com/s/www.disfoil.com.br/uploads/segura.png\">\n-->\n</div>"
+    },
+    {
+      "type": "custom-html",
+      "html": "<h4 class=\"\" style=\"text-align:center\"><a target=\"_blank\" href=\"https://certificados.trustvox.com.br/disfoil\">Veja os comentários de quem já comprou conosco:</a></h4>"
+    },
+    {
+      "type": "custom-html",
+      "html": "<!-- Trustvox -->\n<script type=\"text/javascript\" src=\"//colt.trustvox.com.br/colt.min.js\"></script><script>var _trustvox_colt = _trustvox_colt || [];_trustvox_colt.push(['_storeId', '81029'], ['_limit', '9']);</script>\n<!-- /Trustvox -->\n<div id=\"_trustvox_colt\"></div>"
     }
   ]
 }

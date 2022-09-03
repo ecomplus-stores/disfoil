@@ -914,8 +914,12 @@
   display: none;
 }
 @media(max-width: 767px) {
-  #page-categories .responsive-baner {
+  .responsive-baner {
     display: none;
+  }
+  .quantity-selector__btn-container button {
+    width: 25%;
+    border: 1px solid #ccc;
   }
 }
 .redes-sociais-footer .container {
@@ -923,4 +927,7 @@
   @media(max-width: 767px) {
     flex-wrap: wrap;
   }
+}
+.login-modal__body::before {
+  content: 'Para se CADASTRAR, coloque os itens que deseja comprar no CARRINHO e clique em FINALIZAR COMPRA';
 }
