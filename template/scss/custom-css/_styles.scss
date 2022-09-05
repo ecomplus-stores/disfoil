@@ -575,3 +575,7 @@
   background-color: #079c00 !important;
   border-color: #079c00 !important;
 }
+@media(max-width:767px) {
+    #rastrear-pedido, #fale-conosco {
+        display: none !important;
+    }
