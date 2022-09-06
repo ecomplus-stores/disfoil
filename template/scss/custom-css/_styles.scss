@@ -580,3 +580,31 @@
         display: none !important;
     }
 }
+.order-info__toggle {
+  display: none !important;
+}
+#s-mantas-e-impermeabilizantes_ div {
+  display: flex;
+  flex-direction: column;
+  #sd-630e708a73321213f85eccbe {
+    order: -7;
+  }
+  #td-6286dc32df4d8071c91663cc {
+    order: -6;
+  }
+  #td-6286dc5edf4d8071c9166459 {
+    order: -5;
+  }
+  #td-6286dc4cdf4d8071c9166423 {
+    order: -4;
+  }
+  #td-6286dc34df4d8071c91663d6 {
+    order: -3;
+  }
+  #td-6286dc5fdf4d8071c916645d {
+    order: -2;
+  }
+  #td-6286dc33df4d8071c91663d0 {
+    order: -1;
+  }
+}
