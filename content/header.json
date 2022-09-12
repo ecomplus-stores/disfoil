@@ -13,7 +13,8 @@
       "/portas/?Portas",
       "/parafusos-e-buchas/?Parafusos e Buchas",
       "/silicones-e-selantes/?Silicones e Selantes",
-      "/mantas-e-impermeabilizantes/?Mantas E Impermeabilizantes"
+      "/mantas-e-impermeabilizantes/?Mantas E Impermeabilizantes",
+      "/grid/ofertas?Ofertas"
     ],
     "random": 6,
     "full_width": true
