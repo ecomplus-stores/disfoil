@@ -46,7 +46,7 @@ import {
     ProceedToPayment,
     RegisterToBuy,
     Summary
-  } from './../../lib/i18n'
+  } from '@ecomplus/storefront-app/src/lib/i18n'
   
   export default {
     name: 'EcCheckout',
