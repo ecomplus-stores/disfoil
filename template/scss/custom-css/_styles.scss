@@ -137,7 +137,8 @@
     margin-top: 7px
   }
   .header__nav {
-    display: flex
+    display: flex;
+    justify-content: center;
   }
   .header__category:last-child {
     padding-right: 30px;
