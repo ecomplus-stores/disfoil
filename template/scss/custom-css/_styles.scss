@@ -39,9 +39,10 @@
   }
   .header__nav {
     font-size: 0.70rem;
+    padding: 2px;
   }
   .header__submenu {
-    margin-top: 0rem;
+    margin-top: 3rem;
     background-color: #fff;
     &::after {
         background: none;
@@ -127,6 +128,32 @@
         color: #38e5cf;
     }
   }
+  .header__category h4 {
+    font-size: 0.7rem;
+    width: 50%;
+    text-align:initial;
+    align-items: baseline;
+    display: flex;
+    margin-top: 7px
+  }
+  .header__nav {
+    display: flex
+  }
+  .header__category:last-child {
+    padding-right: 30px;
+  }
+  .header__category:last-child h4 {
+    margin-left: 15px;
+  }
+  #cd-grid\/ofertas {
+    background-image: url(/img/uploads/ofertas-promo.png)
+  }
+  .header__category {
+    display: flex !important;
+    align-items: center;
+    justify-content:center;
+    padding: 7px;
+  }
 
   /* @media (min-width: 992px) {
     .menu__item-icon {
@@ -211,14 +238,19 @@
   .top-bar__contacts-container a {
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 12px;
     letter-spacing: .5px;
   }
   #user-button .i-user {
     color: #1b69a9
   }
-  #user-button:after {
+  #user-button.login::after {
+    content: "Entrar / Cadastrar";
+  }
+  #user-button.logoff::after {
     content: "Minha Conta";
+  }
+  #user-button:after {
+
     @media(max-width: 767px) {
       left: -30px;
     }
@@ -610,4 +642,11 @@
 }
 .shipping-calculator__services .list-group-item.list-group-item-action.active .shipping-line>small {
   color: #fff !important
+}
+#page-home .custom-html {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.top-bar__contacts-container a {
+  font-size: .7rem
 }

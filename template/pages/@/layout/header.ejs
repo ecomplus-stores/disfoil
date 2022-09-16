@@ -110,7 +110,7 @@ const hasMegamenu = header.desktop_megamenu
               <% if (contacts.phone) { %>
                 <a href="tel:+<%= contacts.phone.replace(/\D/g, '') %>" target="_blank" rel="noopener">
                   <i class="i-phone"></i>
-                  <span><%= contacts.phone %></span>
+                  <span><%= contacts.phone %> ou 19 3588-6196</span>
                 </a>
               <% } %>
             </div>
@@ -302,10 +302,9 @@ const hasMegamenu = header.desktop_megamenu
         <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
           <% categories.forEach(({ slug, name, _id, icon}) => { %>
             <% let $categoryLink %>
-            <div class="d-inline-block">
               
               <a
-                href="javascript:;"
+                href="<%- slug %>"
                 class="header__category"
                 id="cd-<%= slug %>"
                 <%- hasMegamenu
@@ -322,7 +321,9 @@ const hasMegamenu = header.desktop_megamenu
                   >
                 </span>
               <% } %>
+              <h4>
                 <%= name %>
+              </h4>
               </a>
               <%- $categoryLink %>
               <%  if (slug && hasMegamenu) { %>
@@ -343,7 +344,7 @@ const hasMegamenu = header.desktop_megamenu
                   </nav>
                 <% } %>
               <% } %>
-            </div>
+            
           <% }) %>
         </nav>
       </div>
