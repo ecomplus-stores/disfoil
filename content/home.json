@@ -106,10 +106,10 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/banner-3.jpg",
+      "img": "/img/uploads/disfoil_bannersite_1200x150px.jpg",
       "link": "/alcapao/",
       "alt": "Alçapão",
-      "mobile_img": "/img/uploads/alcapao-de-metal.jpg"
+      "mobile_img": "/img/uploads/disfoil_bannersite_600x300px-mobile.jpg"
     },
     {
       "type": "collection-shelf",
