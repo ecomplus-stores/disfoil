@@ -54,7 +54,8 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/disfoil_bannersite_1110x103px.webp"
+      "img": "/img/uploads/disfoil_bannersite_1200x150px-avaliacao.webp",
+      "link": "https://certificados.trustvox.com.br/disfoil"
     },
     {
       "type": "banners-grid",
