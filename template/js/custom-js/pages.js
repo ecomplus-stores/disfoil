@@ -1,6 +1,4 @@
 // Add your custom JavaScript for storefront pages here.
-import { partytownSnippet } from '@builder.io/partytown/integration';
-const snippetText = partytownSnippet();
 storefront.on('widget:@ecomplus/widget-tag-manager', () =>{
     setTimeout(() => {
         const loginUser = window.ecomPassport.checkLogin()
