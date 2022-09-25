@@ -175,7 +175,1174 @@
         "source": "/utilidades",
         "destination": "/search",
         "type": 301
-      }
+      },
+      
+  {
+    "source": "/tela-mosquiteira-com-velcro/",
+    "destination": "/telas-mosquiteiras/",
+    "type": 301
+  },
+  {
+    "source": "/tela-mosquiteira-premium-pet-screen-malha-14-x-10-fio-24-larg-120m-cinza-por-metro",
+    "destination": "/tela-mosquiteiro-janela-premium-pet-screen-malha-14-x-10-fio-24-larg-120m-cinza-rolo-com-30-metros",
+    "type": 301
+  },
+  {
+    "source": "/manta-asfaltica-aluminizada-auto-adesiva-45cm-x10m-4-5m2",
+    "destination": "/manta-asfaltica-adesiva-terracota-45-cm-x-10-m",
+    "type": 301
+  },
+  {
+    "source": "/tela-mosquiteira-nylon-malha-16x16-fio-31-larg-120m-cinza-por-metro",
+    "destination": "/tela-mosquiteira-nylon-malha-16x16-fio-31-larg-120m-branca-por-metro",
+    "type": 301
+  },
+  {
+    "source": "/selante-pu-sikaflex-101-poliuretano-cinza-400g",
+    "destination": "/selante-pu-cinza-dryko-400g",
+    "type": 301
+  },
+  {
+    "source": "/parafuso-35-x-35mm-gn35-fosfatizado-ponta-agulha-vip-drywall-gesso-c-1000-pcs",
+    "destination": "/parafuso-35-x-35mm-gn-35-fosfatizado-ponta-agulha-c-500-pcs",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=523",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/rolete-de-aco-profissional-aplicador-de-guarnicao",
+    "destination": "/rolete-de-aco-cabo-de-madeira-aplicador-de-cordao-profissional",
+    "type": 301
+  },
+  {
+    "source": "/silicone-total-aplicacoes-especiais-280g-incolor",
+    "destination": "/silicone-acetico-sikasil-transparente-270ml",
+    "type": 301
+  },
+  {
+    "source": "/tela-mosquiteira-premium-pet-screen-malha-15-x-11-fio-64-larg-120m-por-metro",
+    "destination": "/tela-mosquiteira-para-gatos-cachorros-pet-screen-malha-14x10-fio-24-larg-1-20m-cinza-por-metro",
+    "type": 301
+  },
+  {
+    "source": "/telas-mosquiteiras/divisorias-e-forros/",
+    "destination": "/divisorias-e-forros",
+    "type": 301
+  },
+  {
+    "source": "/telas-mosquiteiras/telas-mosquiteiras/",
+    "destination": "/telas-mosquiteiras",
+    "type": 301
+  },
+  {
+    "source": "/telas-mosquiteiras/silicones-e-selantes/",
+    "destination": "/silicones-e-selantes",
+    "type": 301
+  },
+  {
+    "source": "/telas-mosquiteiras/grid/ofertas",
+    "destination": "/grids/ofertas",
+    "type": 301
+  },
+  {
+    "source": "/telas-mosquiteiras/mantas-e-impermeabilizantes/",
+    "destination": "/mantas-e-impermeabilizantes/",
+    "type": 301
+  },
+  {
+    "source": "/telas-mosquiteiras/parafusos-e-buchas/",
+    "destination": "/parafusos-e-buchas/",
+    "type": 301
+  },
+  {
+    "source": "/telas-mosquiteiras/portas/",
+    "destination": "/portas/",
+    "type": 301
+  },
+  {
+    "source": "/fita-de-papel-para-canto-walcorner-30m-x-50mm",
+    "destination": "/fita-de-canto-para-drywall-walcorner-30m-x-50mm",
+    "type": 301
+  },
+  {
+    "source": "/kit-montagem-tela-mosquiteira/silicones-e-selantes/",
+    "destination": "/silicones-e-selantes/",
+    "type": 301
+  },
+  {
+    "source": "/kit-montagem-tela-mosquiteira/mantas-e-impermeabilizantes/",
+    "destination": "/mantas-e-impermeabilizantes/",
+    "type": 301
+  },
+  {
+    "source": "/kit-montagem-tela-mosquiteira/divisorias-e-forros/",
+    "destination": "/divisorias-e-forros/",
+    "type": 301
+  },
+  {
+    "source": "/kit-montagem-tela-mosquiteira/parafusos-e-buchas/",
+    "destination": "/parafusos-e-buchas/",
+    "type": 301
+  },
+  {
+    "source": "/kit-montagem-tela-mosquiteira/portas/",
+    "destination": "/portas/",
+    "type": 301
+  },
+  {
+    "source": "/kit-montagem-tela-mosquiteira/telas-mosquiteiras/",
+    "destination": "/telas-mosquiteiras/",
+    "type": 301
+  },
+  {
+    "source": "/kit-montagem-tela-mosquiteira/grid/ofertas",
+    "destination": "/grid/ofertas",
+    "type": 301
+  },
+  {
+    "source": "/abaixo-das-telhas/silicones-e-selantes/",
+    "destination": "/abaixo-das-telhas/silicones-e-selantes/",
+    "type": 301
+  },
+  {
+    "source": "/abaixo-das-telhas/divisorias-e-forros/",
+    "destination": "/divisorias-e-forros/",
+    "type": 301
+  },
+  {
+    "source": "/abaixo-das-telhas/mantas-e-impermeabilizantes/",
+    "destination": "/mantas-e-impermeabilizantes/",
+    "type": 301
+  },
+  {
+    "source": "/abaixo-das-telhas/parafusos-e-buchas/",
+    "destination": "/parafusos-e-buchas/",
+    "type": 301
+  },
+  {
+    "source": "/abaixo-das-telhas/portas/",
+    "destination": "/portas/",
+    "type": 301
+  },
+  {
+    "source": "/abaixo-das-telhas/grid/ofertas",
+    "destination": "/grid/ofertas",
+    "type": 301
+  },
+  {
+    "source": "/abaixo-das-telhas/telas-mosquiteiras/",
+    "destination": "/telas-mosquiteiras/",
+    "type": 301
+  },
+  {
+    "source": "/acessorios-buchas-parafusos-para-drywall/portas/",
+    "destination": "/portas/",
+    "type": 301
+  },
+  {
+    "source": "/acessorios-buchas-parafusos-para-drywall/silicones-e-selantes/",
+    "destination": "/silicones-e-selantes/",
+    "type": 301
+  },
+  {
+    "source": "/acessorios-buchas-parafusos-para-drywall/telas-mosquiteiras/",
+    "destination": "/telas-mosquiteiras/",
+    "type": 301
+  },
+  {
+    "source": "/acessorios-buchas-parafusos-para-drywall/parafusos-e-buchas/",
+    "destination": "/parafusos-e-buchas/",
+    "type": 301
+  },
+  {
+    "source": "/acessorios-buchas-parafusos-para-drywall/divisorias-e-forros/",
+    "destination": "/divisorias-e-forros/",
+    "type": 301
+  },
+  {
+    "source": "/acessorios-buchas-parafusos-para-drywall/grid/ofertas",
+    "destination": "/grid/ofertas",
+    "type": 301
+  },
+  {
+    "source": "/acessorios-buchas-parafusos-para-drywall/mantas-e-impermeabilizantes/",
+    "destination": "/mantas-e-impermeabilizantes/",
+    "type": 301
+  },
+  {
+    "source": "/parafusos/portas/",
+    "destination": "/portas/",
+    "type": 301
+  },
+  {
+    "source": "/parafusos/telas-mosquiteiras/",
+    "destination": "/telas-mosquiteiras/",
+    "type": 301
+  },
+  {
+    "source": "/parafusos/divisorias-e-forros/",
+    "destination": "/divisorias-e-forros/",
+    "type": 301
+  },
+  {
+    "source": "/parafusos/mantas-e-impermeabilizantes/",
+    "destination": "/mantas-e-impermeabilizantes/",
+    "type": 301
+  },
+  {
+    "source": "/parafusos/parafusos-e-buchas/",
+    "destination": "/parafusos-e-buchas/",
+    "type": 301
+  },
+  {
+    "source": "/parafusos/silicones-e-selantes/",
+    "destination": "/silicones-e-selantes/",
+    "type": 301
+  },
+  {
+    "source": "/parafusos/grid/ofertas",
+    "destination": "/grid/ofertas",
+    "type": 301
+  },
+  {
+    "source": "/grid/divisorias-e-forros/",
+    "destination": "divisorias-e-forros/",
+    "type": 301
+  },
+  {
+    "source": "/grid/grid/ofertas",
+    "destination": "/grid/ofertas",
+    "type": 301
+  },
+  {
+    "source": "/grid/portas/",
+    "destination": "/grid/portas/",
+    "type": 301
+  },
+  {
+    "source": "/grid/mantas-e-impermeabilizantes/",
+    "destination": "/mantas-e-impermeabilizantes/",
+    "type": 301
+  },
+  {
+    "source": "/grid/parafusos-e-buchas/",
+    "destination": "/parafusos-e-buchas/",
+    "type": 301
+  },
+  {
+    "source": "/grid/silicones-e-selantes/",
+    "destination": "/silicones-e-selantes/",
+    "type": 301
+  },
+  {
+    "source": "/mantas-e-impermeabilizantes/divisorias-e-forros/",
+    "destination": "/divisorias-e-forros/",
+    "type": 301
+  },
+  {
+    "source": "/mantas-e-impermeabilizantes/mantas-e-impermeabilizantes/",
+    "destination": "/mantas-e-impermeabilizantes/",
+    "type": 301
+  },
+  {
+    "source": "/mantas-e-impermeabilizantes/portas/",
+    "destination": "/portas/",
+    "type": 301
+  },
+  {
+    "source": "/mantas-e-impermeabilizantes/grid/ofertas",
+    "destination": "/grid/ofertas",
+    "type": 301
+  },
+  {
+    "source": "/mantas-e-impermeabilizantes/parafusos-e-buchas/",
+    "destination": "/parafusos-e-buchas/",
+    "type": 301
+  },
+  {
+    "source": "/mantas-e-impermeabilizantes/silicones-e-selantes/",
+    "destination": "/silicones-e-selantes/",
+    "type": 301
+  },
+  {
+    "source": "/mantas-e-impermeabilizantes/telas-mosquiteiras/",
+    "destination": "/telas-mosquiteiras/",
+    "type": 301
+  },
+  {
+    "source": "/escovas-de-vedacao/portas/",
+    "destination": "/escovas-de-vedacao/portas/",
+    "type": 301
+  },
+  {
+    "source": "/escovas-de-vedacao/divisorias-e-forros/",
+    "destination": "/escovas-de-vedacao/divisorias-e-forros/",
+    "type": 301
+  },
+  {
+    "source": "/escovas-de-vedacao/silicones-e-selantes/",
+    "destination": "/escovas-de-vedacao/silicones-e-selantes/",
+    "type": 301
+  },
+  {
+    "source": "/divisorias-e-forros/divisorias-e-forros/",
+    "destination": "/divisorias-e-forros/",
+    "type": 301
+  },
+  {
+    "source": "/divisorias-e-forros/portas/",
+    "destination": "/portas/",
+    "type": 301
+  },
+  {
+    "source": "/divisorias-e-forros/mantas-e-impermeabilizantes/",
+    "destination": "/mantas-e-impermeabilizantes/",
+    "type": 301
+  },
+  {
+    "source": "/divisorias-e-forros/parafusos-e-buchas/",
+    "destination": "/parafusos-e-buchas/",
+    "type": 301
+  },
+  {
+    "source": "/divisorias-e-forros/silicones-e-selantes/",
+    "destination": "/silicones-e-selantes/",
+    "type": 301
+  },
+  {
+    "source": "/divisorias-e-forros/telas-mosquiteiras/",
+    "destination": "/telas-mosquiteiras/",
+    "type": 301
+  },
+  {
+    "source": "/divisorias-e-forros/grid/ofertas",
+    "destination": "/grid/ofertas",
+    "type": 301
+  },
+  {
+    "source": "/tela-de-fibra-de-vidro-c-pvc/divisorias-e-forros/",
+    "destination": "/divisorias-e-forros/",
+    "type": 301
+  },
+  {
+    "source": "/tela-de-fibra-de-vidro-c-pvc/portas/",
+    "destination": "/portas/",
+    "type": 301
+  },
+  {
+    "source": "/tela-de-fibra-de-vidro-c-pvc/telas-mosquiteiras/",
+    "destination": "/telas-mosquiteiras/",
+    "type": 301
+  },
+  {
+    "source": "/tela-de-fibra-de-vidro-c-pvc/grid/ofertas",
+    "destination": "/grid/ofertas",
+    "type": 301
+  },
+  {
+    "source": "/tela-de-fibra-de-vidro-c-pvc/mantas-e-impermeabilizantes/",
+    "destination": "/mantas-e-impermeabilizantes/",
+    "type": 301
+  },
+  {
+    "source": "/tela-de-fibra-de-vidro-c-pvc/parafusos-e-buchas/",
+    "destination": "/parafusos-e-buchas/",
+    "type": 301
+  },
+  {
+    "source": "/tela-de-fibra-de-vidro-c-pvc/silicones-e-selantes/",
+    "destination": "/silicones-e-selantes/",
+    "type": 301
+  },
+  {
+    "source": "/drywall/mantas-e-impermeabilizantes/",
+    "destination": "/mantas-e-impermeabilizantes/",
+    "type": 301
+  },
+  {
+    "source": "/drywall/divisorias-e-forros/",
+    "destination": "/divisorias-e-forros/",
+    "type": 301
+  },
+  {
+    "source": "/drywall/portas/",
+    "destination": "/portas/",
+    "type": 301
+  },
+  {
+    "source": "/drywall/parafusos-e-buchas/",
+    "destination": "/parafusos-e-buchas/",
+    "type": 301
+  },
+  {
+    "source": "/drywall/grid/ofertas",
+    "destination": "/grid/ofertas",
+    "type": 301
+  },
+  {
+    "source": "/drywall/silicones-e-selantes/",
+    "destination": "/silicones-e-selantes/",
+    "type": 301
+  },
+  {
+    "source": "/drywall/telas-mosquiteiras/",
+    "destination": "/telas-mosquiteiras/",
+    "type": 301
+  },
+  {
+    "source": "/2-x-100-mm/",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/grid/lancamentos?p=2",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/checkout/carrinho?add=191-0-0-0-1",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/tela-mosquiteira-em-velcro-prime-disfoil-100-x-120m-branca",
+    "destination": "/telas-mosquiteiras/",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=527",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/tela-mosquiteira-em-velcro-prime-disfoil-065-x-105m-branca",
+    "destination": "/telas-mosquiteiras/",
+    "type": 301
+  },
+  {
+    "source": "/marcas/maxxifoil/mantas-e-impermeabilizantes/",
+    "destination": "/mantas-e-impermeabilizantes/",
+    "type": 301
+  },
+  {
+    "source": "/tela-mosquiteira-prime-disfoil-100-x-120m-cinza",
+    "destination": "/telas-mosquiteiras/",
+    "type": 301
+  },
+  {
+    "source": "/finalizar",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/account",
+    "destination": "/app/#/account/",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=540&presentes=1",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/tela-mosquiteira-fibra-de-vidro-malha-18-x-16-fio-30-larg-155m-preta-rolo-c-30-metros/",
+    "destination": "/tela-mosquiteira-fibra-de-vidro-malha-18-x-16-fio-30-larg-155m-preta-rolo-com-30-metros",
+    "type": 301
+  },
+  {
+    "source": "/divisorias-e-forros/2",
+    "destination": "/divisorias-e-forros/",
+    "type": 301
+  },
+  {
+    "source": "/marca/10036",
+    "destination": "/silicones-e-selantes/",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=536&presentes=1",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/escova-de-vedacao-adesiva-3m-7x5mm-cinza-venda-por-metro",
+    "destination": "/escova-de-vedacao-adesiva-3m-7x5mm-cinza",
+    "type": 301
+  },
+  {
+    "source": "/checkout/acesso",
+    "destination": "/app",
+    "type": 301
+  },
+  {
+    "source": "/telas-em-velcro-auto-adesivo/",
+    "destination": "/telas-mosquiteiras/",
+    "type": 301
+  },
+  {
+    "source": "/borracha-macica-55mm-por-metro/",
+    "destination": "/borracha-macica-cordao-55mm-por-metro",
+    "type": 301
+  },
+  {
+    "source": "/manta-termica-para-telhado-dupla-face-50m-premium-disfoil-1-fita",
+    "destination": "/manta-termica-para-telhado-dupla-face-50m2-disfoil",
+    "type": 301
+  },
+  {
+    "source": "/fechaduras/",
+    "destination": "/fechadura-tubular/",
+    "type": 301
+  },
+  {
+    "source": "/tela-mosquiteira-em-velcro-prime-disfoil-120-x-150m-cinza/",
+    "destination": "/telas-mosquiteiras/",
+    "type": 301
+  },
+  {
+    "source": "/tela-mosquiteira-fibra-de-vidro-malha-18-x-16-fio-30-larg-120m-cinza-por-metro/",
+    "destination": "/tela-mosquiteira-fibra-de-vidro-fio-30-malha-18x16-125-largura-cinza",
+    "type": 301
+  },
+  {
+    "source": "/teste-webart-2/",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=506",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/dobradica-",
+    "destination": "/dobradicas/",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=541",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=421",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/porta-sanfonada-pvc-110-x-210-m-mogno-plasbil",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/fita-telada-para-cimenticia-51mm-x-46m",
+    "destination": "/fita-telada-para-placa-cimenticia-51mm-x-46m-fibra-de-vidro",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=525",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/tela-mosquiteira-em-velcro-prime-disfoil-065-x-085m-branca/",
+    "destination": "/tela-mosquiteira-fibra-de-vidro-18x16-fio-30-larg-105m-branca",
+    "type": 301
+  },
+  {
+    "source": "/acessorios-buchas-parafusos/",
+    "destination": "/parafusos-e-buchas/",
+    "type": 301
+  },
+  {
+    "source": "/tela-mosquiteira-nylon-malha-16x16-fio-31-larg-150-x-50-m-verde-rolo",
+    "destination": "/tela-mosquiteira-nylon-verde-largura-1-50-m-malha-16x16-fio-31-rolo-50-metros",
+    "type": 301
+  },
+  {
+    "source": "/silicone-incolor-acetico-total-vidro-aluminio-260g",
+    "destination": "/silicone-acetico-incolor-dryko-260g",
+    "type": 301
+  },
+  {
+    "source": "/dobradica-naval-p-divisoria-vouga-branca",
+    "destination": "/dobradica-para-divisoria-naval-branca-vouga",
+    "type": 301
+  },
+  {
+    "source": "/nylon/",
+    "destination": "/tela-de-nylon/",
+    "type": 301
+  },
+  {
+    "source": "/fita-adesiva-metalizada-45mm-x-45m-disfoil",
+    "destination": "/fita-adesiva-metalizada-para-manta-termica-45mm-x-45m",
+    "type": 301
+  },
+  {
+    "source": "/parafuso-35-x-45mm-gn45-fosfatizado-ponta-agulha-vip-drywall-gesso-c-1000-pcs/",
+    "destination": "/parafuso-35-x-45mm-gn45-fosfatizado-ponta-agulha-c-1000-pcs",
+    "type": 301
+  },
+  {
+    "source": "/tela-mosquiteira-com-velcro-prime-disfoil-085-x-105m-branca",
+    "destination": "/tela-mosquiteira-nylon-malha-16x16-fio-31-larg-120m-branca-por-metro",
+    "type": 301
+  },
+  {
+    "source": "/tela-mosquiteiro-para-janela-removivel-com-velcro-prime-100-x-200m-cinza",
+    "destination": "/tela-mosquiteiro-para-janela-fibra-de-vidro-malha-18-x-16-fio-30-larg-214m-cinza-rolo-com-30-metros",
+    "type": 301
+  },
+  {
+    "source": "/reguladores/",
+    "destination": "/emenda-regulador-para-drywall/",
+    "type": 301
+  },
+  {
+    "source": "/kit-tramela-removivel-branca-c-parafuso-e-bucha",
+    "destination": "/kit-tramela-removivel-branca-com-parafuso-e-bucha",
+    "type": 301
+  },
+  {
+    "source": "/canto-de-pvc-meia-cana-90-externo-branco-gelo",
+    "destination": "/canto-de-forro-de-pvc-externo-meia-cana-90-branco-gelo",
+    "type": 301
+  },
+  {
+    "source": "/tela-mosquiteira-nylon-malha-16x16-fio-31-larg-100-x-50-m-cinza-rolo",
+    "destination": "/tela-mosquiteira-nylon-cinza-larg-1-m-malha-16x16-fio-31-rolo-50-metros",
+    "type": 301
+  },
+  {
+    "source": "/extensao-eletrica-cabo-pp-2x25mm-10a-20-metros",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/fitas/",
+    "destination": "/fita-para-emenda/",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=524",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/tela-mosquiteira-nylon-malha-16x16-fio-31-larg-150m-cinza-por-metro",
+    "destination": "/tela-mosquiteira-nylon-cinza-largura-1-50-m-malha-16x16-fio-31-por-metro",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=538&presentes=1",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/tela-de-protecao-para-gatos-cachorros-pet-screen-malha-14x10-fio-24-larg-1-20m-cinza-por-metro",
+    "destination": "/tela-mosquiteira-para-gatos-cachorros-pet-screen-malha-14x10-fio-24-larg-1-20m-cinza-por-metro",
+    "type": 301
+  },
+  {
+    "source": "/_534",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/mantas-e-impermeabilizantes/3",
+    "destination": "/mantas-e-impermeabilizantes/",
+    "type": 301
+  },
+  {
+    "source": "/porta-sanfonada-pvc-080-x-210-m-mogno-plasbil/",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=196&presentes=1",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=536",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=543",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/porta-sanfonada-pvc-110-x-210-m-branca-plasbil/",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=533&presentes=1",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/tela-mosquiteira-prime-disfoil-120-x-150m-branca",
+    "destination": "/tela-mosquiteira-fibra-de-vidro-malha-18x16-fio-30-larg-155m-branca-por-metro",
+    "type": 301
+  },
+  {
+    "source": "/grid/coberfoil",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=543&presentes=1",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/marca/10053/",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/alcapao-de-metal-para-gesso-drywall-60-x-60-cm-branco-sem-tampa",
+    "destination": "/alcapao-de-aluminio-para-gesso-drywall-60-x-60-cm-branco-sem-tampa",
+    "type": 301
+  },
+  {
+    "source": "/pagina/pagamento",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=185&presentes=1",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=524&presentes=1",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/pagina/termos",
+    "destination": "/pages/privacidade",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=525&presentes=1",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=414&presentes=1",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/alcapao-de-metal-para-gesso-drywall-30-x-30-cm-branco-sem-tampa",
+    "destination": "/alcapao-de-aluminio-para-gesso-drywall-30-x-30-cm-branco-sem-tampa",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=441&presentes=1",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=533",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/minha-conta/",
+    "destination": "/app/#/account/",
+    "type": 301
+  },
+  {
+    "source": "/regulador-para-montante/",
+    "destination": "/emenda-regulador-para-drywall/",
+    "type": 301
+  },
+  {
+    "source": "/grid/10085",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/marca/10045",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/tela-mosquiteira-aluminio-malha-14-fio-31-larg-150m-por-metro/",
+    "destination": "/tela-mosquiteira-aluminio-malha-14-fio-31-larg-120m-por-metro",
+    "type": 301
+  },
+  {
+    "source": "/manta-termica-para-telhado-1-face-25m-super-disfoil-1-fita",
+    "destination": "/manta-termica-para-telhado-maxxifoil-premium-1-face-120m-rafia-25m2",
+    "type": 301
+  },
+  {
+    "source": "/fita-de-papel-para-drywall-50mm-x-150m",
+    "destination": "/fita-de-papel-para-drywall-microperfurada-50-mm-150-m",
+    "type": 301
+  },
+  {
+    "source": "/perfil-de-aluminio-mosquiteiro-a058-1m-varias-cores",
+    "destination": "/montante-perfil-de-aluminio-mosquiteiro-a058-1-metro-varias-cores",
+    "type": 301
+  },
+  {
+    "source": "/fitas-e-fixadores/",
+    "destination": "/fixador-primer-fita-para-telhado/",
+    "type": 301
+  },
+  {
+    "source": "/manta-asfaltica-aluminizada-auto-adesiva-5cm-x-10m-05m2",
+    "destination": "/manta-asfaltica-adesiva-aluminizada-10cm-x-10m-1m2",
+    "type": 301
+  },
+  {
+    "source": "/_10055/",
+    "destination": "/massas/",
+    "type": 301
+  },
+  {
+    "source": "/tela-mosquiteira-em-velcro-prime-disfoil-065-x-065m-cinza",
+    "destination": "/tela-mosquiteira/",
+    "type": 301
+  },
+  {
+    "source": "/emenda-de-pvc-meia-cana-branco-gelo",
+    "destination": "/emenda-de-forro-pvc-meia-cana-branco-gelo",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=479&presentes=1",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/alcapao-de-metal-para-gesso-drywall-50-x-50-cm-branco-sem-tampa",
+    "destination": "/alcapao-de-aluminio-para-gesso-drywall-50-x-50-cm-branco-sem-tampa",
+    "type": 301
+  },
+  {
+    "source": "/arame-bwg-10-5kg-galvanizado-p-gesso-drywall",
+    "destination": "/arame-bwg-10mm-galvanizado-para-gesso-drywall-5kg",
+    "type": 301
+  },
+  {
+    "source": "/scripts/adicionar-favorito?i=289",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/grid/brasmiq",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/cantos-de-esquadria/",
+    "destination": "/cantos-e-conexoes/",
+    "type": 301
+  },
+  {
+    "source": "/tela-aluminio/",
+    "destination": "/tela-de-aluminio/",
+    "type": 301
+  },
+  {
+    "source": "/canto-de-pvc-meia-cana-90-interno-branco-gelo",
+    "destination": "/canto-de-forro-pvc-interno-meia-cana-90-branco-gelo",
+    "type": 301
+  },
+  {
+    "source": "/12",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/marca/10082",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/alcapao-de-metal-para-gesso-drywall-20-x-20-cm-branco-sem-tampa",
+    "destination": "/alcapao-de-aluminio-para-gesso-drywall-20-x-20-cm-branco-sem-tampa",
+    "type": 301
+  },
+  {
+    "source": "/10041",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/10025",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/10042",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/tela-mosquiteira-verde-nylon-lahuman-malha-14x16-fio-31-larg-150m-por-metro",
+    "destination": "/tela-mosquiteira-nylon-malha-16x16-fio-31-larg-1-20m-verde-metro",
+    "type": 301
+  },
+  {
+    "source": "/arame-bwg-10-ancora-5kg-galvanizado-p-gesso-drywall",
+    "destination": "/arame-bwg-10mm-galvanizado-para-gesso-drywall-5kg",
+    "type": 301
+  },
+  {
+    "source": "/extensao-eletrica-cabo-pp-2x25mm-10a-100-metros",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/acessorios-buchas-parafusos-para-drywall/5",
+    "destination": "/acessorios-buchas-parafusos-para-drywall/",
+    "type": 301
+  },
+  {
+    "source": "/grid/plasbil",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/isolantes-termicos/",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/trilho-para-porta-sanfonada-areia-208-m",
+    "destination": "/search?term=%2Ftrilho-para-porta-sanfonada-areia-208-m",
+    "type": 301
+  },
+  {
+    "source": "/opinions?rate=3",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/parafuso-ph-35x45-gn45-agulha-drywall-gesso-c-500-pcs",
+    "destination": "/parafuso-35-x-45mm-gn45-fosfatizado-ponta-agulha-vip-drywall-gesso-c-25-pcs",
+    "type": 301
+  },
+  {
+    "source": "/opinions?rate=5",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/10050",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/19",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/parafusos/12",
+    "destination": "/parafusos/",
+    "type": 301
+  },
+  {
+    "source": "/kit-montagem-tela-mosquiteira/2",
+    "destination": "/kit-montagem-tela-mosquiteira/",
+    "type": 301
+  },
+  {
+    "source": "/grid/dryfer",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/10070",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/grid/lahuman",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/grid/lamesa",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/opinions",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/parafusos-e-buchas/10/",
+    "destination": "/parafusos-e-buchas/",
+    "type": 301
+  },
+  {
+    "source": "/parafusos-e-buchas/10",
+    "destination": "/parafusos-e-buchas/",
+    "type": 301
+  },
+  {
+    "source": "/grid/10071",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/teste/pagina4.html",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/teste/pagina2.html",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/grid/10019",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/24",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/telas-mosquiteiras/24",
+    "destination": "/telas-mosquiteiras/",
+    "type": 301
+  },
+  {
+    "source": "/manta-termica-para-telhado-1-face-10m-super-disfoil-1-fita",
+    "destination": "/manta-termica-para-telhados-maxxifoil-premium-1-face-120m-rafia-10m2",
+    "type": 301
+  },
+  {
+    "source": "/manta-termica-para-telhado-1-face-50m-super-disfoil-1-fita",
+    "destination": "/manta-termica-para-telhado-maxxifoil-premium-1-face-115m-rafia-50m2",
+    "type": 301
+  },
+  {
+    "source": "/10011",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/10049",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/10036",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/14",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/regulador-para-montante-pacote-c-100-pecas",
+    "destination": "/regulador-para-drywall-montante-pacote-c-100-pecas",
+    "type": 301
+  },
+  {
+    "source": "/grid/10082",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/mantas-e-impermeabilizantes/1",
+    "destination": "/mantas-e-impermeabilizantes/",
+    "type": 301
+  },
+  {
+    "source": "/parafusos-e-buchas/19",
+    "destination": "/parafusos-e-buchas/",
+    "type": 301
+  },
+  {
+    "source": "/grid/10081",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/bucha-para-drywall",
+    "destination": "/bucha-drywall-sforbolt-1-4-parafuso-unidade",
+    "type": 301
+  },
+  {
+    "source": "/10051",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/marca/10046",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/marca/10023",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/marca/10047",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/grid/10078",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/tela-mosquiteira-fibra-de-vidro-malha-18-x-16-fio-30-larg-155m-preta-rolo-c-30-metros",
+    "destination": "/tela-mosquiteira-fibra-de-vidro-malha-18-x-16-fio-30-larg-155m-preta-rolo-com-30-metros",
+    "type": 301
+  },
+  {
+    "source": "/divisorias-e-forros/naval/fechadura-tubular",
+    "destination": "/fechadura-tubular/",
+    "type": 301
+  },
+  {
+    "source": "/divisorias-e-forros/naval/dobradicas",
+    "destination": "/dobradicas/",
+    "type": 301
+  },
+  {
+    "source": "/grid/1",
+    "destination": "/index",
+    "type": 301
+  },
+  {
+    "source": "/10026",
+    "destination": "/dobradicas/",
+    "type": 301
+  },
+  {
+    "source": "/grid/24",
+    "destination": "/index",
+    "type": 301
+  }
+
     ],
     "public": "dist",
     "ignore": [
