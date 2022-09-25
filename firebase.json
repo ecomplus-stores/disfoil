@@ -2,6 +2,16 @@
   "hosting": {
     "redirects": [
       {
+        "source": "/fibra-de-vidro/",
+        "destination": "/tela-de-fibra-de-vidro-c-pvc/",
+        "type": 301
+      },
+      {
+        "source": "/fibra-de-vidro/?0=2",
+        "destination": "/tela-de-fibra-de-vidro-c-pvc/",
+        "type": 301
+      },
+      {
         "source": "/extensao-eletrica-cabo-pp-2x40mm-20a-20-metros",
         "destination": "/index",
         "type": 301
