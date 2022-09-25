@@ -1,6 +1,26 @@
 {
   "hosting": {
     "redirects": [
+      { 
+       "source": "/u_10050/",
+       "destination": "/rolete-aplicador/"
+      },
+      { 
+       "source": "/_10050/",
+       "destination": "/rolete-aplicador/"
+      },
+      { 
+       "source": "/portas-sanfonadas/",
+       "destination": "/portas/"
+      },
+      { 
+       "source": "/u_10058/",
+       "destination": "/fita-para-emenda/"
+      },
+      { 
+       "source": "/_10058/",
+       "destination": "/fita-para-emenda/"
+      },
       {
         "source": "/sitemap",
         "destination": "/sitemap.xml",
