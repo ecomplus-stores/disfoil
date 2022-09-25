@@ -2,24 +2,34 @@
   "hosting": {
     "redirects": [
       { 
+       "source": "/cantos/",
+       "destination": "/cantos-e-conexoes/",
+        "type": 301
+      },
+      { 
        "source": "/u_10050/",
-       "destination": "/rolete-aplicador/"
+       "destination": "/rolete-aplicador/",
+        "type": 301
       },
       { 
        "source": "/_10050/",
-       "destination": "/rolete-aplicador/"
+       "destination": "/rolete-aplicador/",
+        "type": 301
       },
       { 
        "source": "/portas-sanfonadas/",
-       "destination": "/portas/"
+       "destination": "/portas/",
+        "type": 301
       },
       { 
        "source": "/u_10058/",
-       "destination": "/fita-para-emenda/"
+       "destination": "/fita-para-emenda/",
+        "type": 301
       },
       { 
        "source": "/_10058/",
-       "destination": "/fita-para-emenda/"
+       "destination": "/fita-para-emenda/",
+        "type": 301
       },
       {
         "source": "/sitemap",
