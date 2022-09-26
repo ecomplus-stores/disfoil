@@ -106,13 +106,6 @@
       "title": "Para Telhados"
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/disfoil_bannersite_1200x150px.webp",
-      "link": "/alcapao/",
-      "alt": "Alçapão",
-      "mobile_img": "/img/uploads/disfoil_bannersite_600x300px-mobile.webp"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
