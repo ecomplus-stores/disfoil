@@ -32,7 +32,7 @@
           "start": "2022-08-30T18:03:35.970Z",
           "end": "",
           "img": "/img/uploads/disfoil_bannersitefull_1923x500px_mantatermica.webp",
-          "mobile_img": "/img/uploads/manta-termica-mobile.webp",
+          "mobile_img": "",
           "link": "https://www.disfoil.com.br/abaixo-das-telhas/"
         },
         {
@@ -40,7 +40,7 @@
           "end": "",
           "img": "/img/uploads/disfoil_bannersitefull_1923x500px_escovas.webp",
           "link": "https://www.disfoil.com.br/escovas-de-vedacao/",
-          "mobile_img": "/img/uploads/disfoil_bannersite_720x596px-mobile.webp"
+          "mobile_img": "/img/uploads/disfoil_bannersitefull_1080x900px_escovas.webp"
         }
       ]
     },
