@@ -45,10 +45,6 @@
       ]
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/disfoil_bannersite_1398x114px-1-.webp"
-    },
-    {
       "type": "custom-html",
       "html": "<div id=\"busca-car\">\n  <div class=\"conteiner\">\n    <form name=\"form1\">\n    <div class=\"box-busca-car\">\n          <div class=\"busca-title\">Como escolher o Impermeabilizante <br> correto para minha obra?</div>\n        </div>\n        \n        <div class=\"box-busca-car\">\n    <select name=\"marca\" class=\"box-input\" onchange=\"aparece();aparece1();aparece2();\">\n      <option> Qual o seu problema? </option>\n      <option> Goteiras e Infiltrações</option>\n      <option> Calor </option>\n      <option> Calor e poucas goteiras </option>\n    </select>\n    </div>\n        \n        <div class=\"box-busca-car\">\n    <select name=\"hyundai\" class=\"box-input box2\" onChange=\"chamaURL(this)\">\n      <option> Onde deseja instalar? </option> \n      <option value=\"/acima-das-telhas/\">Acima das telhas</option> \n      <option value=\"/abaixo-das-telhas/\">Abaixo das telhas</option> \n      <option value=\"/manta-asfaltica-aplicacao-macarico/\">Em cima da laje</option> \n    </select>\n        </div>\n\n         \n       \n  </form>\n  </div>\n</div>\n\n<script>\nfunction aparece(){\nif(document.form1.marca.selectedIndex==\"1\"){\ndocument.form1.hyundai.style.visibility=\"visible\";\ndocument.form1.hyundaiano.style.visibility=\"hidden\";\n}\nelse {\ndocument.form1.hyundaiano.style.visibility=\"hidden\";\ndocument.form1.hyundai.style.visibility=\"visible\";\n}\n}\nfunction aparece1(){\nif(document.form1.marca.selectedIndex==\"2\"){\ndocument.form1.chev.style.visibility=\"visible\";\ndocument.form1.chevano.style.visibility=\"hidden\";\n}\nelse {\ndocument.form1.chevano.style.visibility=\"hidden\";\ndocument.form1.chev.style.visibility=\"hidden\";\n}\n}\nfunction aparece2(){\nif(document.form1.marca.selectedIndex==\"3\"){\ndocument.form1.chev.style.visibility=\"visible\";\ndocument.form1.chevano.style.visibility=\"hidden\";\n}\nelse {\ndocument.form1.chevano.style.visibility=\"hidden\";\ndocument.form1.chev.style.visibility=\"hidden\";\n}\n}\n</script>\n\n<script type=\"text/javascript\">\nfunction chamaURL(campo) { \ndocument.location.href = \"https://www.disfoil.com.br\"+campo.options[campo.selectedIndex].value;  \n} \n</script>"
     },
@@ -79,6 +75,10 @@
       "headless": false,
       "limit": 12,
       "page": 1
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/disfoil_bannersite_1398x114px-1-.webp"
     },
     {
       "type": "collection-shelf",
