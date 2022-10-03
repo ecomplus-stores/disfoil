@@ -12,6 +12,7 @@ storefront.on('widget:@ecomplus/widget-tag-manager', () =>{
             document.getElementById('user-button').classList.add('login')
         }
         if (window.storefront && window.storefront.context && window.storefront.context.resource === 'products') {
+            console.log(document.getElementById('product-payment'))
             document.getElementById('product-payment').classList.add('show')
         }
     }, 800);
