@@ -37,6 +37,9 @@
   .header__nav--full div:not(:first-child) .header__submenu::after {
     left: 240px;
   }
+  #s-telas-mosquiteiras_ {
+    left: 0 !important;
+  }
   .header__nav {
     font-size: 0.70rem;
     padding: 2px;
@@ -650,4 +653,9 @@
 }
 .top-bar__contacts-container a {
   font-size: .7rem
+}
+#s-portas_{
+  width: unset !important;
+  max-width: unset !important;
+  margin-left: -250px !important;
 }
