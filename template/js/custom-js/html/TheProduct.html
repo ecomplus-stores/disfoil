@@ -56,9 +56,6 @@
           >
             {{ name }}
           </component>
-          <p class="product__sku">
-            COD: {{ body.sku }}
-          </p>
         </slot>
 
         <component
@@ -106,11 +103,11 @@
                   v-bind="{ discount }"
                 >
                   <span
-                    v-if="discount > 0"
                     class="product__discount"
                   >
-                    {{ i19discountOf }}
-                    <strong>{{ discount }}%</strong>
+                    <strong>
+                      À vista no Pix, Boleto e em breve 1x no cartão
+                    </strong>
                   </span>
                 </slot>
               </p>
@@ -323,7 +320,7 @@
 
                     <div
                       id="product-payment"
-                      class="collapse"
+                      class="collapse show"
                       aria-labelledby="product-payment-header"
                     >
                       <div class="card-body pb-0">
@@ -347,6 +344,10 @@
                 </article>
               </slot>
             </transition>
+
+            <p class="product__sku">
+              SKU: {{ body.sku }}
+            </p>
 
             <p
               v-if="body.production_time && body.production_time.days"

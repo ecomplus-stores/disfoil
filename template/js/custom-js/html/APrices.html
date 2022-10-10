@@ -7,22 +7,16 @@
     class="prices__compare"
   >
     <template v-if="isLiteral">
-      <small>
-        {{ i19from }}
-      </small>
       <s>{{ formatMoney(comparePrice) }}</s>
-      <small>
-        {{ i19to }}
-      </small>
     </template>
     <s v-else>{{ formatMoney(comparePrice) }}</s>
   </span>
 
   <strong class="prices__value">
-    <small v-if="hasVariedPrices">
-      {{ i19asOf }}
+    {{ formatMoney(price) }} <small style="font-size: 13px"
+      v-if="comparePrice > price" 
+      >desconto de <strong>{{ Math.round((1 - price / comparePrice) * 100)   }}%</strong>
     </small>
-    {{ formatMoney(price) }}
   </strong>
   <div
       key="installments"

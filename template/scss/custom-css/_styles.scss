@@ -1,661 +1,718 @@
 // Add your custom CSS here.
 .product__name {
-    font-size: 24px !important;
+  font-size: 24px !important;
 }
 .product-card__name {
-  -webkit-line-clamp: 4 !important;
-    --max-lines: 4 !important;
+-webkit-line-clamp: 4 !important;
+  --max-lines: 4 !important;
 }
 .cart-item__name a {
-  -webkit-line-clamp: 1 !important;
-    --max-lines: 1 !important;
+-webkit-line-clamp: 1 !important;
+  --max-lines: 1 !important;
 }
 .menu__item-icon img {
-    object-fit: none;
-    object-position: -2px 0;
-    width: 35px;
-    height: 35px;
-    transition: all 0.5s ease;
+  object-fit: none;
+  object-position: -2px 0;
+  width: 35px;
+  height: 35px;
+  transition: all 0.5s ease;
+}
+.menu__item-icon {
+  height: 35px;
+  width: 35px !important;
+}
+.menu__item-icon img {
+  &:hover {
+      object-position: -2px 100%;
+    }
+}
+.header__nav div a:hover .menu__item-icon img {
+  object-position: -2px 100%;
+}
+
+.header__nav--full div:not(:first-child) .header__submenu {
+  margin-left: -240px;
+  grid-template-columns: repeat(auto-fit,minmax(20%,1fr));
+}
+.header__nav--full div:not(:first-child) .header__submenu::after {
+  left: 240px;
+}
+#s-telas-mosquiteiras_ {
+  left: 0 !important;
+}
+.header__nav {
+  font-size: 0.70rem;
+  padding: 2px;
+}
+.header__submenu {
+  margin-top: 3rem;
+  background-color: #fff;
+  &::after {
+      background: none;
   }
-  .menu__item-icon {
-    height: 35px;
-    width: 35px !important;
-  }
-  .menu__item-icon img {
-    &:hover {
-        object-position: -2px 100%;
-      }
-  }
-  .header__nav div a:hover .menu__item-icon img {
-    object-position: -2px 100%;
+  /* max-width: 100%;
+  width: 80%; */
+  * {
+      color: #003d73;
+      text-decoration: none !important;
+      font-size: var(--font-size-sm) !important
   }
   
-  .header__nav--full div:not(:first-child) .header__submenu {
-    margin-left: -240px;
-    grid-template-columns: repeat(auto-fit,minmax(20%,1fr));
-  }
-  .header__nav--full div:not(:first-child) .header__submenu::after {
-    left: 240px;
-  }
-  #s-telas-mosquiteiras_ {
-    left: 0 !important;
-  }
-  .header__nav {
-    font-size: 0.70rem;
-    padding: 2px;
-  }
-  .header__submenu {
-    margin-top: 3rem;
-    background-color: #fff;
-    &::after {
-        background: none;
-    }
-    /* max-width: 100%;
-    width: 80%; */
-    * {
-        color: #003d73;
-        text-decoration: none !important;
-        font-size: var(--font-size-sm) !important
-    }
-    
-  }
-  .header__submenu {
-    max-width: 100%;
-    width: 80%;
-    div > a:first-child {
-        width: 100%;
-        h3 {
-            color: #00315c;
-            //text-transform: uppercase;
-            background: #eee;
-            padding: 10px 0 6px 11px;
-            border-radius: 0;
-            font-weight: bold;
-        }
-        h4 {
-          color: #00589b;
+}
+.header__submenu {
+  max-width: 100%;
+  width: 80%;
+  div > a:first-child {
+      width: 100%;
+      h3 {
+          color: #00315c;
           //text-transform: uppercase;
-        }   
-    }
-  }
-  .subcategory {
-    
-  }
-  #s-portas_, #s-parafusos-e-buchas_, #s-silicones-e-selantes_, #s-mantas-e-impermeabilizantes_ {
-    grid-template-columns: repeat(auto-fit,minmax(50%,1fr)) !important;
-  }
-  .header__submenu-subcategory {
-    &:hover {
-        background: #003e72;
-        border-radius: 0;
-        padding: 7px 12px;
-        * {
-            color: #fff !important;
-        }
+          background: #eee;
+          padding: 10px 0 6px 11px;
+          border-radius: 0;
+          font-weight: bold;
       }
+      h4 {
+        color: #00589b;
+        //text-transform: uppercase;
+      }   
   }
-  #menu-desk {
-    background-image: url('/img/uploads/header-background.png');
-  }
-  #header, .header__container {
-    padding: 0;
-    margin-bottom: 0;
-    border-bottom-color: #38e5cf;
-  }
-  .header__row {
-    padding: var(--spacer-2) var(--spacer-4);
-  }
-  /* #cd-telas-mosquiteiras\/ {
-    background: url(https://ecoms1.com/51266/@v3/1658338760585-telas.png) left top no-repeat;
-  }
-  #cd-divisorias-e-forros\/ {
-    background: url(https://ecoms1.com/51266/@v3/1658338699561-forros.png) left top no-repeat;
-  }
-  #cd-mantas-e-impermeabilizantes\/ {
-    background: url(https://ecoms1.com/51266/@v3/1658339318950-mantas.png) left top no-repeat;
-  }
-  #cd-portas\/ {
-    background: url(https://ecoms1.com/51266/@v3/1658338807035-portas.png) left top no-repeat;
-  }
-  #cd-silicones-e-selantes\/ {
-    background: url(https://ecoms1.com/51266/@v3/1658338854926-silicones.png) left top no-repeat;
-  }
-  #cd-parafusos-e-buchas\/ {
-    background: url(https://ecoms1.com/51266/@v3/1658339158874-parafusos.png) left top no-repeat;
-  } */
+}
+.subcategory {
   
-  .header__category {
-    color: #fff;
-    &:hover {
-        background: none;
-        color: #38e5cf;
-    }
-  }
-  .header__category h4 {
-    font-size: 0.7rem;
-    width: 50%;
-    text-align:initial;
-    align-items: baseline;
-    display: flex;
-    margin-top: 7px
-  }
-  .header__nav {
-    display: flex;
-    justify-content: center;
-  }
-  .header__category:last-child {
-    padding-right: 30px;
-  }
-  .header__category:last-child h4 {
-    margin-left: 15px;
-  }
-  #cd-grid\/ofertas {
-    background-image: url(/img/uploads/ofertas-promo.png)
-  }
-  .header__category {
-    display: flex !important;
-    align-items: center;
-    justify-content:center;
-    padding: 7px;
-  }
-
-  /* @media (min-width: 992px) {
-    .menu__item-icon {
-        width: auto;
-        height: 40px;
-        margin-right: 0px;
-        text-align: center;
+}
+#s-portas_, #s-parafusos-e-buchas_, #s-silicones-e-selantes_, #s-mantas-e-impermeabilizantes_ {
+  grid-template-columns: repeat(auto-fit,minmax(50%,1fr)) !important;
+}
+.header__submenu-subcategory {
+  &:hover {
+      background: #003e72;
+      border-radius: 0;
+      padding: 7px 12px;
+      * {
+          color: #fff !important;
       }
-  } */
-  #busca-car {
-    width: 100%;
-    position: relative;
-    height: 120px;
-    background: #f47925;
-    padding-top: 25px;
-    border-radius: 15px;
-    margin-top: 30px;
-    margin-bottom: 50px;
-  }
-  .box-busca-car {
-    padding: 10px;
-    margin-left: 8px;
-    float: left;
-    margin-top: -9px;
-  }
-  .busca-title {
-    line-height: 27px;
-    color: #fff;
-    font-weight: 700;
-    text-align: left;
-    font-size: 21px;
-    letter-spacing: -1px;
-    padding-top: 6px;
-  }
-  .box-input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    outline: none;
-    height: 69px;
-    background: url(/img/uploads/input1.png) no-repeat left center;
-    border: none;
-    color: #f47925;
-    position: relative;
-    border-radius: 5px;
-    width: 314px;
-    padding-left: 71px;
-    font-weight: 600;
-    font-size: 14px;
-  }
-  .box2 {
-    background: url(/img/uploads/input2.png) no-repeat left center;
-  }
-  .i-phone::before {
-    content: url(/img/uploads/phonee.png);
-    /* position: absolute;
-    top: 6.5px;
-    left: 43.5%; */
-    padding-right: 5px;
-  }
-  .top-bar__contacts-container {
-    display: flex;
-    align-items: center;
-    a {
-      display: inline-flex;
     }
-  }
-  .i-email::before {
-    content: url(/img/uploads/mail.png);
-    padding-right: 5px;
-    /* position: absolute;
-    top: 6.5px;
-    left: 10px; */
-  }
-  .m-left-120 {
-    text-transform: uppercase;
-    font-size: 10px;
-    letter-spacing: 0.5px;
-    color: #003d73;
-    float: right;
-  }
-  .top-bar__contacts-container a {
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: .5px;
-  }
-  #user-button .i-user {
-    color: #1b69a9
-  }
-  #user-button.login::after {
-    content: "Entrar / Cadastrar";
-  }
-  #user-button.logoff::after {
-    content: "Minha Conta";
-  }
-  #user-button:after {
+}
+#menu-desk {
+  background-image: url('/img/uploads/header-background.png');
+}
+#header, .header__container {
+  padding: 0;
+  margin-bottom: 0;
+  border-bottom-color: #38e5cf;
+}
+.header__row {
+  padding: var(--spacer-2) var(--spacer-4);
+}
+/* #cd-telas-mosquiteiras\/ {
+  background: url(https://ecoms1.com/51266/@v3/1658338760585-telas.png) left top no-repeat;
+}
+#cd-divisorias-e-forros\/ {
+  background: url(https://ecoms1.com/51266/@v3/1658338699561-forros.png) left top no-repeat;
+}
+#cd-mantas-e-impermeabilizantes\/ {
+  background: url(https://ecoms1.com/51266/@v3/1658339318950-mantas.png) left top no-repeat;
+}
+#cd-portas\/ {
+  background: url(https://ecoms1.com/51266/@v3/1658338807035-portas.png) left top no-repeat;
+}
+#cd-silicones-e-selantes\/ {
+  background: url(https://ecoms1.com/51266/@v3/1658338854926-silicones.png) left top no-repeat;
+}
+#cd-parafusos-e-buchas\/ {
+  background: url(https://ecoms1.com/51266/@v3/1658339158874-parafusos.png) left top no-repeat;
+} */
 
-    @media(max-width: 767px) {
-      left: -30px;
+.header__category {
+  color: #fff;
+  &:hover {
+      background: none;
+      color: #38e5cf;
+  }
+}
+.header__category h4 {
+  font-size: 0.7rem;
+  width: 50%;
+  text-align:initial;
+  align-items: baseline;
+  display: flex;
+  margin-top: 7px
+}
+.header__nav {
+  display: flex;
+  justify-content: center;
+}
+.header__category:last-child {
+  padding-right: 30px;
+}
+.header__category:last-child h4 {
+  margin-left: 15px;
+}
+#cd-grid\/ofertas {
+  background-image: url(/img/uploads/ofertas-promo.png)
+}
+.header__category {
+  display: flex !important;
+  align-items: center;
+  justify-content:center;
+  padding: 7px;
+}
+
+/* @media (min-width: 992px) {
+  .menu__item-icon {
+      width: auto;
+      height: 40px;
+      margin-right: 0px;
+      text-align: center;
     }
-    left: 0;
-    font-size: 11px;
-    position: absolute;
-    top: 37px;
+} */
+#busca-car {
+  width: 100%;
+  position: relative;
+  height: 120px;
+  background: #f47925;
+  padding-top: 25px;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.box-busca-car {
+  padding: 10px;
+  margin-left: 8px;
+  float: left;
+  margin-top: -9px;
+}
+.busca-title {
+  line-height: 27px;
+  color: #fff;
+  font-weight: 700;
+  text-align: left;
+  font-size: 21px;
+  letter-spacing: -1px;
+  padding-top: 6px;
+}
+.box-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  height: 69px;
+  background: url(/img/uploads/input1.png) no-repeat left center;
+  border: none;
+  color: #f47925;
+  position: relative;
+  border-radius: 5px;
+  width: 314px;
+  padding-left: 71px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.box2 {
+  background: url(/img/uploads/input2.png) no-repeat left center;
+}
+.i-phone::before {
+  content: url(/img/uploads/phonee.png);
+  /* position: absolute;
+  top: 6.5px;
+  left: 43.5%; */
+  padding-right: 5px;
+}
+.top-bar__contacts-container {
+  display: flex;
+  align-items: center;
+  a {
+    display: inline-flex;
+  }
+}
+.i-email::before {
+  content: url(/img/uploads/mail.png);
+  padding-right: 5px;
+  /* position: absolute;
+  top: 6.5px;
+  left: 10px; */
+}
+.m-left-120 {
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  color: #003d73;
+  float: right;
+}
+.top-bar__contacts-container a {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+#user-button .i-user {
+  color: #1b69a9
+}
+#user-button.login::after {
+  content: "Entrar / Cadastrar";
+}
+#user-button.logoff::after {
+  content: "Minha Conta";
+}
+#user-button:after {
+
+  @media(max-width: 767px) {
+    left: -30px;
+  }
+  left: 0;
+  font-size: 11px;
+  position: absolute;
+  top: 37px;
+  width: 90px;
+}
+#rastrear-pedido:after {
+  content: "Rastrear Pedido";
+  font-size: 11px;
+  position: absolute;
+  top: 37px;
+  left: 0px;
+  width: 120px;
+}
+#fale-conosco:after {
+  content: "Fale Conosco";
+  font-size: 11px;
+  position: absolute;
+  top: 37px;
+  left: 0px;
+}
+#cart-button {
+  @media(min-width: 992px) {
+    border-left: 1px solid #ccc;
+    border-radius: 0;
+  }
+  i::before {
+    content: url(/img/uploads/cart-new.png);
+  }
+} 
+.header__row, .top-bar {
+  background-color: #e6edf5;
+}
+.header__container {
+  margin-top: 0;
+  max-width: 100%;
+  border-top: 2px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to right, #083C6A , #0F528B, #3F586F);;  
+}
+
+#socials {
+  @media(max-width: 767px) {
+    display: none;
+  }
+  order: 12;
+}
+@media(min-width: 992px) {
+  .header__buttons {
+    display: flex;
+  }
+  .order-lg-last.col-auto.p-0 {
+    border-left: 1px solid #ccc;
+  }
+}
+.i-facebook::before {
+  content: url(/img/uploads/face-top1.png)
+}
+.i-youtube::before {
+  content: url(/img/uploads/you-top1.png)
+}
+.i-instagram::before {
+  content: url(/img/uploads/insta-top.png);
+}
+.i-rastrear::before {
+  content: url(/img/uploads/rastrear.png);
+}
+.i-user::before {
+  content: url(/img/uploads/entrar.png);
+}
+.i-fale::before {
+  content: url(/img/uploads/fale-conosco.png);
+}
+@media(min-width: 992px) {
+  #user-button {
     width: 90px;
   }
-  #rastrear-pedido:after {
-    content: "Rastrear Pedido";
-    font-size: 11px;
-    position: absolute;
-    top: 37px;
-    left: 0px;
+  #rastrear-pedido {
     width: 120px;
-  }
-  #fale-conosco:after {
-    content: "Fale Conosco";
-    font-size: 11px;
-    position: absolute;
-    top: 37px;
-    left: 0px;
-  }
-  #cart-button {
-    @media(min-width: 992px) {
-      border-left: 1px solid #ccc;
-      border-radius: 0;
-    }
-    i::before {
-      content: url(/img/uploads/cart-new.png);
-    }
-  } 
-  .header__row, .top-bar {
-    background-color: #e6edf5;
-  }
-  .header__container {
-    margin-top: 0;
-    max-width: 100%;
-    border-top: 2px solid;
-    border-image-slice: 1;
-    border-width: 5px;
-    border-image-source: linear-gradient(to right, #083C6A , #0F528B, #3F586F);;  
-  }
-  
-  #socials {
-    @media(max-width: 767px) {
-      display: none;
-    }
-    order: 12;
-  }
-  @media(min-width: 992px) {
-    .header__buttons {
-      display: flex;
-    }
-    .order-lg-last.col-auto.p-0 {
-      border-left: 1px solid #ccc;
-    }
-  }
-  .i-facebook::before {
-    content: url(/img/uploads/face-top1.png)
-  }
-  .i-youtube::before {
-    content: url(/img/uploads/you-top1.png)
-  }
-  .i-instagram::before {
-    content: url(/img/uploads/insta-top.png);
-  }
-  .i-rastrear::before {
-    content: url(/img/uploads/rastrear.png);
-  }
-  .i-user::before {
-    content: url(/img/uploads/entrar.png);
-  }
-  .i-fale::before {
-    content: url(/img/uploads/fale-conosco.png);
-  }
-  @media(min-width: 992px) {
-    #user-button {
-      width: 90px;
-    }
-    #rastrear-pedido {
-      width: 120px;
-      cursor: pointer;
-    }
-    #fale-conosco {
-      width: 90px;
-      cursor: help;
-    }
-  }
-  
-   /* .descontos-home {
-    background: url(//cdn.ecvol.com/s/disfoil.e-com.club/uploads/descontos1.png) no-repeat center top !important;
-    height: 124px;
-    margin-top: -60px;
-  } */
-
-  .products-carousel__title {
-    padding: 0;
-    position: relative;
-    text-align: start;
-    &::before {
-      background: none;
-    }
-    background: url(/img/uploads/tarja-produtos.jpg) no-repeat left top;
-    height: 110px;
-    padding: 22px 0;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #003e72;
-    font-size: 27px;
-    margin-bottom: -30px !important;
-    span, a {
-      background: none !important;
-    }
-  }
-  .products-carousel__item:hover {
-    border: solid 2px #003d73;
-    background: rgba(255, 255, 255, 0.5);
-    border-radius: 0;
-    .product-card__buy.fade {
-      opacity: 1 !important;
-      position: absolute;
-      top: 60%;
-      left: 50%;
-      transform: translateX(-50%);
-      font-size: 16.5px;
-      font-weight: 500;
-      text-align: center;
-      padding: 10px 0px;
-      width: 80%;
-      background-color: #079C00 !important;
-      button {
-        background-color: #079C00 !important;
-        border-color: #079C00 !important;
-      }
-    }
-  }
-  .product-card__buy button, .minicart__btn-checkout, .product__buy button.btn.btn-lg.btn-primary {
-    background-color: #079C00 !important;
-    border-color: #079C00 !important;
-  }
-  .product-item {
-    text-align: center;
-  }
-  #ws_icon_chat {
-    position: fixed;
-    bottom: 120px;
-    right: 5px;
-    width: 76px;
-    z-index: 2000;
     cursor: pointer;
-    outline: none !important;
-    img {
-      max-width: 100%;
+  }
+  #fale-conosco {
+    width: 90px;
+    cursor: help;
+  }
+}
+
+ /* .descontos-home {
+  background: url(//cdn.ecvol.com/s/disfoil.e-com.club/uploads/descontos1.png) no-repeat center top !important;
+  height: 124px;
+  margin-top: -60px;
+} */
+
+.products-carousel__title {
+  padding: 0;
+  position: relative;
+  text-align: start;
+  &::before {
+    background: none;
+  }
+  background: url(/img/uploads/tarja-produtos.jpg) no-repeat left top;
+  height: 110px;
+  padding: 22px 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #003e72;
+  font-size: 27px;
+  margin-bottom: -30px !important;
+  span, a {
+    background: none !important;
+  }
+}
+.products-carousel__item:hover {
+  border: solid 2px #003d73;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 0;
+  .product-card__buy.fade {
+    opacity: 1 !important;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16.5px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 0px;
+    width: 80%;
+    background-color: #079C00 !important;
+    button {
+      background-color: #079C00 !important;
+      border-color: #079C00 !important;
     }
   }
-  .prices.product-card__prices {
-    .prices__value {
-      display: none;
-    }
-    .prices__value + span {
+}
+.product-card__buy button, .minicart__btn-checkout, .product__buy button.btn.btn-lg.btn-primary {
+  background-color: #079C00 !important;
+  border-color: #079C00 !important;
+}
+.product-item {
+  text-align: center;
+}
+#ws_icon_chat {
+  position: fixed;
+  bottom: 120px;
+  right: 5px;
+  width: 76px;
+  z-index: 2000;
+  cursor: pointer;
+  outline: none !important;
+  img {
+    max-width: 100%;
+  }
+}
+.prices.product-card__prices {
+  .prices__value + span {
+    display: flex;
+    flex-direction: column;
+    .prices__discount {
+      order: -1;
       display: flex;
       flex-direction: column;
-      .prices__discount {
-        order: -1;
-        display: flex;
-        flex-direction: column;
-        color: #1b69a9;
-        span {
-          font-size: 28px;
-          font-weight: 700;
-        }
-      }
-    }
-    .prices__installments {
-       /* background: url(/img/uploads/parcelamento-01.jpg) no-repeat left top !Important;
-      padding: 11px 0 9px 38px !important;
-      color: #fff; */
+      color: #1b69a9;
       span {
-        &::after {
-          content: " sem juros";
-        }
-        &::before {
-          content: " de ";
-        }
+        font-size: 28px;
+        font-weight: 700;
       }
     }
   }
-  #new-box {
-    background: url(/img/uploads/sobre-nos.jpg) no-repeat center top;
-    display: table;
-    position: relative;
-    width: 100%;
-    padding-bottom: 60px;
-    margin-bottom: 50px;
+  .prices__installments {
+     /* background: url(/img/uploads/parcelamento-01.jpg) no-repeat left top !Important;
+    padding: 11px 0 9px 38px !important;
+    color: #fff; */
+    span {
+      &::after {
+        content: " sem juros";
+      }
+      &::before {
+        content: " de ";
+      }
+    }
   }
-  #new-cinza {
-    width: 100%;
-    height: 650px;
-    background: #eaeaea;
-    margin-top: -663px;
-    position: absolute;
+}
+#new-box {
+  background: url(/img/uploads/sobre-nos.jpg) no-repeat center top;
+  display: table;
+  position: relative;
+  width: 100%;
+  padding-bottom: 60px;
+  margin-bottom: 50px;
+}
+#new-cinza {
+  width: 100%;
+  height: 650px;
+  background: #eaeaea;
+  margin-top: -663px;
+  position: absolute;
+  display: none;
+}
+.sobre-title {
+  text-align: center;
+  padding-bottom: 50px;
+  img {
+    max-width: 100%;
+  }
+}
+.sobre-text {
+  width: 47%;
+  float: left;
+  text-align: justify;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 33px;
+  padding-top: 38px;
+}
+.video-home {
+  width: 47%;
+  float: right;
+  img {
+    max-width: 100%;
+  }
+}
+.redes-sociais-footer {
+  background: url(/img/uploads/bg-redes.jpg) no-repeat center bottom;
+  display: table;
+  width: 100%;
+  padding-bottom: 70px;
+  text-align: center;
+}
+.redes-sociais-footer .col-sm-6 {
+  width: 40%;
+}
+.redes-sociais-footer .b-r {
+  float: right;
+}
+.redes-sociais-footer .titulo {
+  margin-bottom: 20px;
+}
+.barra-home {
+  width: 100%;
+  //margin-top: -617px;
+  z-index: 99;
+  position: relative;
+}
+.mobilee {
+  display: none;
+}
+.mais-videos {
+  width: 160px;
+  background: #003d73;
+  border-radius: 6px;
+  text-align: center;
+  padding: 11px;
+  color: #fff;
+}
+.products-carousel[data-title="Destaques"] .glide__track {
+  justify-content: flex-end;
+  .glide__arrow {
     display: none;
   }
-  .sobre-title {
-    text-align: center;
-    padding-bottom: 50px;
-    img {
-      max-width: 100%;
+}
+.barra-home {
+  text-align: center;
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media(max-width: 767px) {
+  .new-box .new-cinza + .container {
+    display: flex;
+    flex-direction: column;
+    .sobre-text, .video-home {
+      width: 100%;
     }
   }
-  .sobre-text {
-    width: 47%;
-    float: left;
-    text-align: justify;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 33px;
-    padding-top: 38px;
+  #search-bar {
+    display: block !important;
   }
-  .video-home {
-    width: 47%;
-    float: right;
-    img {
-      max-width: 100%;
-    }
-  }
-  .redes-sociais-footer {
-    background: url(/img/uploads/bg-redes.jpg) no-repeat center bottom;
-    display: table;
-    width: 100%;
-    padding-bottom: 70px;
-    text-align: center;
-  }
-  .redes-sociais-footer .col-sm-6 {
-    width: 40%;
-  }
-  .redes-sociais-footer .b-r {
-    float: right;
-  }
-  .redes-sociais-footer .titulo {
-    margin-bottom: 20px;
-  }
-  .barra-home {
-    width: 100%;
-    //margin-top: -617px;
-    z-index: 99;
-    position: relative;
-  }
+}
+@media(max-width: 767px) {
   .mobilee {
+    display: block !important;
+  }
+  .barra-video + iframe {
     display: none;
   }
-  .mais-videos {
-    width: 160px;
-    background: #003d73;
-    border-radius: 6px;
-    text-align: center;
-    padding: 11px;
-    color: #fff;
+  .prices.product-card__prices .prices__installments {
+    font-size: 1.2rem;
   }
-  .products-carousel[data-title="Destaques"] .glide__track {
-    justify-content: flex-end;
-    .glide__arrow {
-      display: none;
-    }
-  }
-  .barra-home {
-    text-align: center;
-    a {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+  .prices.product-card__prices .prices__installments * {
+    font-size: 9px !important;
+    display: inline-block;
+      width: 50%;
   }
   
-  @media(max-width: 767px) {
-    .new-box .new-cinza + .container {
-      display: flex;
-      flex-direction: column;
+  #new-box {
+    background-color: #eaeaea;
+    .container {
       .sobre-text, .video-home {
         width: 100%;
       }
     }
-    #search-bar {
-      display: block !important;
-    }
   }
-  @media(max-width: 767px) {
-    .mobilee {
-      display: block !important;
+}
+#c-6286dc60df4d8071c9166460, #c-6286dc61df4d8071c9166466, #c-6303f1ad225fcd0d801a8ccd {
+  display: none !important;
+}
+@media(min-width: 767px) {
+  .shipping-calculator__option .shipping-line {
+    max-width: 50% !important;
+  }
+}
+.product-card.search-engine__item .prices.product-card__prices .prices__installments {
+  //font-size: 1.2rem;
+  text-align: right;
+}
+.search-engine__item.product-card--small .prices.product-card__prices .prices__installments {
+  font-size: .75rem;
+}
+#page-categories:not(.__mantas-e-impermeabilizantes_,.__mantas,.__manta-termica-1-face_,.__passarinheira-para-telhado_,.__manta-asfaltica-adesiva_,.__fixador-primer-fita-para-telhado_,.__manta-termica-2-faces_,.__manta-asfaltica-aplicacao-macarico_) #busca-car {
+display: none;
+}
+@media(max-width: 767px) {
+.responsive-baner {
+  display: none;
+}
+.quantity-selector__btn-container button {
+  width: 25%;
+  border: 1px solid #ccc;
+}
+}
+.redes-sociais-footer .container {
+display: flex;
+@media(max-width: 767px) {
+  flex-wrap: wrap;
+}
+}
+.login-modal__body::before {
+content: 'Para se CADASTRAR, coloque os itens que deseja comprar no CARRINHO e clique em FINALIZAR COMPRA';
+}
+.shipping-line > small {
+-webkit-line-clamp: 4
+}
+.product__sticky-buy a {
+background-color: #079c00 !important;
+border-color: #079c00 !important;
+}
+@media(max-width:767px) {
+  #rastrear-pedido, #fale-conosco {
+      display: none !important;
+  }
+}
+.order-info__toggle {
+display: none !important;
+}
+#s-mantas-e-impermeabilizantes_ div {
+display: flex;
+flex-direction: column;
+#sd-630e708a73321213f85eccbe {
+  order: -7;
+}
+#td-6286dc32df4d8071c91663cc {
+  order: -6;
+}
+#td-6286dc5edf4d8071c9166459 {
+  order: -5;
+}
+#td-6286dc4cdf4d8071c9166423 {
+  order: -4;
+}
+#td-6286dc34df4d8071c91663d6 {
+  order: -3;
+}
+#td-6286dc5fdf4d8071c916645d {
+  order: -2;
+}
+#td-6286dc33df4d8071c91663d0 {
+  order: -1;
+}
+}
+.shipping-calculator__services .list-group-item.list-group-item-action.active .shipping-line>small {
+color: #fff !important
+}
+#page-home .custom-html {
+margin-top: 0;
+margin-bottom: 0;
+}
+.top-bar__contacts-container a {
+font-size: .7rem
+}
+#s-portas_{
+width: unset !important;
+max-width: unset !important;
+margin-left: -250px !important;
+}
+.product__name {
+  color: #284477 !important;
+  font-weight: bold;
+}
+.product__prices {
+  color: #005093;
+  .prices__value, .prices__discount span {
+    font-size: 30px !important;
+  }
+  .prices__installments {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .prices__discount {
+    span {
+      color: #53a24f !important;
+      &::after {
+        content: ' (5%)';
+        color: #005093;
+        font-size: 15px !important;
+      }
     }
-    .barra-video + iframe {
-      display: none;
+  .prices__discount-label {
+    display: none;
+  } 
+  }
+
+}
+.product-card__prices {
+  text-align: left;
+  .prices__discount {
+    order: -2;
+    span {
+      color: #003e72;
+      font-size: 18px;
+      font-weight: bold;
+      &::after {
+        content: '\a';
+        white-space: pre;
+      }
     }
-    .prices.product-card__prices .prices__installments {
-      font-size: 1.2rem;
-    }
-    .prices.product-card__prices .prices__installments * {
-      font-size: 9px !important;
-      display: inline-block;
-        width: 50%;
-    }
-    
-    #new-box {
-      background-color: #eaeaea;
-      .container {
-        .sobre-text, .video-home {
-          width: 100%;
-        }
+    .prices__discount-label {
+      &::before {
+        content: '5% de desconto';
+        font-weight: bold;
+      }
+      &::after {
+        content: ' e Pix';
       }
     }
   }
-  #c-6286dc60df4d8071c9166460, #c-6286dc61df4d8071c9166466, #c-6303f1ad225fcd0d801a8ccd {
-    display: none !important;
-  }
-  @media(min-width: 767px) {
-    .shipping-calculator__option .shipping-line {
-      max-width: 50% !important;
-    }
-  }
-  .product-card.search-engine__item .prices.product-card__prices .prices__installments {
-    //font-size: 1.2rem;
-    text-align: right;
-  }
-  .search-engine__item.product-card--small .prices.product-card__prices .prices__installments {
-    font-size: .75rem;
-  }
-#page-categories:not(.__mantas-e-impermeabilizantes_,.__mantas,.__manta-termica-1-face_,.__passarinheira-para-telhado_,.__manta-asfaltica-adesiva_,.__fixador-primer-fita-para-telhado_,.__manta-termica-2-faces_,.__manta-asfaltica-aplicacao-macarico_) #busca-car {
-  display: none;
-}
-@media(max-width: 767px) {
-  .responsive-baner {
-    display: none;
-  }
-  .quantity-selector__btn-container button {
-    width: 25%;
-    border: 1px solid #ccc;
-  }
-}
-.redes-sociais-footer .container {
-  display: flex;
-  @media(max-width: 767px) {
-    flex-wrap: wrap;
-  }
-}
-.login-modal__body::before {
-  content: 'Para se CADASTRAR, coloque os itens que deseja comprar no CARRINHO e clique em FINALIZAR COMPRA';
-}
-.shipping-line > small {
-  -webkit-line-clamp: 4
-}
-.product__sticky-buy a {
-  background-color: #079c00 !important;
-  border-color: #079c00 !important;
-}
-@media(max-width:767px) {
-    #rastrear-pedido, #fale-conosco {
-        display: none !important;
-    }
-}
-.order-info__toggle {
-  display: none !important;
-}
-#s-mantas-e-impermeabilizantes_ div {
-  display: flex;
-  flex-direction: column;
-  #sd-630e708a73321213f85eccbe {
-    order: -7;
-  }
-  #td-6286dc32df4d8071c91663cc {
-    order: -6;
-  }
-  #td-6286dc5edf4d8071c9166459 {
-    order: -5;
-  }
-  #td-6286dc4cdf4d8071c9166423 {
-    order: -4;
-  }
-  #td-6286dc34df4d8071c91663d6 {
-    order: -3;
-  }
-  #td-6286dc5fdf4d8071c916645d {
-    order: -2;
-  }
-  #td-6286dc33df4d8071c91663d0 {
+  .prices__value {
     order: -1;
+    &::before {
+      content: 'ou '
+    }
+    font-size: 13px !important;
+    color: #003e72;
   }
-}
-.shipping-calculator__services .list-group-item.list-group-item-action.active .shipping-line>small {
-  color: #fff !important
-}
-#page-home .custom-html {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.top-bar__contacts-container a {
-  font-size: .7rem
-}
-#s-portas_{
-  width: unset !important;
-  max-width: unset !important;
-  margin-left: -250px !important;
 }
