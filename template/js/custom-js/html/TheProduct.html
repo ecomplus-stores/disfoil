@@ -205,7 +205,6 @@
                   {{ i19outOfStock }}
                 </slot>
               </div>
-
               <div
                 v-else-if="hasBuyButton"
                 class="product__buy"
@@ -447,6 +446,10 @@
       </div>
     </transition>
   </template>
+
+
+ 
+
 
   <slot v-if="!body._id"/>
 </section>

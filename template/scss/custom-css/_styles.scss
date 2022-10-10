@@ -243,6 +243,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .5px;
+  font-size: .6rem !important;
 }
 #user-button .i-user {
   color: #1b69a9
@@ -536,6 +537,13 @@
       width: 100%;
     }
   }
+  .redes-sociais-footer .container {
+    padding-left: unset;
+    padding-right: unset;
+    .col-sm-6.col-12:first-child {
+      padding-bottom: 5px;
+    }
+  }
   #search-bar {
     display: block !important;
   }
@@ -714,5 +722,20 @@ margin-left: -250px !important;
     }
     font-size: 13px !important;
     color: #003e72;
+    small {
+      display: none;
+    }
+  }
+  .prices__compare {
+    order: -3;
+  }
+}
+.page--pages\/rastrear a {
+  color: #003766;
+}
+.product[data-sku="40933"], .product[data-sku="40883"] {
+  #modal-calc {
+    display: block !important;
+    margin-bottom: 10px;
   }
 }
