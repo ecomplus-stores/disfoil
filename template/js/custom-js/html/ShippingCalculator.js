@@ -123,7 +123,9 @@ import {
       },
 
       isToCalculate () {
-        return this.localZipCode.replace(/\D/g, '').length === 8
+        if (this.localZipCode) {
+          return this.localZipCode.replace(/\D/g, '').length === 8
+        }
       },
   
       productionDeadline () {
