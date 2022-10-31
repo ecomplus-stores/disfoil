@@ -39,7 +39,7 @@
   "dependencies": {
     "@builder.io/partytown": "^0.7.0",
     "@ecomplus/storefront-template": "^2.0.0-beta.187",
-    "@netlify/zip-it-and-ship-it": "^7.1.1",
+    "@netlify/zip-it-and-ship-it": "^8.0.0",
     "firebase-tools": "^10.9.2"
   },
   "devDependencies": {
