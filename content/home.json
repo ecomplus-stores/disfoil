@@ -75,7 +75,7 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": false,
+      "shuffle": true,
       "collection_id": null,
       "sort": "news",
       "title": "Lançamentos",
