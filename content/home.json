@@ -92,6 +92,12 @@
       "title": "Ofertas"
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/disfoil_bannersite_1200x150px.jpg",
+      "mobile_img": "/img/uploads/disfoil_bannersite_600x300px-mobile.webp",
+      "link": "https://www.disfoil.com.br/alcapao-para-drywall/"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 12,
@@ -99,12 +105,6 @@
       "collection_id": "6286dc41df4d8071c91663ff:categories:Telas Mosquiteiras:/telas-mosquiteiras/",
       "title": "Telas Mosquiteiras",
       "sort": "sales"
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/disfoil_bannersite_1200x150px.jpg",
-      "mobile_img": "/img/uploads/disfoil_bannersite_600x300px-mobile.webp",
-      "link": "https://www.disfoil.com.br/alcapao-para-drywall/"
     },
     {
       "type": "custom-html",
