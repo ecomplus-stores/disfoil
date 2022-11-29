@@ -5,7 +5,8 @@
   "enableCheckout": true,
   "options": {
     "fbqContainerId": "303415496889921",
-    "debug": false
+    "debug": false,
+    "disablePurchase": true
   },
   "headAppend": "src/append/head",
   "bodyAppend": "src/append/body"
