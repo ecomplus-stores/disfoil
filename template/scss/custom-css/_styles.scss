@@ -31,14 +31,14 @@
 }
 
 .header__nav--full div:not(:first-child) .header__submenu {
-  margin-left: -240px;
+  //margin-left: -240px;
   grid-template-columns: repeat(auto-fit,minmax(20%,1fr));
 }
 .header__nav--full div:not(:first-child) .header__submenu::after {
-  left: 240px;
+  //left: 240px;
 }
 #s-telas-mosquiteiras_ {
-  left: 0 !important;
+  //left: 0 !important;
 }
 .header__nav {
   font-size: 0.70rem;
@@ -60,8 +60,9 @@
   
 }
 .header__submenu {
-  max-width: 100%;
+  max-width: 1200px;
   width: 80%;
+  max-height: 500px;
   div > a:first-child {
       width: 100%;
       h3 {
@@ -174,8 +175,6 @@
   background: #f47925;
   padding-top: 25px;
   border-radius: 15px;
-  margin-top: 30px;
-  margin-bottom: 50px;
 }
 .box-busca-car {
   padding: 10px;
@@ -513,6 +512,7 @@
   text-align: center;
   padding: 11px;
   color: #fff;
+  margin-top: 15px;
 }
 .products-carousel[data-title="Destaques"] .glide__track {
   justify-content: flex-end;
@@ -591,7 +591,7 @@
 .search-engine__item.product-card--small .prices.product-card__prices .prices__installments {
   font-size: .75rem;
 }
-#page-categories:not(.__mantas-e-impermeabilizantes_,.__mantas,.__manta-termica-1-face_,.__passarinheira-para-telhado_,.__manta-asfaltica-adesiva_,.__fixador-primer-fita-para-telhado_,.__manta-termica-2-faces_,.__manta-asfaltica-aplicacao-macarico_) #busca-car {
+#page-categories:not(.__mantas-e-impermeabilizantes_,.__mantas,.__manta-termica-1-face_,.__passarinheira-para-telhado_,.__manta-asfaltica-adesiva_,.__fixador-primer-fita-para-telhado_,.__manta-termica-2-faces_,.__manta-asfaltica-aplicacao-macarico_) .custom-html {
 display: none;
 }
 @media(max-width: 767px) {
@@ -740,5 +740,11 @@ margin-left: -250px !important;
   #modal-calc {
     display: block !important;
     margin-bottom: 10px;
+  }
+}
+@media(max-width: 767px) {
+  .busca-title {
+    margin-bottom: 20px;
+    margin-top: -14px;
   }
 }
