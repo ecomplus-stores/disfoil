@@ -29,6 +29,9 @@
 .header__nav div a:hover .menu__item-icon img {
   object-position: -2px 100%;
 }
+.header__nav--full a {
+  pointer-events: auto
+}
 
 .header__nav--full div:not(:first-child) .header__submenu {
   //margin-left: -240px;
@@ -138,7 +141,8 @@
   text-align:initial;
   align-items: baseline;
   display: flex;
-  margin-top: 7px
+  margin-top: 7px;
+  pointer-events: none
 }
 .header__nav {
   display: flex;
@@ -433,7 +437,7 @@
     color: #fff; */
     span {
       &::after {
-        content: " sem juros";
+        content: " sem juros parcelados no cartão";
       }
       &::before {
         content: " de ";
@@ -710,11 +714,11 @@ margin-left: -250px !important;
     }
     .prices__discount-label {
       &::before {
-        content: '5% de desconto';
+        content: '5% de desconto à vista';
         font-weight: bold;
       }
       &::after {
-        content: ' e Pix';
+        content: ', Boleto e Pix';
       }
     }
   }
@@ -748,3 +752,33 @@ margin-left: -250px !important;
     margin-top: -14px;
   }
 }
+.minicart__subtotal .prices__discount {
+  span:after {
+    content: 'à vista';
+  }
+  small:after {
+    content: ', Pix e Boleto';
+  }
+}
+.cart__summary-row {
+  .prices__installments::after {
+    content: '\a 5% de desconto à vista';
+    white-space: pre;
+    font-weight: bold;
+  }
+  .prices::after {
+    content: ' no Cartão de crédito, Pix e Boleto';
+  }
+}
+@media(max-width: 767px) {
+  #page-products .products-carousel__title span {
+    font-size: 20px;
+  }
+  #product-description {
+    iframe {
+      width: 100% !important;
+      height: auto !important;
+    }
+  }
+}
+

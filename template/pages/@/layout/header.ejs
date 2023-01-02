@@ -328,7 +328,7 @@ const hasMegamenu = header.desktop_megamenu
               <h4>
                 <%= name %>
               </h4>
-              </a>
+            </a>
               <%- $categoryLink %>
               <%  if (slug && hasMegamenu) { %>
                 <% const subcategories = _.categories.filter(({ parent }) => parent && parent.slug === slug) %>
