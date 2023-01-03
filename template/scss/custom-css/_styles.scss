@@ -718,7 +718,7 @@ margin-left: -250px !important;
         font-weight: bold;
       }
       &::after {
-        content: ', Boleto e Pix';
+        content: ' e Pix';
       }
     }
   }
@@ -757,7 +757,7 @@ margin-left: -250px !important;
     content: 'à vista';
   }
   small:after {
-    content: ', Pix e Boleto';
+    content: 'Pix e Boleto';
   }
 }
 .cart__summary-row {
@@ -767,7 +767,7 @@ margin-left: -250px !important;
     font-weight: bold;
   }
   .prices::after {
-    content: ' no Cartão de crédito, Pix e Boleto';
+    content: ' Pix e Boleto';
   }
 }
 @media(max-width: 767px) {
