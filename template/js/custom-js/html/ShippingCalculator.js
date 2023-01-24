@@ -310,7 +310,7 @@ import {
     },
   
     created () {
-      if (!this.zipCode && localStorage) {
+      if (!this.zipCode && localStorage && !(window.storefront && window.storefront.context && window.storefront.context.resource && window.storefront.context.resource === 'products')) {
         const storedZip = localStorage.getItem(zipStorageKey)
         if (storedZip) {
           this.localZipCode = storedZip
