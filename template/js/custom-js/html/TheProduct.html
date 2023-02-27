@@ -267,6 +267,26 @@
               </div>
             </slot>
 
+            <slot
+              name="metafields"
+              v-if="body.metafields"
+            >
+              <div
+                class="product__metafields pt-1 pb-1 d-flex"
+              >
+                <a
+                  v-for="(metafield, i) in body.metafields"
+                  v-if="metafield.value"
+                  :class="`metafield-${i}`"
+                  :href="metafield.value"
+                  target="_blank"
+                  style="background-color: #095fa4; color: #fff; padding: 5px; text-transform: uppercase; width: 50%; text-align: center; text-decoration: none;"
+                >
+                  {{ metafield.field }}
+                </a>
+              </div>
+            </slot>
+
             <slot name="favorite">
               <div>
                 <a
