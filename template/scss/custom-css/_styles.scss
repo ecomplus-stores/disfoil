@@ -740,12 +740,38 @@ margin-left: -250px !important;
 .page--pages\/rastrear a {
   color: #003766;
 }
-.product[data-sku="40933"], .product[data-sku="40883"] {
+.product[data-sku="40933"], 
+.product[data-sku="40883"], 
+.product[data-sku="41133"], 
+.product[data-sku="41136"], 
+.product[data-sku="41132"], 
+.product[data-sku="41261"], 
+.product[data-sku="40931"], 
+.product[data-sku="40886"], 
+.product[data-sku="41262"], 
+.product[data-sku="41173"], 
+.product[data-sku="41135"], 
+.product[data-sku="41131"],
+.product[data-sku="40933"], 
+.product[data-sku="40934"], 
+.product[data-sku="40937"], 
+.product[data-sku="41007"], 
+.product[data-sku="41134"], 
+.product[data-sku="40935"], 
+.product[data-sku="41024"], 
+.product[data-sku="41023"], 
+.product[data-sku="41008"], 
+.product[data-sku="30243"], 
+.product[data-sku="10670"], 
+.product[data-sku="10669"] {
   #modal-calc {
     display: block !important;
     margin-bottom: 10px;
   }
 }
+
+
+
 .metafield:not(:last-child) {
   border-right: 3px solid #fff;
 }
