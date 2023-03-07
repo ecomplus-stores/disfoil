@@ -68,14 +68,11 @@ setTimeout(function () {
     })
 }, 500)
 $('#saveModal').click(function () {
-    const nomeProduto = storefront.context.body.name.split(' ')
-    var metragem = parseFloat(nomeProduto[nomeProduto.length - 1].replace('m2', '')) || 1
+    const nomeProduto = storefront.context.body.name.trim()
+    const produtoArr = nomeProduto.split(' ')
+    var metragem = parseFloat(produtoArr[produtoArr.length - 2].replace(',', '.')) || 1
     var meters = parseInt($('#countMeters').text())
-    console.log(metragem)
-    console.log(meters)
     let quant = Math.ceil(meters / metragem)
-    console.log(quant)
-    console.log(typeof quant)
     $('.quantity-selector__input').val(Number(quant))
 })
 $('#clearModal').click(function () {
