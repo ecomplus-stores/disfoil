@@ -153,8 +153,37 @@
                   </div>
                 </button>
               </div>
+
             </div>
           </div>
+
+          <% if (_.state.dimensions) { %>
+            <p class="product__info-dimensions mt-3 lead">
+              Dimensões:
+              <%
+              const { dimensions } = _.state
+              for (const key in dimensions) {
+                if (Object.hasOwnProperty.call(dimensions, key)) {
+                  const element = dimensions[key];
+                  const dim = key === 'width' ? 'Largura' : key === 'height' ? 'Altura' : 'Comprimento'
+              %>
+              <span><%= dim %>: <%= element.value %> <%= element.unit %>.</span>
+              <%
+                  }
+                }
+              %>
+            </p>
+          <% } %>
+
+          <% if (_.state.weight) { %>
+            <p class="product__info-weight mt-3 lead">
+              Peso:
+              <%
+                const { weight } = _.state
+              %>
+              <span>Peso</span>: <span><%= weight.value %> <%= weight.unit %></span>
+            </p>     
+          <% } %>
 
           <% if (_.state.short_description) { %>
             <p class="product__info mt-3 lead">
