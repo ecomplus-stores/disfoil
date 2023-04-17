@@ -58,7 +58,7 @@ export default (self, term) => {
   self.mergeFilter({
     multi_match: {
       query: finalTerm,
-      type: finalTerm.length > 6 
+      type: finalTerm.length > 5 
       ? 'best_fields'
       : regDig.test(finalTerm)
       ? 'best_fields'
