@@ -265,7 +265,24 @@ if (_.state.gtin && _.state.gtin[0]) {
   productJsonLd.gtin = _.state.gtin[0]
 }
 %>
-<script type="application/ld+json"><%-
+<script id="product-block-jsonld" type="application/ld+json"><%-
   JSON.stringify(productJsonLd)
 %></script>
+<script type="text/javascript">
+  setTimeout(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const variationId = urlParams.get('variation_id');
+    const variations = window._context.body && window._context.body.variations;
+    if (Array.isArray(variations) && variationId) {
+      const selectedVariation = variations.find(variation => variation._id === variationId);
+      if (selectedVariation) {
+        const $jsonLd = document.querySelector('#product-block-jsonld');
+        const jsonLd = JSON.parse($jsonLd.innerText);
+        jsonLd.sku = selectedVariation.sku;
+        jsonLd.offers.price = selectedVariation.price;
+        document.querySelector('#product-block-jsonld').innerText = JSON.stringify(jsonLd);
+      }
+    }
+  }, 50);
+</script>
 
