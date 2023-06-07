@@ -815,3 +815,11 @@ margin-left: -250px !important;
 #page-products .shipping-calculator__form .alert.alert-danger {
   display: none;
 }
+.cart .row .col-md-7.col-lg-8 {
+  display: flex;
+  flex-direction: column;
+}
+.recommended-items {
+  order: 1;
+  border-top: 1px solid;
+}
