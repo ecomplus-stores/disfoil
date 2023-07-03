@@ -417,6 +417,9 @@
   }
 }
 .prices.product-card__prices {
+  .prices__value {
+    font-size: 13 !important;
+  }
   .prices__value + span {
     display: flex;
     flex-direction: column;
