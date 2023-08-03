@@ -237,7 +237,7 @@ const productJsonLd = {
     url: `https://${_.settings.domain}/${_.state.slug}`,
     availability: `${(_.ecomUtils.inStock(_.state) ? 'In' : 'OutOf')}Stock`,
     priceCurrency: _.settings.currency,
-    price: Number((_.ecomUtils.price(_.state) * 0.95).toFixed(2)),
+    price: _.ecomUtils.price(_.state),
     itemCondition: `http://schema.org/${(_.state.condition === 'new' ? 'New' : 'Used')}Condition`,
     priceValidUntil: _.ecomUtils.onPromotion(_.state) && _.state.price_effective_date && _.state.price_effective_date.end
       ? _.state.price_effective_date.end.slice(0, 10)
@@ -279,7 +279,7 @@ if (_.state.gtin && _.state.gtin[0]) {
         const $jsonLd = document.querySelector('#product-block-jsonld');
         const jsonLd = JSON.parse($jsonLd.innerText);
         jsonLd.sku = selectedVariation.sku;
-        jsonLd.offers.price = Number((selectedVariation.price * 0.95).toFixed(2));
+        jsonLd.offers.price = selectedVariation.price;
         jsonLd.name = (selectedVariation.name && selectedVariation.name.replace('"', '')) || jsonLd.name;
         jsonLd.offers.url = `${jsonLd.offers.url}?variation_id=${variationId}`;
         document.querySelector('#product-block-jsonld').innerText = JSON.stringify(jsonLd);
