@@ -429,7 +429,7 @@
       flex-direction: column;
       color: #1b69a9;
       span {
-        font-size: 28px;
+        font-size: 20px;
         font-weight: 700;
       }
     }
@@ -680,8 +680,11 @@ margin-left: -250px !important;
 }
 .product__prices {
   color: #005093;
-  .prices__value, .prices__discount span {
+  .prices__value {
     font-size: 30px !important;
+  }
+  .prices__discount span {
+    font-size: 20px !important;
   }
   .prices__installments {
     font-size: 13px;

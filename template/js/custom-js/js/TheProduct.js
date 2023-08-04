@@ -417,15 +417,10 @@ import {
           if (this.hasClickedBuy) {
             this.hasClickedBuy = false
           }
-          searchParams.set('variation_id', variationId)
-          window.history.pushState({
-            pathname,
-            searchParams
-          }, '', `${pathname}?${searchParams.toString()}`)
           this.showVariationPicture(this.selectedVariation)
         }
-        const isDiffPrice = this.body.variations.every(variation => (variation.price === this.body.price) || !variation.price)
-        if (oldVariationId !== null && oldVariationId !== variationId && !isDiffPrice) {
+        if (oldVariationId !== null && oldVariationId !== variationId) {
+          window.location.href = `${pathname}?${searchParams.toString()}`
           window.location = `${pathname}?${searchParams.toString()}`
         }
       },
