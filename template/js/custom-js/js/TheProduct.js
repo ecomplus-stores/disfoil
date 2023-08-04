@@ -410,19 +410,23 @@ import {
     },
   
     watch: {
-      selectedVariationId (variationId) {
+      selectedVariationId (variationId, oldVariationId) {
+        const { pathname } = window.location
+        const searchParams = new URLSearchParams(window.location.search)
         if (variationId) {
           if (this.hasClickedBuy) {
             this.hasClickedBuy = false
           }
-          const { pathname } = window.location
-          const searchParams = new URLSearchParams(window.location.search)
           searchParams.set('variation_id', variationId)
           window.history.pushState({
             pathname,
             searchParams
           }, '', `${pathname}?${searchParams.toString()}`)
           this.showVariationPicture(this.selectedVariation)
+        }
+        const isDiffPrice = this.body.variations.every(variation => (variation.price === this.body.price) || !variation.price)
+        if (oldVariationId !== null && oldVariationId !== variationId && !isDiffPrice) {
+          window.location = `${pathname}?${searchParams.toString()}`
         }
       },
   

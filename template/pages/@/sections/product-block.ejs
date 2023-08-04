@@ -237,7 +237,7 @@ const productJsonLd = {
     url: `https://${_.settings.domain}/${_.state.slug}`,
     availability: `${(_.ecomUtils.inStock(_.state) ? 'In' : 'OutOf')}Stock`,
     priceCurrency: _.settings.currency,
-    price: _.ecomUtils.price(_.state),
+    price: !(_.state.variations && _.state.variations.length) ? _.ecomUtils.price(_.state) : undefined,
     itemCondition: `http://schema.org/${(_.state.condition === 'new' ? 'New' : 'Used')}Condition`,
     priceValidUntil: _.ecomUtils.onPromotion(_.state) && _.state.price_effective_date && _.state.price_effective_date.end
       ? _.state.price_effective_date.end.slice(0, 10)
@@ -284,6 +284,8 @@ if (_.state.gtin && _.state.gtin[0]) {
         jsonLd.offers.url = `${jsonLd.offers.url}?variation_id=${variationId}`;
         document.querySelector('#product-block-jsonld').innerText = JSON.stringify(jsonLd);
       }
+    } else {
+      jsonLd.offers.price = window._context.body.price
     }
   }, 50);
 </script>
