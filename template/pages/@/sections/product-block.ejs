@@ -5,6 +5,7 @@ if (stamps && Array.isArray(stamps.stamps_list) && stamps.stamps_list.length) {
   stampsList = stamps.stamps_list
 }
 %>
+
 <div id="product-block" class="product-block my-4 mb-lg-5">
   <div class="container">
     <section
@@ -88,6 +89,10 @@ if (stamps && Array.isArray(stamps.stamps_list) && stamps.stamps_list.length) {
           <h1 class="product__name">
             <%= _.ecomUtils.name(_.state) %>
           </h1>
+          <p class="product__sku">
+            COD: <%= _.state.sku %>
+          </p>
+
           <div id="product-actions">
             <div id="product-loading">
               <% if (_.state.available && _.state.visible && _.ecomUtils.inStock(_.state)) { %>
@@ -147,9 +152,6 @@ if (stamps && Array.isArray(stamps.stamps_list) && stamps.stamps_list.length) {
                 <span class="sr-only">Loading...</span>
               </div>
 
-              <a id="modal-calc" href="javascript:;" data-toggle="modal" data-target="#modal-center" style="display: none; padding: 7px; border: 1px solid #ccc; font-size:18px"><i class="fa fa-arrows-alt" aria-hidden="true"></i>
-                Clique e calcule o seu m²</a>
-
               <div class="product__buy">
                 <button
                   type="button"
@@ -174,37 +176,8 @@ if (stamps && Array.isArray(stamps.stamps_list) && stamps.stamps_list.length) {
                   </div>
                 </button>
               </div>
-
             </div>
           </div>
-
-          <% if (_.state.dimensions) { %>
-            <p class="product__info-dimensions mt-3 product__sku">
-              Dimensões:
-              <%
-              const { dimensions } = _.state
-              for (const key in dimensions) {
-                if (Object.hasOwnProperty.call(dimensions, key)) {
-                  const element = dimensions[key];
-                  const dim = key === 'width' ? 'Largura' : key === 'height' ? 'Altura' : 'Comprimento'
-              %>
-              <span><%= dim %>: <%= element.value %> <%= element.unit %>.</span>
-              <%
-                  }
-                }
-              %>
-            </p>
-          <% } %>
-
-          <% if (_.state.weight) { %>
-            <p class="product__info-weight mt-3 product__sku">
-              Peso:
-              <%
-                const { weight } = _.state
-              %>
-              <span><%= weight.value %> <%= weight.unit %></span>
-            </p>     
-          <% } %>
 
           <% if (_.state.short_description) { %>
             <p class="product__info mt-3 lead">
@@ -237,7 +210,7 @@ const productJsonLd = {
     url: `https://${_.settings.domain}/${_.state.slug}`,
     availability: `${(_.ecomUtils.inStock(_.state) ? 'In' : 'OutOf')}Stock`,
     priceCurrency: _.settings.currency,
-    price: !(_.state.variations && _.state.variations.length) ? _.ecomUtils.price(_.state) : undefined,
+    price: _.ecomUtils.price(_.state),
     itemCondition: `http://schema.org/${(_.state.condition === 'new' ? 'New' : 'Used')}Condition`,
     priceValidUntil: _.ecomUtils.onPromotion(_.state) && _.state.price_effective_date && _.state.price_effective_date.end
       ? _.state.price_effective_date.end.slice(0, 10)
@@ -284,9 +257,6 @@ if (_.state.gtin && _.state.gtin[0]) {
         jsonLd.offers.url = `${jsonLd.offers.url}?variation_id=${variationId}`;
         document.querySelector('#product-block-jsonld').innerText = JSON.stringify(jsonLd);
       }
-    } else {
-      jsonLd.offers.price = window._context.body.price
     }
   }, 50);
 </script>
-
