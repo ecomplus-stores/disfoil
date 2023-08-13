@@ -693,11 +693,12 @@ margin-left: -250px !important;
   .prices__discount {
     span {
       color: #53a24f !important;
-      &::after {
+      font-size: 30px !important;
+      /* &::after {
         content: ' (5%)';
         color: #005093;
         font-size: 13px !important;
-      }
+      } */
     }
   .prices__discount-label {
     display: none;
@@ -708,7 +709,7 @@ margin-left: -250px !important;
 .product-card__prices {
   text-align: left;
   .prices__discount {
-    order: -2;
+    order: -1;
     span {
       color: #003e72;
       font-size: 18px;
@@ -829,5 +830,17 @@ margin-left: -250px !important;
   order: 1;
   &__title {
     border-top: 1px solid;
+  }
+}
+.product__prices {
+  .prices__value {
+    display: none;
+  }
+  .prices.prices--literal.prices--big {
+    display: flex;
+    flex-direction: column;
+    .prices__discount {
+      order: -1;
+    }
   }
 }

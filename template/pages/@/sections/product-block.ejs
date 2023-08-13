@@ -210,7 +210,7 @@ const productJsonLd = {
     url: `https://${_.settings.domain}/${_.state.slug}`,
     availability: `${(_.ecomUtils.inStock(_.state) ? 'In' : 'OutOf')}Stock`,
     priceCurrency: _.settings.currency,
-    price: _.ecomUtils.price(_.state),
+    price: Number(_.ecomUtils.formatMoney(_.ecomUtils.price(_.state) * 0.95).replace('R$ ', '').replace(',', '.')),
     itemCondition: `http://schema.org/${(_.state.condition === 'new' ? 'New' : 'Used')}Condition`,
     priceValidUntil: _.ecomUtils.onPromotion(_.state) && _.state.price_effective_date && _.state.price_effective_date.end
       ? _.state.price_effective_date.end.slice(0, 10)
