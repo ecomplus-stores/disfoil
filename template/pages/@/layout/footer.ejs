@@ -62,11 +62,14 @@ const { path } = _.route
           </select>
 
           <script>
+            console.log(window.innerWidth)
+            const pathWhatsapp = window.innerWidth > 810 ? 'web' : 'app'
               function redirectToWhatsApp(selectedValue) {
                   if (selectedValue) {
-                      var phoneNumber = encodeURIComponent(selectedValue);
-                      var whatsappLink = "https://wa.me/" + phoneNumber;
-                      window.open(whatsappLink, '_blank')
+                    var windowReference = window.open()
+                    var phoneNumber = encodeURIComponent(selectedValue);
+                    var whatsappLink = `https://${pathWhatsapp}.whatsapp.com/send/?phone=${phoneNumber}`;
+                    windowReference.location = whatsappLink
                   }
               }
 
