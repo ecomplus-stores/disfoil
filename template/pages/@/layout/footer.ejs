@@ -5,6 +5,88 @@ const contacts = _.cms('contacts') || {}
 
 const { path } = _.route
 %>
+<div id="disfoil-widget" class="d-none" style="bottom: 14px; right: 16px; box-sizing: border-box; position: fixed !important; z-index: 9999 !important; direction: ltr; text-align: right;">
+  <div class="disfoil-chat-option">
+    <div class="disfoil-label">
+      <div class="disfoil-label-text">Atendimento Disfoil</div>
+    </div>
+    <div size="62" class="disfoil-icon">
+      <span size="62" class="disfoil-icon-tag">
+        <div class="disfoil-icon-tag-after"></div>
+      </span>
+    </div>
+  </div>
+  <div style="bottom: 92px;" class="disfoil-chat-message d-none">
+    <div class="disfoil-chat-message-block">
+       <div color="#FF6550" class="disfoil-chat-message-block-header">
+          <div class="disfoil-chat-message-block-header-content">
+             <div class="disfoil-chat-message-block-header-service">
+                <div class="disfoil-chat-message-block-header-block-img"><img class="disfoil-chat-message-block-header-img"></div>
+                <div>
+                  <span class="disfoil-chat-message-block-name">Bot</span>
+                  <p class="disfoil-chat-message-block-name-service">Atendimento</p>
+                </div>
+             </div>
+             <div class="disfoil-chat-message-block-close">
+                <svg style="width: 25px; height: 25px; fill: rgb(255, 255, 255); stroke: none;" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                   <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+                   <path d="M0 0h24v24H0z" fill="none"></path>
+                </svg>
+             </div>
+          </div>
+       </div>
+       <div class="disfoil-chat-message-block-content">
+          <div class="disfoil-chat-message-block-content-close">
+             <svg style="width: 20px; height: 20px; fill: rgb(224, 223, 223); stroke: none;" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+                <path d="M0 0h24v24H0z" fill="none"></path>
+             </svg>
+          </div>
+          <p class="disfoil-chat-message-block-content-hour">10:42</p>
+          <div class="disfoil-chat-message-block-content-bot">
+             <div class="disfoil-chat-message-block-content-bot-img"></div>
+             <div height="28" class="disfoil-chat-message-block-content-bot-msg">
+                <div class="disfoil-chat-message-block-content-bot-msg-text"><span>Olá, sou o bot da Disfoil e agora vou conduzir esse atendimento. Abaixo temos uma lista de atendentes, escolha uma da região mais próxima</span>
+                </div>
+             </div>
+          </div>
+          <p class="disfoil-chat-message-block-content-bot-chat">Converse com:</p>
+          <select id="disfoil-chat-whatsapp" onchange="redirectToWhatsApp(this.value)">
+              <option value="">Selecione o atendimento...</option>
+              <option value="19987203063">VENDAS SP</option>
+              <option value="19987115565">VENDAS PR/SC</option>
+              <option value="19998718880">VENDAS BA/DF/ES</option>
+              <option value="19974226101">VENDAS MG</option>
+              <option value="199969919705">SAC</option>
+              <option value="19987161354">FINANCEIRO</option>
+          </select>
+
+          <script>
+              function redirectToWhatsApp(selectedValue) {
+                  if (selectedValue) {
+                      var phoneNumber = encodeURIComponent(selectedValue);
+                      var whatsappLink = "https://wa.me/" + phoneNumber;
+                      window.open(whatsappLink, '_blank')
+                  }
+              }
+
+              const dateNow = new Date()
+              const hour = dateNow.getHours()
+              const minute = dateNow.getMinutes()
+              const stringDate = `${hour}:${minute}`
+              document.getElementsByClassName('disfoil-chat-message-block-content-hour')[0].innerText = stringDate
+              document.getElementsByClassName('disfoil-chat-option')[0].addEventListener('click', (event) => {
+                document.getElementsByClassName('disfoil-chat-message')[0].classList.toggle('d-none')
+              })
+              document.getElementsByClassName('disfoil-chat-message-block-close')[0].addEventListener('click', (event) => {
+                document.getElementsByClassName('disfoil-chat-message')[0].classList.add('d-none')
+              })
+          </script>
+       </div>
+    </div>
+  </div>
+</div>
+
 <div id="new-box">
   <div id="new-cinza"></div>
       <div class="container">

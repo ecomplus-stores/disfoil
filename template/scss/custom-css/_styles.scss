@@ -1,4 +1,24 @@
 // Add your custom CSS here.
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.95);
+  }
+  20% {
+    transform: scale(1.25);
+  }
+  40% {
+    transform: scale(.95);
+  }
+  60% {
+    transform: scale(1.25);
+  }
+  80% {
+    transform: scale(.95);
+  }
+  100% {
+    transform: scale(.95);
+  }
+}
 .product__name {
   font-size: 24px !important;
 }
@@ -832,6 +852,7 @@ margin-left: -250px !important;
     border-top: 1px solid;
   }
 }
+
 .product__prices {
   .prices__value {
     display: none;
@@ -843,4 +864,296 @@ margin-left: -250px !important;
       order: -1;
     }
   }
+}
+
+
+#disfoil-widget {
+  &> * {
+    box-sizing: border-box !important;
+  }
+
+  .disfoil-chat-option {
+    display: flex;
+    margin: 7px;
+    position: relative;
+    -moz-box-pack: end;
+    justify-content: flex-end;
+    max-height: 62px;
+  }
+
+  .disfoil-icon {
+    animation: heartbeat 2s infinite;
+  }
+
+  .disfoil-icon-tag::before {
+    content: "1";
+    width: 18.6px;
+    height: 18.6px;
+    display: grid;
+    place-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    background-color: red;
+    border-radius: 50%;
+    font-family: sans-serif;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 2px;
+  }
+  .disfoil-icon-tag {
+    flex-shrink: 0;
+    opacity: 1;
+    text-decoration: none !important;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    display: block;
+    background-color: transparent;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-image: url("/img/uploads/disfoil-vendas.jpg");
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    order: 2;
+    padding: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 8px;
+    transition: all 0.5s ease 0s;
+    position: relative;
+    z-index: 200;
+    border: 2.79px solid rgb(255, 255, 255);
+  }
+
+  .disfoil-icon-tag-after {
+    height: 100%;
+    width: 100%;
+    margin-top: -1px;
+  }
+
+  .disfoil-icon {
+    order: 2;
+    position: relative;
+  }
+
+  .disfoil-label {
+    transform: translateX(0px);
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 13px;
+    flex-shrink: 0;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 5px;
+    background: white;
+    text-decoration: none !important;
+    color: rgb(0, 0, 0) !important;
+    cursor: pointer;
+    margin: auto 31px auto auto;
+    max-width: 172px;
+    max-height: 65px;
+    display: flex;
+    order: 1;
+  }
+
+  .disfoil-label::before {
+    content: "";
+    position: absolute;
+    background: white;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    border-right: 1px solid rgb(226, 226, 226);
+    right: -5px;
+    top: 50%;
+    margin-top: -4px;
+    width: 8px;
+    height: 8px;
+    z-index: 1;
+    transform: rotate(-45deg);
+  }
+
+  .disfoil-label-text {
+    text-align: center;
+    padding: 7px 10px;
+    line-height: 16px;
+    font-size: 16.5px;
+    margin: auto;
+  }
+
+  .disfoil-label::after {
+    content: "";
+    position: absolute;
+    background: white;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    border-right: 1px solid rgb(226, 226, 226);
+    right: -5px;
+    top: 50%;
+    margin-top: -4px;
+    width: 8px;
+    height: 8px;
+    z-index: 1;
+    transform: rotate(-45deg);
+  }
+
+  .disfoil-chat-message {
+    transform: translateY(0px);
+    opacity: 1;
+    padding: 0px;
+    border: 0px;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    bottom: 73px;
+    line-height: 23px;
+    font-size: 14px;
+    width: 320px;
+  }
+
+  .disfoil-chat-message-block {
+    position: relative;
+    min-height: 149px;
+    background-color: white;
+    display: block;
+    border: medium;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.1) 7px 7px 15px 8px;
+  }
+
+  .disfoil-chat-message-block-header {
+    border-radius: 16px 16px 0px 0px;
+    background: linear-gradient(135deg, #004c8d, #2d628f, #7ba0c1);
+  }
+
+  .disfoil-chat-message-block-header-content {
+    border-radius: 16px 16px 0px 0px;
+    padding: 0px 15px;
+    height: 80px;
+    display: flex;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    -moz-box-align: center;
+    align-items: center;
+  }
+
+  .disfoil-chat-message-block-header-service {
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    position: relative;
+  }
+
+  .disfoil-chat-message-block-header-block-img {
+    position: relative;
+  }
+
+  .disfoil-chat-message-block-header-block-img::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: rgb(77, 194, 71);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 6px;
+  }
+
+  .disfoil-chat-message-block-header-img {
+    display: block !important;
+    height: 50px;
+    width: 50px;
+    min-width: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    background: url("/img/uploads/support-sales.jpg") center center / cover no-repeat;
+  }
+
+  .disfoil-chat-message-block-name {
+    margin: 0px;
+    text-align: left;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .disfoil-chat-message-block-name-service {
+    margin: 0px;
+    line-height: 1.3;
+    color: white;
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .disfoil-chat-message-block-close {
+    transition: transform .7s ease-in-out;
+    &:hover {
+      transform: rotate(90deg);
+    }
+  }
+
+  .disfoil-chat-message-block-content {
+    padding: 15px;
+  }
+
+  .disfoil-chat-message-block-content-close {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 3px;
+  }
+  
+  .disfoil-chat-message-block-content-hour {
+    margin: 0px 0px 15px;
+    color: rgb(149, 157, 169);
+  }
+
+  .disfoil-chat-message-block-content-bot {
+    display: flex;
+    gap: 10px;
+    color: black;
+  }
+
+  .disfoil-chat-message-block-content-bot-img {
+    display: block !important;
+    height: 35px;
+    width: 35px;
+    min-width: 35px;
+    border-radius: 50%;
+    background: url("/img/uploads/support-sales.jpg") center center / cover no-repeat;
+  }
+
+  .disfoil-chat-message-block-content-bot-msg {
+    background: #c0dcf4;
+    border-radius: 2px 20px 20px;
+    max-height: 20vh;
+    padding: 14px 0px;
+  }
+
+  .disfoil-chat-message-block-content-bot-msg-text {
+    text-align: left;
+    padding: 0px 16px;
+    line-height: 20px;
+    white-space: pre-wrap;
+    overflow-y: auto;
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+  .disfoil-chat-message-block-content-bot-chat {
+    font-weight: bold;
+    margin: 25px 0px 5px;
+  }
+
+  #disfoil-chat-whatsapp {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
 }
