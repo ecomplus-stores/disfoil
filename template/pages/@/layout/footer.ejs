@@ -68,9 +68,11 @@ const { path } = _.route
                     var phoneNumber = encodeURIComponent(selectedValue);
                     var whatsappLink = `https://${pathWhatsapp}.whatsapp.com/send/?phone=${phoneNumber}`;
                     var newWindow = window.open('', '_blank');              
-                    setTimeout(function() {
-                        newWindow.location.href = whatsappLink;
-                    }, 100);
+                    if (newWindow) {
+                      newWindow.location.href = whatsappLink;
+                    } else {
+                        window.location.href = whatsappLink;
+                    }
                   }
               }
 
