@@ -4,5 +4,94 @@
     "branch": "master",
     "identity_url": "https://gotrue.ecomplus.biz/51266/.netlify/identity",
     "gateway_url": "https://gitgateway.ecomplus.biz/51266/.netlify/git"
-  }
+  },
+  "collections": [
+    {
+      "label" : "Configuração Widget",
+      "name": "mgnr",
+      "editor": {
+        "preview": false
+      },
+      "files": [
+        {
+          "name": "widget_bot",
+          "label": "Bot Widget",
+          "file": "content/mgnr_bot.json",
+          "editor": {
+            "preview": false
+          },
+          "fields": [
+            {
+              "name": "enabled",
+              "label": "Ativar widget",
+              "widget": "boolean",
+              "required": false
+            },
+            {
+              "label": "Imagem do atendente",
+              "name": "image_att",
+              "widget": "image",
+              "required":false
+            },
+            {
+              "label": "Imagem do icone",
+              "name": "image_icon",
+              "widget": "image",
+              "required":false
+            },
+            {
+              "label": "Texto de chamada",
+              "name": "text_init",
+              "widget": "string",
+              "required":false
+            },
+            {
+              "label": "Nome do bot",
+              "name": "bot_name",
+              "widget": "string",
+              "required":false
+            },
+            {
+              "label": "Nome do serviço",
+              "name": "bot_service",
+              "widget": "string",
+              "required":false
+            },
+            {
+              "label": "Mensagem inicial Bot",
+              "name": "text_chat",
+              "widget": "string",
+              "required":false
+            },
+            {
+              "label":"Lista de atendimento",
+              "name":"whatsapp_list",
+              "widget":"list",
+              "required":false,
+              "fields": [
+                {
+                  "label": "Informações do atendimento",
+                  "name": "item",
+                  "widget": "object",
+                  "required":false,
+                  "fields": [ 
+                    {
+                      "label": "Texto da Opção",
+                      "name": "title",
+                      "widget": "string"          
+                    }, 
+                    {
+                      "label": "Número do whatsapp",
+                      "name": "whatsapp",
+                      "widget": "string"          
+                    }                         
+                  ]
+                } 
+              ]
+            }  
+          ]
+        }
+      ]
+    }
+  ]
 }
