@@ -13,7 +13,8 @@
   </span>
 
   <strong class="prices__value">
-    {{ formatMoney(price) }} <small style="font-size: 13px"
+    {{ formatMoney(price * discountData) }}
+     <small style="font-size: 13px"
       v-if="comparePrice > price" 
       >desconto de <strong>{{ Math.round((1 - price / comparePrice) * 100)   }}%</strong>
     </small>

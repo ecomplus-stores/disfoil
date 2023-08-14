@@ -98,7 +98,7 @@ if (stamps && Array.isArray(stamps.stamps_list) && stamps.stamps_list.length) {
               <% if (_.state.available && _.state.visible && _.ecomUtils.inStock(_.state)) { %>
                 <div class="product__price prices prices--big">
                   <strong class="prices__value">
-                    <%= _.ecomUtils.formatMoney(_.ecomUtils.price(_.state)) %>
+                    <%= _.ecomUtils.formatMoney(_.ecomUtils.price(_.state) * 0.95) %>
                   </strong>
                 </div>
               <% } %>
