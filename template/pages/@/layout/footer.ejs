@@ -5,8 +5,8 @@ const contacts = _.cms('contacts') || {}
 
 const { path } = _.route
 %>
-<div id="disfoil-widget" class="d-none" style="bottom: 14px; right: 16px; box-sizing: border-box; position: fixed !important; z-index: 9999 !important; direction: ltr; text-align: right;">
-  <div class="disfoil-chat-option d-none">
+<div id="disfoil-widget" style="bottom: 14px; left: 16px; box-sizing: border-box; position: fixed !important; z-index: 9999 !important; direction: ltr; text-align: right;">
+  <!-- <div class="disfoil-chat-option d-none">
     <div class="disfoil-label">
       <div class="disfoil-label-text">Atendimento Disfoil</div>
     </div>
@@ -15,8 +15,8 @@ const { path } = _.route
         <div class="disfoil-icon-tag-after"></div>
       </span>
     </div>
-  </div>
-  <div style="bottom: 92px;" class="disfoil-chat-message d-none">
+  </div> -->
+  <div style="bottom: 115px;" class="disfoil-chat-message d-none">
     <div class="disfoil-chat-message-block">
        <div color="#FF6550" class="disfoil-chat-message-block-header">
           <div class="disfoil-chat-message-block-header-content">
@@ -75,7 +75,10 @@ const { path } = _.route
               const minute = dateNow.getMinutes()
               const stringDate = `${hour}:${minute}`
               document.getElementsByClassName('disfoil-chat-message-block-content-hour')[0].innerText = stringDate
-              document.getElementsByClassName('disfoil-chat-option')[0].addEventListener('click', (event) => {
+              document.getElementsByClassName('open-chat-bot')[0].addEventListener('click', (event) => {
+                document.getElementsByClassName('disfoil-chat-message')[0].classList.toggle('d-none')
+              })
+              document.getElementsByClassName('chat-bot-open-1')[0].addEventListener('click', (event) => {
                 document.getElementsByClassName('disfoil-chat-message')[0].classList.toggle('d-none')
               })
               document.getElementsByClassName('disfoil-chat-message-block-close')[0].addEventListener('click', (event) => {
