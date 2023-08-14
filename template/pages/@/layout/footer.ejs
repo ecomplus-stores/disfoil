@@ -69,14 +69,9 @@ const { path } = _.route
               function redirectToWhatsApp(selectedValue) {
                   if (selectedValue) {
                     var phoneNumber = encodeURIComponent(selectedValue);
-                    var whatsappLink = `https://${pathWhatsapp}.whatsapp.com/send/?phone=${phoneNumber}`;
-                    var newWindow = window.open('', '_blank');              
-                    if (newWindow) {
-                      newWindow.location.href = whatsappLink;
-                    } else {
-                      document.getElementById('link_whatsapp').href = whatsappLink
-                      document.getElementById('link_whatsapp').classList.remove('d-none')
-                    }
+                    var whatsappLink = `https://${pathWhatsapp}.whatsapp.com/send/?phone=${phoneNumber}`;            
+                    document.getElementById('link_whatsapp').href = whatsappLink
+                    document.getElementById('link_whatsapp').classList.remove('d-none')
                   }
               }
 
