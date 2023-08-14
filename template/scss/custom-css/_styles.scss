@@ -704,7 +704,7 @@ margin-left: -250px !important;
     font-size: 30px !important;
   }
   .prices__discount span {
-    font-size: 13px !important;
+    font-size: 30px !important;
   }
   .prices__installments {
     font-size: 13px;
@@ -713,11 +713,11 @@ margin-left: -250px !important;
   .prices__discount {
     span {
       color: #53a24f !important;
-      &::after {
+      /* &::after {
         content: ' (5%)';
         color: #005093;
         font-size: 13px !important;
-      }
+      } */
     }
   .prices__discount-label {
     display: none;
@@ -1143,3 +1143,15 @@ margin-left: -250px !important;
   
 }
 
+.product__prices {
+  .prices__value {
+    display: none;
+  }
+  .prices.prices--literal.prices--big {
+    display: flex;
+    flex-direction: column;
+    .prices__discount {
+      order: -1;
+    }
+  }
+}
