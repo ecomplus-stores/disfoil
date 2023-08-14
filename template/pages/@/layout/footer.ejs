@@ -60,9 +60,12 @@ const { path } = _.route
               <option value="199969919705">SAC</option>
               <option value="19987161354">FINANCEIRO</option>
           </select>
+          <br>
+          <a id="link_whatsapp" class="d-none" target="_blank" rel="noopener noreferrer">Clique aqui para ser atendido</a>
 
           <script>
             const pathWhatsapp = window.innerWidth > 810 ? 'web' : 'api'
+            console.log(document.getElementById('link_whatsapp'))
               function redirectToWhatsApp(selectedValue) {
                   if (selectedValue) {
                     var phoneNumber = encodeURIComponent(selectedValue);
@@ -71,7 +74,8 @@ const { path } = _.route
                     if (newWindow) {
                       newWindow.location.href = whatsappLink;
                     } else {
-                        window.location.href = whatsappLink;
+                      document.getElementById('link_whatsapp').href = whatsappLink
+                      document.getElementById('link_whatsapp').classList.remove('d-none')
                     }
                   }
               }
