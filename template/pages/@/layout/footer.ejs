@@ -62,7 +62,7 @@ const { path } = _.route
           </select>
 
           <script>
-            const pathWhatsapp = window.innerWidth > 810 ? 'web' : 'app'
+            const pathWhatsapp = window.innerWidth > 810 ? 'web' : 'api'
               function redirectToWhatsApp(selectedValue) {
                   if (selectedValue) {
                     var phoneNumber = encodeURIComponent(selectedValue);
