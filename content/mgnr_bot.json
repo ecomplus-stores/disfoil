@@ -1,6 +1,15 @@
 {
-    "enabled": false,
-    "image_att": "/img/uploads/whatsapp.svg.webp",
-    "image_icon": "/img/uploads/disfoil-vendas.jpg",
-    "text_init": "Atendimento Disfoil"
-  }
+  "enabled": false,
+  "image_att": "/img/uploads/whatsapp.svg.webp",
+  "image_icon": "/img/uploads/disfoil-vendas.jpg",
+  "text_init": "Atendimento Disfoil",
+  "bot_name": "WhatsApp Disfoil",
+  "whatsapp_list": [
+    {
+      "item": {
+        "title": "Vendas SP / GO / RO / MA / PA",
+        "whatsapp": "19 98720-3063"
+      }
+    }
+  ]
+}
