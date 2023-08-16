@@ -34,12 +34,6 @@
               "required":false
             },
             {
-              "label": "Imagem do icone",
-              "name": "image_icon",
-              "widget": "image",
-              "required":false
-            },
-            {
               "label": "Texto de chamada",
               "name": "text_init",
               "widget": "string",
@@ -78,12 +72,14 @@
                     {
                       "label": "Texto da Opção",
                       "name": "title",
-                      "widget": "string"          
+                      "widget": "string",
+                      "required":false          
                     }, 
                     {
                       "label": "Número do whatsapp",
                       "name": "whatsapp",
-                      "widget": "string"          
+                      "widget": "string",
+                      "required":false      
                     }                         
                   ]
                 } 
