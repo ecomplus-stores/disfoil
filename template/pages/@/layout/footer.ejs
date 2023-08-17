@@ -51,16 +51,8 @@ const { path } = _.route
              </div>
           </div>
           <p class="disfoil-chat-message-block-content-bot-chat">Converse com:</p>
-          <ul class="list-unstyled menu-whatsapp form-group">
-            <li><a id="link_whatsapp" class="form-control" href="javascript:;" rel="noopener noreferrer">Selecione um atendimento</a></li>
-            <li><a id="link_whatsapp" class="form-control" href="http://wa.me/19987203063" target="_blank" rel="noopener noreferrer">Vendas SP / GO / RO / RR / MA / PA</a></li>
-            <li><a id="link_whatsapp" class="form-control" href="http://wa.me/19987115565" target="_blank" rel="noopener noreferrer">Vendas RJ / PR / SC / PB / MS / AM / AC</a></li>
-            <li><a id="link_whatsapp" class="form-control" href="http://wa.me/19998718880" target="_blank" rel="noopener noreferrer">Vendas RS / BA / DF / ES / MT / AP / PI / PE</a></li>
-            <li><a id="link_whatsapp" class="form-control" href="http://wa.me/19974226101" target="_blank" rel="noopener noreferrer">Vendas MG / RN / TO / CE / SE / AL</a></li>
-            <li><a id="link_whatsapp" class="form-control" href="http://wa.me/19996919705" target="_blank" rel="noopener noreferrer">SAC</a></li>
-            <li><a id="link_whatsapp" class="form-control" href="http://wa.me/19987161354" target="_blank" rel="noopener noreferrer">FINANCEIRO</a></li>
-          </ul>
-          <!-- <select id="disfoil-chat-whatsapp" onchange="redirectToWhatsApp(this.value)">
+          
+          <select id="disfoil-chat-whatsapp" onchange="redirectToWhatsApp(this.value)">
               <option value="">Selecione o atendimento...</option>
               <option value="19987203063">Vendas SP / GO / RO / RR / MA / PA</option>
               <option value="19987115565">Vendas RJ / PR / SC / PB / MS / AM / AC</option>
@@ -68,9 +60,9 @@ const { path } = _.route
               <option value="19974226101">Vendas MG / RN / TO / CE / SE / AL</option>
               <option value="19996919705">SAC</option>
               <option value="19987161354">FINANCEIRO</option>
-          </select> -->
-<!--           <br>
-          <a id="link_whatsapp" class="d-none" target="_blank" rel="noopener noreferrer">Clique aqui para ser atendido</a> -->
+          </select>
+          <br>
+          <a id="link_whatsapp" class="d-none" target="_blank" rel="noopener noreferrer">Clique aqui para ser atendido</a>
 
           <script>
               function redirectToWhatsApp(selectedValue) {
@@ -78,17 +70,9 @@ const { path } = _.route
                     var phoneNumber = encodeURIComponent(selectedValue);
                     var whatsappLink = `https://wa.me/${phoneNumber}`;            
                     document.getElementById('link_whatsapp').href = whatsappLink
-                    document.getElementById('link_whatsapp').classList.remove('d-none')
+                    document.getElementById('link_whatsapp').click()
                   }
               }
-
-              const menu = document.querySelector('.menu-whatsapp');
-              menu.addEventListener('click', (e)=>{
-                let listItem = e.target;
-                if(menu.classList.contains('open'))
-                  menu.prepend(listItem);
-                listItem.closest('ul').classList.toggle('open');
-              })
 
               const dateNow = new Date()
               const hour = dateNow.getHours()
@@ -96,6 +80,7 @@ const { path } = _.route
               const stringDate = `${hour}:${minute}`
               document.getElementsByClassName('disfoil-chat-message-block-content-hour')[0].innerText = stringDate
               document.getElementsByClassName('open-chat-bot')[0].addEventListener('click', (event) => {
+                console.log(event)
                 document.getElementsByClassName('disfoil-chat-message')[0].classList.toggle('d-none')
               })
               document.getElementsByClassName('chat-bot-open-1')[0].addEventListener('click', (event) => {
