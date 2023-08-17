@@ -71,6 +71,7 @@ const { path } = _.route
                     var whatsappLink = `https://wa.me/${phoneNumber}`;            
                     document.getElementById('link_whatsapp').href = whatsappLink
                     document.getElementById('link_whatsapp').click()
+                    document.getElementById('link_whatsapp').classList.remove('d-none')
                   }
               }
 
