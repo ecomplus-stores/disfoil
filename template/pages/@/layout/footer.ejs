@@ -64,12 +64,10 @@ const { path } = _.route
           <a id="link_whatsapp" class="d-none" target="_blank" rel="noopener noreferrer">Clique aqui para ser atendido</a>
 
           <script>
-            const pathWhatsapp = window.innerWidth > 810 ? 'web' : 'api'
-            console.log(document.getElementById('link_whatsapp'))
               function redirectToWhatsApp(selectedValue) {
                   if (selectedValue) {
                     var phoneNumber = encodeURIComponent(selectedValue);
-                    var whatsappLink = `https://${pathWhatsapp}.whatsapp.com/send/?phone=${phoneNumber}`;            
+                    var whatsappLink = `https://wa.me/${phoneNumber}`;            
                     document.getElementById('link_whatsapp').href = whatsappLink
                     document.getElementById('link_whatsapp').classList.remove('d-none')
                   }
