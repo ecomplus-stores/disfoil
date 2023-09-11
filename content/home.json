@@ -8,6 +8,13 @@
       "full_width": false,
       "slides": [
         {
+          "start": "",
+          "end": "",
+          "link": "https://www.disfoil.com.br/grid/ofertas",
+          "mobile_img": "/img/uploads/disfoil_bannersitemobile_1080x900px_selo12anos.jpg",
+          "img": "/img/uploads/disfoil_bannersitefull_1923x500px_selo12anos.jpg"
+        },
+        {
           "start": "2022-08-30T18:03:35.970Z",
           "end": "",
           "img": "/img/uploads/disfoil_bannersitefull_1923x500px_lancamento.png",
