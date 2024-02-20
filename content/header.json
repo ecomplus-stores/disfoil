@@ -20,6 +20,7 @@
     "full_width": true
   },
   "desktop_megamenu": true,
+  "alphabetical_order_submenu": true,
   "search_input": true,
   "full_width_submenu": true
 }
