@@ -1212,3 +1212,9 @@ margin-left: -250px !important;
 #td-6286dc62df4d8071c9166474 {
   order: 12
 }
+@media(max-width: 767px) {
+  #product-description iframe {
+      width: 100% !important;
+      height: auto !important;
+    }
+}
