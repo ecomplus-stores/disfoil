@@ -8,11 +8,11 @@
       "full_width": false,
       "slides": [
         {
-          "start": "",
+          "start": "2023-06-16T12:59:26.677Z",
           "end": "",
-          "link": "https://www.disfoil.com.br/search?term=industrial",
-          "mobile_img": "/img/uploads/disfoil_bannermobile_1080x900px_mantaindustrial-copia.jpg",
-          "img": "/img/uploads/disfoil_bannersitefull_1923x500px_mantaindustrial-1-.jpg"
+          "img": "/img/uploads/disfoil_bannersitefull_1923x500px_telaregulavel.jpg",
+          "mobile_img": "/img/uploads/disfoil_bannersitefull_1080x900px_telaregulavel-mobile.jpg",
+          "link": "https://www.disfoil.com.br/tela-mosquiteira-de-encaixe-regulavel"
         },
         {
           "start": "2022-08-30T18:06:04.708Z",
@@ -22,25 +22,25 @@
           "link": "https://www.disfoil.com.br/tela-mosquiteira-de-encaixe-regulavel-pet"
         },
         {
-          "start": "2022-08-30T18:03:35.970Z",
-          "end": "",
-          "img": "/img/uploads/disfoil_bannersitefull_1923x500px_lancamento.png",
-          "mobile_img": "/img/uploads/disfoil_bannersitemobile_1080x900px_lancamento.jpg",
-          "link": "https://www.disfoil.com.br/manta-termica-para-telhado-dupla-face-50m-residencial-disfoil"
-        },
-        {
-          "start": "2023-06-16T12:59:26.677Z",
-          "end": "",
-          "img": "/img/uploads/disfoil_bannersitefull_1923x500px_telaregulavel.jpg",
-          "mobile_img": "/img/uploads/disfoil_bannersitefull_1080x900px_telaregulavel-mobile.jpg",
-          "link": "https://www.disfoil.com.br/tela-mosquiteira-de-encaixe-regulavel"
-        },
-        {
           "start": "2022-08-30T18:05:22.801Z",
           "end": "",
           "img": "/img/uploads/disfoil_bannersitefull_1923x500px_telaporta.jpg",
           "mobile_img": "/img/uploads/disfoil_bannersitefull_1080x900px_telaporta-mobile.jpg",
           "link": "https://www.disfoil.com.br/tela-mosquiteira-magnetica-para-portas-disfoil"
+        },
+        {
+          "start": "",
+          "end": "",
+          "link": "https://www.disfoil.com.br/search?term=industrial",
+          "mobile_img": "/img/uploads/disfoil_bannermobile_1080x900px_mantaindustrial-copia.jpg",
+          "img": "/img/uploads/disfoil_bannersitefull_1923x500px_mantaindustrial-1-.jpg"
+        },
+        {
+          "start": "2022-08-30T18:03:35.970Z",
+          "end": "",
+          "img": "/img/uploads/disfoil_bannersitefull_1923x500px_lancamento.png",
+          "mobile_img": "/img/uploads/disfoil_bannersitemobile_1080x900px_lancamento.jpg",
+          "link": "https://www.disfoil.com.br/manta-termica-para-telhado-dupla-face-50m-residencial-disfoil"
         },
         {
           "start": "2022-08-30T17:54:07.133Z",
