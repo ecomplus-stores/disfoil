@@ -823,7 +823,7 @@ margin-left: -250px !important;
     content: ' Pix e Boleto';
   }
 }
-@media(max-width: 767px) {
+@media(max-width: 639px) {
   #page-products .products-carousel__title span {
     font-size: 20px;
   }
@@ -831,6 +831,9 @@ margin-left: -250px !important;
     iframe {
       width: 100% !important;
       height: auto !important;
+      &.instagram-media {
+        min-height: 650px;
+      }
     }
   }
 }
@@ -1212,9 +1215,3 @@ margin-left: -250px !important;
 #td-6286dc62df4d8071c9166474 {
   order: 12
 }
-@media(max-width: 767px) {
-  #product-description iframe {
-      width: 100% !important;
-      height: auto !important;
-    }
-  }
