@@ -1215,10 +1215,7 @@ margin-left: -250px !important;
 #td-6286dc62df4d8071c9166474 {
   order: 12
 }
-.payment-option_price small::before {
-  content: "à prazo";
-  display: inline-block;
-}
-.payment-option_price small {
-  visibility: hidden;
+
+.payment-option__details:has(.payment-option__installment) > .payment-option__price > small {
+  display: none;
 }
