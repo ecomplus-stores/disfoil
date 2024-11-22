@@ -8,6 +8,13 @@
       "full_width": false,
       "slides": [
         {
+          "start": "2022-08-30T17:54:07.133Z",
+          "end": "",
+          "img": "/img/uploads/disfoil_bf2024-bannerfull-1923x500.jpg",
+          "link": "",
+          "mobile_img": "/img/uploads/disfoil_bf2024-bannermobile-1080x900.jpg"
+        },
+        {
           "start": "2023-06-16T12:59:26.677Z",
           "end": "",
           "img": "/img/uploads/disfoil_bannersitefull_1923x500px_telaregulavel.jpg",
@@ -41,13 +48,6 @@
           "img": "/img/uploads/disfoil_bannersitefull_1923x500px_lancamento.png",
           "mobile_img": "/img/uploads/disfoil_bannersitemobile_1080x900px_lancamento.jpg",
           "link": "https://www.disfoil.com.br/manta-termica-para-telhado-dupla-face-50m-residencial-disfoil"
-        },
-        {
-          "start": "2022-08-30T17:54:07.133Z",
-          "end": "",
-          "img": "/img/uploads/disfoil_bannersitefull_1923x500px_escovas.webp",
-          "link": "https://www.disfoil.com.br/escovas-de-vedacao/",
-          "mobile_img": "/img/uploads/disfoil_bannersitefull_1080x900px_escovas.webp"
         }
       ]
     },
