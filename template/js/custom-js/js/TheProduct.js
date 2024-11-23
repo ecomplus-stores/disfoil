@@ -410,18 +410,19 @@ import {
     },
   
     watch: {
-      selectedVariationId (variationId, oldVariationId) {
-        const { pathname } = window.location
-        const searchParams = new URLSearchParams(window.location.search)
+      selectedVariationId (variationId) {
         if (variationId) {
           if (this.hasClickedBuy) {
             this.hasClickedBuy = false
           }
+          const { pathname } = window.location
+          const searchParams = new URLSearchParams(window.location.search)
+          searchParams.set('variation_id', variationId)
+          window.history.pushState({
+            pathname,
+            params: searchParams.toString()
+          }, '', `${pathname}?${searchParams.toString()}`)
           this.showVariationPicture(this.selectedVariation)
-        }
-        if (oldVariationId !== null && oldVariationId !== variationId) {
-          window.location.href = `${pathname}?${searchParams.toString()}`
-          window.location = `${pathname}?${searchParams.toString()}`
         }
       },
   
