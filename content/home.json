@@ -48,6 +48,13 @@
           "img": "/img/uploads/disfoil_bannersitefull_1923x500px_lancamento.png",
           "mobile_img": "/img/uploads/disfoil_bannersitemobile_1080x900px_lancamento.jpg",
           "link": "https://www.disfoil.com.br/manta-termica-para-telhado-dupla-face-50m-residencial-disfoil"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/bannersitedisfoil_petscreen_1923x500_122024.jpg",
+          "mobile_img": "/img/uploads/bannermobiledisfoil_petscreen_1080x900_122024.jpg",
+          "link": "https://www.disfoil.com.br/tela-pet-screen/"
         }
       ]
     },
