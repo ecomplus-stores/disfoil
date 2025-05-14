@@ -713,11 +713,14 @@ margin-left: -250px !important;
   .prices__discount {
     span {
       color: #53a24f !important;
-      /* &::after {
-        content: ' (5%)';
-        color: #005093;
-        font-size: 13px !important;
-      } */
+      &::after {
+      content: 'no pix';
+      font-size: 17px;
+      color: #FF0000;
+      margin-left: 5px; /* espaço entre o valor e o texto */
+    }
+  }
+}
     }
   .prices__discount-label {
     display: none;
