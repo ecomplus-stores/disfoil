@@ -711,14 +711,16 @@ margin-left: -250px !important;
     font-weight: bold;
   }
 .prices__discount {
-    span {
-      color: #53a24f !important;
-      /* &::after {
-        content: ' (5%)';
-        color: #005093;
-        font-size: 13px !important;
-      } */
+  span {
+    color: #53a24f !important;
+    &::after {
+      content: 'no pix/boleto';
+      color: #d32f2f;
+      font-size: 15px;
+      margin-left: 4px;
     }
+  }
+}
   .prices__discount-label {
     display: none;
   } 
