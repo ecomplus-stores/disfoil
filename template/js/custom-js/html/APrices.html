@@ -14,9 +14,12 @@
 
   <strong class="prices__value">
     {{ formatMoney(price * discountData) }}
-     <small style="font-size: 13px"
-      v-if="comparePrice > price" 
-      >desconto de <strong>{{ Math.round((1 - price / comparePrice) * 100)   }}%</strong>
+    <span style="color: #d32f2f; font-size: 16px; margin-left: 4px;">
+      no pix/boleto
+    </span>
+    <small style="font-size: 13px"
+      v-if="comparePrice > price"
+    >desconto de <strong>{{ Math.round((1 - price / comparePrice) * 100) }}%</strong>
     </small>
   </strong>
   <div
@@ -76,6 +79,5 @@
       </span>
       <em>{{ pointsProgramName }}</em>
     </div>
-
   </transition-group>
 </div>
