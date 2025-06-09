@@ -1,45 +1,45 @@
 {
-  "enabled": false,
-  "image_att": "/img/uploads/whatsapp.svg.webp",
-  "image_icon": "/img/uploads/disfoil-vendas.jpg",
-  "text_init": "Atendimento Disfoil",
-  "bot_name": "WhatsApp Disfoil",
-  "whatsapp_list": [
-    {
-      "item": {
-        "title": "Vendas SP / GO / RO / RR / MA / PA",
-        "whatsapp": "19 98720-3063"
-      }
-    },
-    {
-      "item": {
-        "title": "Vendas RJ / PR / SC ",
-        "whatsapp": "19 98720-3063"
-      }
-    },
-    {
-      "item": {
-        "whatsapp": "19 98720-3063",
-        "title": "Vendas RS / BA / DF / ES / MT / AP / PI / PE"
-      }
-    },
-    {
-      "item": {
-        "whatsapp": "19 98720-3063",
-        "title": "Vendas MG / MS / RN / AL / CE / TO / AP / PB / SE"
-      }
-    },
-    {
-      "item": {
-        "title": "Sac",
-        "whatsapp": "19 99691-9705"
-      }
-    },
-    {
-      "item": {
-        "title": "Financeiro",
-        "whatsapp": "19 98716-1354"
-      }
-    }
-  ]
+"enabled": false,
+"image_att": "/img/uploads/whatsapp.svg.webp",
+"image_icon": "/img/uploads/disfoil-vendas.jpg",
+"text_init": "Atendimento Disfoil",
+"bot_name": "WhatsApp Disfoil",
+"whatsapp_list": [
+{
+"item": {
+"title": "Vendas SP / GO / RO / RR / MA / PA",
+"whatsapp": "19 98720-3063"
+}
+},
+{
+"item": {
+"title": "Vendas RJ / PR / SC ",
+"whatsapp": "19 98711-5565"
+}
+},
+{
+"item": {
+"whatsapp": "19 99871-8880",
+"title": "Vendas RS / BA / DF / ES / MT / AP / PI / PE"
+}
+},
+{
+"item": {
+"whatsapp": "19 97422-6101",
+"title": "Vendas MG / MS / RN / AL / CE / TO / AP / PB / SE"
+}
+},
+{
+"item": {
+"title": "Sac",
+"whatsapp": "19 99691-9705"
+}
+},
+{
+"item": {
+"title": "Financeiro",
+"whatsapp": "19 98716-1354"
+}
+}
+]
 }
