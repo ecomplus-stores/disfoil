@@ -8,6 +8,12 @@
       "full_width": false,
       "slides": [
         {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/disfoil_bf2024-bannerfull-1923x5001.jpg",
+          "mobile_img": "/img/uploads/disfoil_bf2024-bannermobile-1080x900.jpg"
+        },
+        {
           "start": "2022-08-30T18:06:04.708Z",
           "end": "",
           "img": "/img/uploads/bannersitedisfoil_mosquiteirafibra_1923x500_1220241.jpg",
@@ -69,12 +75,6 @@
           "img": "/img/uploads/disfoil_bannersitefull_1923x500px_lancamento.png",
           "mobile_img": "/img/uploads/disfoil_bannersitemobile_1080x900px_lancamento.jpg",
           "link": "https://www.disfoil.com.br/manta-termica-para-telhado-dupla-face-50m-residencial-disfoil"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/disfoil_bf2024-bannerfull-1923x5001.jpg",
-          "mobile_img": "/img/uploads/disfoil_bf2024-bannermobile-1080x900.jpg"
         }
       ]
     },
