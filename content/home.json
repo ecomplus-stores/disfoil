@@ -8,6 +8,20 @@
       "full_width": false,
       "slides": [
         {
+          "start": "2022-08-30T18:03:35.970Z",
+          "end": "",
+          "img": "/img/uploads/fullbanner_savegoods_pallets.jpg",
+          "mobile_img": "/img/uploads/fullbanner_savegoods_pallets_mobile.jpg",
+          "link": "https://www.disfoil.com.br/capa-termica-para-pallets-com-5-zipers-6-lados-160"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/fullbanner_savegoods_container.jpg",
+          "mobile_img": "/img/uploads/fullbanner_savegoods_container_mobile.jpg",
+          "link": "https://www.disfoil.com.br/capa-termica-save-goods-para-container-40gp-hc-6-lados"
+        },
+        {
           "start": "",
           "end": "2025-12-01T02:59:00.000Z",
           "img": "/img/uploads/disfoil_bf2024-bannerfull-1923x5001.jpg",
@@ -68,20 +82,6 @@
           "link": "https://www.disfoil.com.br/search?term=industrial",
           "mobile_img": "/img/uploads/disfoil_bannermobile_1080x900px_mantaindustrial-copia.jpg",
           "img": "/img/uploads/disfoil_bannersitefull_1923x500px_mantaindustrial-1-.jpg"
-        },
-        {
-          "start": "2022-08-30T18:03:35.970Z",
-          "end": "",
-          "img": "/img/uploads/fullbanner_savegoods_pallets.jpg",
-          "mobile_img": "/img/uploads/fullbanner_savegoods_pallets_mobile.jpg",
-          "link": "https://www.disfoil.com.br/capa-termica-para-pallets-com-5-zipers-6-lados-160"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/fullbanner_savegoods_container.jpg",
-          "mobile_img": "/img/uploads/fullbanner_savegoods_container_mobile.jpg",
-          "link": "https://www.disfoil.com.br/capa-termica-save-goods-para-container-40gp-hc-6-lados"
         }
       ]
     },
