@@ -8,6 +8,13 @@
       "full_width": false,
       "slides": [
         {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/armadilha-de-insetos-mosqlight-disfoil.jpg",
+          "mobile_img": "/img/uploads/armadilha-de-insetos-mosqlight-disfoil-banner-menor.jpg",
+          "link": "https://www.disfoil.com.br/armadilha-de-insetos-pernilongos-mosqlight-127v-220v-60hz"
+        },
+        {
           "start": "2022-08-30T18:03:35.970Z",
           "end": "",
           "img": "/img/uploads/fullbanner_savegoods_pallets.jpg",
@@ -58,6 +65,13 @@
         {
           "start": "",
           "end": "",
+          "link": "https://www.disfoil.com.br/search?term=industrial",
+          "mobile_img": "/img/uploads/disfoil_bannermobile_1080x900px_mantaindustrial-copia.jpg",
+          "img": "/img/uploads/disfoil_bannersitefull_1923x500px_mantaindustrial-1-.jpg"
+        },
+        {
+          "start": "",
+          "end": "",
           "img": "/img/uploads/bannersitedisfoil_mantadface_1923x500_122024.jpg",
           "mobile_img": "/img/uploads/bannermobiledisfoil_mantadface_1080x900_122024.jpg",
           "link": "https://www.disfoil.com.br/manta-termica-para-telhado-dupla-face-50m2-disfoil"
@@ -75,20 +89,6 @@
           "img": "/img/uploads/bannersitedisfoil_antifissura_1923x500_122024.jpg",
           "mobile_img": "/img/uploads/bannermobiledisfoil_antifissura_1080x900_122024.jpg",
           "link": "https://www.disfoil.com.br/tela-anti-fissura-trinca-reboco-eps-steel-fibra-de-vidro-100m-5x5-160gm2-disfoil-rolo-10-metros"
-        },
-        {
-          "start": "",
-          "end": "",
-          "link": "https://www.disfoil.com.br/search?term=industrial",
-          "mobile_img": "/img/uploads/disfoil_bannermobile_1080x900px_mantaindustrial-copia.jpg",
-          "img": "/img/uploads/disfoil_bannersitefull_1923x500px_mantaindustrial-1-.jpg"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/armadilha-de-insetos-mosqlight-disfoil.jpg",
-          "mobile_img": "/img/uploads/armadilha-de-insetos-mosqlight-disfoil-banner-menor.jpg",
-          "link": "https://www.disfoil.com.br/armadilha-de-insetos-pernilongos-mosqlight-127v-220v-60hz"
         }
       ]
     },
