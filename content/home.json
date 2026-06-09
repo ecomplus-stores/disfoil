@@ -73,18 +73,18 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/banner-ra-reclame-aqui-disfoil-desktop.webp",
+      "img": "/img/uploads/banner-ra-reclame-aqui-disfoil-desktop-1-.avif",
       "link": "https://certificados.trustvox.com.br/disfoil"
     },
     {
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/disfoil_bannersite_623x271_escovas_062025-desktop.webp",
+          "img": "/img/uploads/disfoil_bannersite_623x271_escovas_062025-desktop.avif",
           "link": "https://www.disfoil.com.br/search?term=escova"
         },
         {
-          "img": "/img/uploads/disfoil_bannersite_623x271_telamagnetica_062025-desktop.webp",
+          "img": "/img/uploads/disfoil_bannersite_623x271_telamagnetica_062025-desktop.avif",
           "link": "https://www.disfoil.com.br/tela-mosquiteira-magnetica-de-largura-regulavel-para-portas-disfoil"
         }
       ]
