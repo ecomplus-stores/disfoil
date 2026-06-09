@@ -49,18 +49,18 @@
           "link": "https://www.disfoil.com.br/capa-termica-para-pallets-com-5-zipers-6-lados-160"
         },
         {
-          "start": "2022-08-30T18:06:04.708Z",
-          "end": "",
-          "img": "/img/uploads/bannersitedisfoil_mosquiteirafibra_1923x500_1220241.jpg",
-          "mobile_img": "/img/uploads/bannermobiledisfoil_mosquiteirafibra_1080x900_122024.jpg",
-          "link": "https://www.disfoil.com.br/tela-de-fibra-de-vidro-c-pvc/"
-        },
-        {
           "start": "",
           "end": "",
           "mobile_img": "/img/uploads/banner-escova-de-vedacao-adesiva-3m-disfoil-700-582-mobile.jpg",
           "img": "/img/uploads/banner-escova-de-vedacao-adesiva-3m-disfoil-1280-333-desktop.jpg",
           "link": "https://www.disfoil.com.br/escovas-de-vedacao/"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-tela-anti-fissura-reboco-disfoil-1280-333-desktop.jpg",
+          "mobile_img": "/img/uploads/bannermobiledisfoil_antifissura_1080x900_122024.jpg",
+          "link": "https://www.disfoil.com.br/tela-anti-fissura-trinca-reboco-eps-steel-fibra-de-vidro-100m-5x5-160gm2-disfoil-rolo-10-metros"
         },
         {
           "start": "",
@@ -84,6 +84,13 @@
           "link": "https://www.disfoil.com.br/tela-mosquiteira-de-encaixe-regulavel"
         },
         {
+          "start": "2022-08-30T18:06:04.708Z",
+          "end": "",
+          "img": "/img/uploads/bannersitedisfoil_mosquiteirafibra_1923x500_1220241.jpg",
+          "mobile_img": "/img/uploads/bannermobiledisfoil_mosquiteirafibra_1080x900_122024.jpg",
+          "link": "https://www.disfoil.com.br/tela-de-fibra-de-vidro-c-pvc/"
+        },
+        {
           "start": "",
           "end": "",
           "link": "https://www.disfoil.com.br/search?term=industrial",
@@ -96,13 +103,6 @@
           "img": "/img/uploads/bannersitedisfoil_telaencaixe_1923x500_122024.jpg",
           "mobile_img": "/img/uploads/bannermobiledisfoil_telaencaixe_1080x900_122024.jpg",
           "link": "https://www.disfoil.com.br/tela-mosquiteira-de-encaixe-regulavel-para-portas"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-tela-anti-fissura-reboco-disfoil-1280-333-desktop.jpg",
-          "mobile_img": "/img/uploads/bannermobiledisfoil_antifissura_1080x900_122024.jpg",
-          "link": "https://www.disfoil.com.br/tela-anti-fissura-trinca-reboco-eps-steel-fibra-de-vidro-100m-5x5-160gm2-disfoil-rolo-10-metros"
         }
       ]
     },
