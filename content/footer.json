@@ -40,6 +40,7 @@
     "mastercard": true,
     "citibank": false,
     "mais": false,
+    "pix": true,
     "itau": true
   },
   "credits": "A DISFOIL® é marca registrada de JULIANO PVC COMERCIAL EIRELI - ME - CNPJ: 18.293.374/0001-08 © 2013 Todos os direitos reservados "
