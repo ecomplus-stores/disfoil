@@ -14,6 +14,12 @@ on:
       - '.github/build-and-deploy'
       - '.github/workflows/build-and-deploy.yml'
 
+# Run one deploy at a time: overlapping runs collide on the Firebase function update.
+# Do not cancel a run in progress, so a deploy is never interrupted halfway.
+concurrency:
+  group: build-and-deploy
+  cancel-in-progress: false
+
 jobs:
   build-and-deploy:
     name: Build Storefront and deploy
