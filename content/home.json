@@ -62,6 +62,13 @@
           "img": "/img/uploads/bannersitedisfoil_petscreen_1923x500_122024-desktop.webp",
           "mobile_img": "/img/uploads/bannermobiledisfoil_petscreen_1080x900_122024.webp",
           "link": "https://www.disfoil.com.br/tela-pet-screen/"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/disfoil_banner_blackfriday_full_1923x500.png",
+          "mobile_img": "/img/uploads/whatsapp-image-2022-11-21-at-17.33.59.jpeg",
+          "link": "https://www.disfoil.com.br/grid/ofertas"
         }
       ]
     },
